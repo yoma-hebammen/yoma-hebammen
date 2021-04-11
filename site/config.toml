@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://hebammekim.netlify.app"
 languageCode = "en-us"
 languageLang = "en"
 title = "My new Victor-Hugo site"
