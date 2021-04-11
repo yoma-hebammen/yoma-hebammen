@@ -1,10 +1,9 @@
 ---
-title: 'tech'
-date: 2018-11-14T19:02:50-07:00
-draft: false
----
+title: tech
+date: 2018-11-14T19:02:50.000-07:00
 
-# [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
+---
+# [Victor Hug](https://github.com/netlify-templates/victor-hugo)oli
 
 ## A Hugo boilerplate for creating truly epic websites
 
