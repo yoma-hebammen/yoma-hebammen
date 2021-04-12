@@ -1,12 +1,19 @@
 <header id="header">
     <a href="{{ "/" | relURL }}" class="logo">HEBAMME <span>KIM</span></a>
-    <ul class="navbar">
-        {{ range .Site.Menus.main }}
-        <li class="nav-item {{ with .Params.class }}{{ . }}{{ end }}">
-            <a href="{{ .URL }}" title="{{ .Title }}">
+    <nav role="navigation">
+        <ul class="navbar">
+            {{ range .Site.Menus.main }}
+            <li class="nav-item {{ with .Params.class }}{{ . }}{{ end }}">
+                <a href="{{ .URL }}" title="{{ .Title }}">
                     <span>{{ .Name }}</span>
                 </a>
             </li>
-        {{ end }}
-    </ul>
+            {{ end }}
+        </ul>
+        <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 </header>

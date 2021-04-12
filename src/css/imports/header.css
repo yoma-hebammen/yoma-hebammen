@@ -17,6 +17,14 @@
     font-family: 'Red Hat Display 700', sans-serif;
 }
 
+/* #navbarToggle li { */
+/*     transition: color 0.3s ease; */
+/* } */
+
+/* #navbarToggle li:hover { */
+/*     color: */
+/* } */
+
 .navbar {
     list-style: none;
     display: flex;
@@ -24,7 +32,6 @@
 
 .inactive::after {
     content: "🚧";
-    padding: 0;
 }
 
 .inactive {
@@ -36,3 +43,60 @@
     padding: 10px 15px;
     letter-spacing: 0.02em;
 }
+
+.navbar-burger {
+    display: none;
+}
+
+
+
+/* @media screen and (max-width: 960px), */
+/* print { */
+
+/*     #header { */
+/*         margin: 20px; */
+/*         padding-left: 15px; */
+/*         padding-right: 5px; */
+/*     } */
+
+/*     .navbar { */
+/*         display: none; */
+/*     } */
+
+/*     /\* .navbar.is-active { *\/ */
+/*     /\*     display: flex; *\/ */
+/*     /\*     flex-direction: column; *\/ */
+/*     /\* } *\/ */
+
+/*     .navbar-burger { */
+/*         cursor: pointer; */
+/*         display: block; */
+/*         height: 3rem; */
+/*         width: 3rem; */
+/*         position: relative; */
+/*         right: 10px; */
+/*     } */
+
+/*     .navbar-burger span { */
+/*         display: block; */
+/*         background-color: var(--text-color); */
+/*         border-radius: 3px; */
+/*         height: 4px; */
+/*         position: absolute; */
+/*         left: 4px; */
+/*         width: 40px; */
+/*     } */
+
+/*     .navbar-burger span:nth-child(1) { */
+/*         top: calc(50% - 9px); */
+/*     } */
+
+/*     .navbar-burger span:nth-child(2) { */
+/*         top: calc(50%); */
+/*     } */
+
+/*     .navbar-burger span:nth-child(3) { */
+/*         top: calc(50% + 9px); */
+/*     } */
+
+/* } */
