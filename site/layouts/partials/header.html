@@ -1,0 +1,12 @@
+<header id="header">
+    <a href="{{ "/" | relURL }}" class="logo">HEBAMME <span>KIM</span></a>
+    <ul class="navbar">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item {{ with .Params.class }}{{ . }}{{ end }}">
+            <a href="{{ .URL }}" title="{{ .Title }}">
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+</header>
