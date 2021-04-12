@@ -9,6 +9,4 @@ This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site gene
 
 Heyhey
 
-**![](https://hebammekim.netlify.app/upload/2021/04/344112.jpg)**
-
-## Enjoy!!
+## Hey kim
