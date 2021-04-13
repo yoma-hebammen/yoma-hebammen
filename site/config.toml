@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "de-ch"
 languageLang = "de"
-title = "Hebamme Kim"
+title = "Kim und Stefanie"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
@@ -11,9 +11,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [menu]
 
     [[menu.main]]
-        identifier = "about"
-        name = "Über Mich"
-        url = "about"
+        identifier = "team"
+        name = "Team"
+        url = "/" # TODO set correct url
         weight = 100
         [menu.main.params]
             class = "inactive"
@@ -30,7 +30,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         identifier = "blog"
         name = "Blog"
         url = "blog"
-        weight = 50
+        weight = 300
 
     [[menu.main]]
         identifier = "contact"

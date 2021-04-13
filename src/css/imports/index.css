@@ -1,3 +1,9 @@
-#coming-soon {
+.coming-soon {
     margin: auto;
+}
+
+
+.coming-soon a {
+    color: var(--text-color);
+    font-weight: bold;
 }

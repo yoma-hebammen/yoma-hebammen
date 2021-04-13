@@ -1,7 +1,10 @@
 #header {
+    background-color: var(--header-background-color);
     box-sizing: border-box;
     width: 100%;
-    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
     padding-right: 10px;
     display: flex;
     justify-content: space-between;
@@ -10,28 +13,20 @@
 
 .logo {
     color: var(--text-color);
-    letter-spacing: 0.4em;
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 }
 
 .logo span {
-    font-family: 'Red Hat Display 700', sans-serif;
+    font-weight: 700;
 }
-
-/* #navbarToggle li { */
-/*     transition: color 0.3s ease; */
-/* } */
-
-/* #navbarToggle li:hover { */
-/*     color: */
-/* } */
 
 .navbar {
+    text-transform: uppercase;
     list-style: none;
     display: flex;
-}
-
-.inactive::after {
-    content: "🚧";
 }
 
 .inactive {
@@ -41,7 +36,7 @@
 .nav-item a {
     color: var(--text-color);
     padding: 10px 15px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.1em;
 }
 
 .navbar-burger {
