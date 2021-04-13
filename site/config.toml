@@ -15,16 +15,12 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         name = "Team"
         url = "/" # TODO set correct url
         weight = 100
-        [menu.main.params]
-            class = "inactive"
 
     [[menu.main]]
         identifier = "offer"
         name = "Angebot"
         url = "offer"
         weight = 200
-        [menu.main.params]
-            class = "inactive"
 
     [[menu.main]]
         identifier = "blog"
@@ -37,5 +33,3 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         name = "Kontakt"
         url = "contact"
         weight = 400
-        [menu.main.params]
-            class = "inactive"
