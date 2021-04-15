@@ -17,6 +17,7 @@
     font-weight: 400;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .logo span {
@@ -59,7 +60,7 @@ print {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: rgba(0,0,0, 0.9);
+        background-color: rgba(0,0,0, 0.95);
         overflow-y: hidden;
 
         opacity: 0.0;
@@ -80,8 +81,10 @@ print {
     }
 
     #navbar.is-active {
-        height: 100%;
         opacity: 1.0;
+        display: flex;
+        height: 100%;
+        backdrop-filter: blur(4px); /*Not yet supported in Firefox*/
     }
 
     #navbar-burger {
@@ -97,7 +100,7 @@ print {
         display: block;
         background-color: var(--text-color);
         /* border-radius: 3px; */
-        height: 4px;
+        height: 1.5px;
         position: absolute;
         left: 4px;
         width: 40px;
