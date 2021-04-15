@@ -4,20 +4,20 @@
         <br>
         Kim und Stefanie
     </a>
-    <nav role="navigation">
-        <ul class="navbar">
+    <nav role="navigation" id="navbar">
+        <ul>
             {{ range .Site.Menus.main }}
-            <li class="nav-item {{ with .Params.class }}{{ . }}{{ end }}">
+            <li class="nav-item">
                 <a href="{{ .URL }}" title="{{ .Title }}">
                     <span>{{ .Name }}</span>
                 </a>
             </li>
             {{ end }}
         </ul>
-        <div class="navbar-burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
     </nav>
+    <div id="navbar-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </header>
