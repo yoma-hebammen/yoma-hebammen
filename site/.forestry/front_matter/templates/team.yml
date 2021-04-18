@@ -12,11 +12,11 @@ fields:
     maxSize: 64
   label: image
   description: Teamfoto
-- name: teamfoto_beschreibung
+- name: image_description
   type: text
   config:
     required: false
-  label: Image description
   description: Teamfoto Beschreibung
+  label: image description
 pages:
 - site/content/team/_index.md
