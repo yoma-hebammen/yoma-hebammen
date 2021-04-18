@@ -1,0 +1,48 @@
+#team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: auto;
+}
+
+#team-image {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#team-image img {
+    width: 450px;
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 960px),
+print {
+
+    #team {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2;
+    }
+
+    #team-image {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #team-image img {
+        width: 300px;
+    }
+
+    .content {
+        grid-column: 1;
+        grid-row: 2;
+        margin: auto;
+    }
+
+}

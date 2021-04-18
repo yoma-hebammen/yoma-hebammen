@@ -1,5 +1,13 @@
 {{ define "main" }}
 
-{{ .Content }}
+<section id="team">
+    <figure id="team-image">
+        <img src="{{ .Params.image | safeURL }}" alt="Teamfoto" loading="lazy">
+        <figcaption>{{ .Params.image_description }}</figcaption>
+    </figure>
+    <div class="content">
+        {{ .Content }}
+    </div>
+</section>
 
 {{ end }}
