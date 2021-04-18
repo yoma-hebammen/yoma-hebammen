@@ -7,7 +7,6 @@ sections:
 - type: document
   path: site/content/team/_index.md
   label: Team
-  match: "**/*"
 upload_dir: site/static/upload
 public_path: https://yoma-hebammen.ch/upload
 front_matter_path: ''
