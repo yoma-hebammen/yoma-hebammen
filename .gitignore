@@ -2,5 +2,8 @@ node_modules/
 dist/
 site/data/webpack.json
 
+# LSP log
+.log
+
 # Local Netlify folder
 .netlify
