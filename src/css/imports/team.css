@@ -1,14 +1,22 @@
 #team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
 #team .team-image {
-    width: 80vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
 }
 
 .team-image img {
+    max-height: 800px;
+    width: 100%;
 }
 
 .content {
+    margin: auto;
 }
 
 
@@ -16,23 +24,17 @@
 print {
 
     #team {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 2;
+        flex-direction: column;
     }
 
-    #team-image {
-        grid-column: 1;
-        grid-row: 1;
+    #team .team-image {
     }
 
-    #team-image img {
+    .team-image img {
         width: 300px;
     }
 
     .content {
-        grid-column: 1;
-        grid-row: 2;
-        margin: auto;
     }
 
 }

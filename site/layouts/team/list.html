@@ -2,12 +2,10 @@
 
 <section id="team">
     <figure class="team-image">
-        <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=320"
+        <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=850"
              srcset="
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=320 320w,
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=800 800w,
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1200 1200w,
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1600 1600w"
+                  {{ .Params.image | safeURL }}?nf_resize=fit&w=850 850w,
+                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1250 1250w"
              alt="Kim und Stefanie - Teamfoto" loading="lazy">
         <figcaption>{{ .Params.image_description }}</figcaption>
     </figure>
