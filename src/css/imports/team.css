@@ -6,13 +6,12 @@
 }
 
 #team .team-image {
-    margin-top: 5vh;
-    margin-left: 5vw;
+    margin: 0;
+    /* margin-left: 5vw; */
 }
 
 .team-image img {
-    max-height: 800px;
-    width: 100%;
+    max-height: 700px;
 }
 
 .content {
@@ -28,10 +27,11 @@ print {
     }
 
     #team .team-image {
+        margin: 0;
     }
 
     .team-image img {
-        width: 300px;
+        height: 400px;
     }
 
     .content {
