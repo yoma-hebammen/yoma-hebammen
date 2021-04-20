@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: site/content/team/_index.md
+  path: site/content/contact/_index.md
   label: Kontakt
-  match: "**/*"
 - type: document
   path: site/content/team/_index.md
   label: Team
