@@ -2,4 +2,7 @@
 }
 
 #contact img {
+    max-height: 800px;
+    /* height: 50%; */
+    /* width: auto; */
 }
