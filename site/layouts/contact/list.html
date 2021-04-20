@@ -10,7 +10,9 @@
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=1600 1600w"
              alt="Kim und Stefanie - Teamfoto" loading="lazy">
     </div>
-    {{ .Content }}
+    <div class="content">
+        {{ .Content }}
+    </div>
 </section>
 
 {{ end }}

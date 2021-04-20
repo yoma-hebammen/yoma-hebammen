@@ -1,8 +1,14 @@
 {{ define "main" }}
 
 <section id="team">
-    <figure id="team-image">
-        <img src="{{ .Params.image | safeURL }}" alt="Teamfoto" loading="lazy">
+    <figure class="team-image">
+        <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=320"
+             srcset="
+                  {{ .Params.image | safeURL }}?nf_resize=fit&w=320 320w,
+                  {{ .Params.image | safeURL }}?nf_resize=fit&w=800 800w,
+                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1200 1200w,
+                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1600 1600w"
+             alt="Kim und Stefanie - Teamfoto" loading="lazy">
         <figcaption>{{ .Params.image_description }}</figcaption>
     </figure>
     <div class="content">

@@ -1,24 +1,14 @@
 #team {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    margin: auto;
 }
 
-#team-image {
-    grid-column: 1;
-    grid-row: 1;
+#team .team-image {
+    width: 80vw;
 }
 
-#team-image img {
-    width: 450px;
+.team-image img {
 }
 
 .content {
-    grid-column: 2;
-    grid-row: 1;
-    margin: auto;
 }
 
 
