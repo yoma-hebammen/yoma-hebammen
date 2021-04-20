@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section id="contact">
-    <div class="coming-soon">
+    <div class="hero-image">
         <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=320"
              srcset="
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=320 320w,
@@ -9,8 +9,8 @@
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=1200 1200w,
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=1600 1600w"
              alt="Kim und Stefanie - Teamfoto" loading="lazy">
-        {{ .Content }}
     </div>
+    {{ .Content }}
 </section>
 
 {{ end }}

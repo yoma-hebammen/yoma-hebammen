@@ -1,8 +1,18 @@
 #contact  {
 }
 
+#contact .hero-image {
+    max-height: 580px;
+    overflow: hidden;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
 #contact img {
-    max-height: 800px;
-    /* height: 50%; */
-    /* width: auto; */
+
+}
+
+#contact a {
+    color: var(--text-color);
+    font-weight: bold;
 }
