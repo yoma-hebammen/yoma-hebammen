@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: document
   path: site/content/team/_index.md
+  label: Kontakt
+  match: "**/*"
+- type: document
+  path: site/content/team/_index.md
   label: Team
 upload_dir: site/static/upload
 public_path: https://yoma-hebammen.ch/upload
