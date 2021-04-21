@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+
+<section class="post">
+    {{ partial "blog-header" }}
+
+    <article>
+        <div class="post-title">
+            <h2>{{ .Title }}</h2>
+        </div>
+        <div class="post-info">
+            <time class="post-date">{{ .Date.Format "2006/01/02" }}</time>
+        </div>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </article>
+</section>
+
+{{ end }}

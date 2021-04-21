@@ -1,5 +1,4 @@
 #blog {
-    
 }
 
 .announcement h4 {
@@ -10,11 +9,75 @@
     margin-top: 0;
 }
 
-.post {
+#blog .post-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 5em;
+}
+
+#blog .post-preview-item {
+    text-align: left;
+    margin-bottom: 4em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+#blog .post-preview-item .post-item-title a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.9em;
     
+}
+
+#blog .post-preview-item .post-item-title a:hover {
+    text-decoration: underline;
+}
+
+#blog .post-preview-item .post-item-title h2 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+
+#blog .post-preview-item .post-info .post-date {
+    font-size: 0.8em;
+}
+
+#blog .post-preview-item .post-summary {
+    font-size: 0.8em;
+    margin: 1.3em 0;
+}
+
+.post article {
+    text-align: left;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.post article .post-info .post-date {
+    font-size: 0.8em;
+}
+
+.post article .post-content {
+    font-size: 0.8em;
+}
+
+.post article .post-content img {
+    max-width: 95%;
+    margin: auto;
+    display: block;
 }
 
 @media screen and (max-width: 960px),
 print {
+
+    #blog .post-preview-item {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .post article {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
 
 }

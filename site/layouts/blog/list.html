@@ -1,10 +1,22 @@
 {{ define "main" }}
 <section id="blog">
-    <h1 class="section-title">Blog</h1>
-    <div class="announcement">
-        <h4>Abenteuer Uganda</h4>
-        <p>23.04.21 - 26.05.21</p>
-    </div>
+    {{ partial "blog-header" }}
+
+    <ul class="post-list">
+        {{ range .Pages }}
+        <li class="post-preview-item">
+            <div class="post-item-title">
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            </div>
+            <div class="post-info">
+                <time class="post-date">{{ .Date.Format "2006/01/02" }}</time>
+            </div>
+            <div class="post-summary">
+                <p>{{ .Summary }}</p>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
 
 </section>
 {{ end }}

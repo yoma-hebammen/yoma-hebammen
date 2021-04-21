@@ -23,6 +23,7 @@ body {
   font-size: calc(10px + 1vmin);
   font-family: 'Red Hat Display';
   font-weight: 400;
+  letter-spacing: 0.05em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
