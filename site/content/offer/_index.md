@@ -1,5 +1,12 @@
 ---
 title: "Angebot"
-date: 2021-04-14T01:41:31+02:00
 draft: false
 ---
+
+Dein errechneter Geburtstermin ist im Oktober 2021 oder später und du wohnst in/um Winterthur?
+
+Anfragen für die Wochenbettbetreuung sind ab sofort möglich!
+
+Kim Heiniger: **[hebammekim@bluewin.ch](mailto:hebammekim@bluewin.ch)**
+
+Stefanie Jones
