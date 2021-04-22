@@ -41,3 +41,5 @@ fields:
   default: []
   label: Tags
   description: Wird noch nicht angezeigt...
+pages:
+- site/content/blog/Uganda/blog-1.md
