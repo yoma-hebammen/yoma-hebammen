@@ -1,16 +1,10 @@
 {{ define "main" }}
 
-<div class="coming-soon">
-    <h1>Coming soon...</h1>
-    <p>
-        Kim Heiniger
-        <br>
-        &
-        <br>
-        Stefanie Jones
-        <br><br>
-        P.S. der <a href="/blog">Blog</a> is bereits aktiv 😉
-    </p>
-</div>
+<section id="offer">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <div class="content">
+        {{ .Content }}
+    </div>
+</section>
 
 {{ end }}
