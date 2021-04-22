@@ -38,5 +38,3 @@ fields:
     schema:
       format: markdown
   label: Summary
-pages:
-- site/content/blog/Uganda/test.md
