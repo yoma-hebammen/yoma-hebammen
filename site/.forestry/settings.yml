@@ -7,14 +7,12 @@ sections:
 - type: document
   path: site/content/_index.md
   label: Home
-  match: "**/*"
 - type: document
   path: site/content/team/_index.md
   label: Team
 - type: document
   path: site/conent/offer/_index.md
   label: Angebot
-  match: "**/*"
 - type: directory
   path: site/content/blog
   label: Blog
