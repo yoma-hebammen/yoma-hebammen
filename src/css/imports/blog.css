@@ -78,13 +78,13 @@
 print {
 
     #blog .post-preview-item {
-        margin-left: 4em;
-        margin-right: 4em;
+        margin-left: 3em;
+        margin-right: 3em;
     }
 
     .post article {
-        margin-left: 4em;
-        margin-right: 4em;
+        margin-left: 3em;
+        margin-right: 3em;
     }
 
 }
