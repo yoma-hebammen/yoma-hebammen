@@ -82,6 +82,10 @@
     display: block;
 }
 
+.post article .post-content figure figcaption {
+    text-align: center;
+}
+
 @media screen and (max-width: 960px),
 print {
 
