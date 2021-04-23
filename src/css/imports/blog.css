@@ -35,6 +35,14 @@
     text-decoration: underline;
 }
 
+#blog .post-preview-item .post-summary a {
+    font-weight: 700;
+}
+
+#blog .post-preview-item .post-summary a:hover {
+    text-decoration: underline;
+}
+
 #blog .post-preview-item .post-item-title h2 {
     margin-top: 0;
     margin-bottom: 0.2em;
