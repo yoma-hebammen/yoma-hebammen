@@ -1,14 +1,14 @@
 +++
 categories = []
 date = 2021-04-18T22:00:00Z
-summary = "This is a very long summary."
+summary = ""
 tags = []
 thumbnail = ""
-title = "Blog #1"
+title = "#1 Abflug nach Uganda"
 
 +++
-Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+Hallo ihr Lieben
 
-Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik.
+Nun sitzen wir voller Vorfreude und einer Prise Nervosität am Flughafen in Amsterdam. Die erste Etappe verlief schon mal reibungslos... über **60kg Babykleidung** sind mit dabei, dank euren grosszügigen Spenden. Die letzten Tage mit geburtenreichen Nachtdiensten im Zolli und Packen der Spenden waren intensiv, aber trotzdem mit freudiger Spannung gefüllt.
 
-Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie
+In ungefähr 12 Stunden werden wir dann auch schon in Entebbe, Uganda landen. Die Reise geht dann weiter nach Kampala für 3 Nächte, wo wir uns erst einmal aklimatisieren werden. Am 26.04. tuckern wir mit dem örtlichen Reisebus nach Atiak ins Geburtshaus. Atiak ist ein kleines Dorf im Norden Ugandas, ca. 30 km zum Südsudan entfernt. Das Geburthaus wird von der non-profit Organisation Mother Health International geleitet. Dort arbeiten einheimische ausgebildete Hebammen, traditional Midwives, sowie phasenweise Volunteers (Freiwillige Hebammen wie wir). Ein Hauptziel des Hauses ist es, die örtliche Kinder- und Müttersterblichkeitsrate zu senken. Dabei gehen die traditional Midwives in die entlegenen Dörfer im Busch und klären Familien über die gute medizinische Versorgung im Geburtshaus auf. Eine normale Geburt ist für die meisten Familien aus Kosten- und Fahrtgründen nicht möglich. Die traditional Midwives sind nicht-medizinisch ausgebildete Geburtshelfer, sogenannte Doulas, wie wir sie bei uns nennen. Trotzdem besteht ein enormes Fachwissen durch eigene Erfahrungen und Schulungen der ausgebildeten Hebammen, was vor allem mündlich und praktisch überliefert wird. 
