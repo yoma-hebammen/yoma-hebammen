@@ -5,7 +5,7 @@ draft = true
 summary = ""
 tags = []
 thumbnail = ""
-title = "#2 Ankunft in Kampala"
+title = "#2 Kampala"
 
 +++
 Hallo zusammen.
