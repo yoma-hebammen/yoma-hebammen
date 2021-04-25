@@ -24,3 +24,5 @@ Habt einen schönen Sonntag!
 ![](https://yoma-hebammen.ch/upload/2021/04/295dbb2c-0868-43e4-9210-c3b952e126e1.jpeg "die leckersten Früchte")
 
 ![](https://yoma-hebammen.ch/upload/2021/04/3803842f-6fd9-40c9-b55e-9aba1aedef3b.jpeg "Gewürze auf dem Owino Market")
+
+![](https://yoma-hebammen.ch/upload/2021/04/cb7b0966-252f-4b48-b153-4a020aedf94b.jpeg "Gaddafi Moschee von Innen")
