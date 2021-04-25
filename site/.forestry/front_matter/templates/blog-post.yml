@@ -42,4 +42,5 @@ fields:
   label: Tags
   description: Wird noch nicht angezeigt...
 pages:
+- site/content/blog/Uganda/2-ankunft-in-kampala.md
 - site/content/blog/Uganda/blog-1.md
