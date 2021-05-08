@@ -1,7 +1,6 @@
 +++
 categories = []
 date = ""
-draft = true
 summary = ""
 tags = []
 thumbnail = ""
