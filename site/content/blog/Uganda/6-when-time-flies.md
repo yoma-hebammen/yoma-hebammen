@@ -9,7 +9,7 @@ title = "#6 When time flies..."
 +++
 Lange Zeit ist vergangen, seit wir uns das letzte Mal gemeldet haben und es ist auch soo viel passiert!!
 
-Kurz nach dem wir unseren letzen Beitrag verfasst hatten, wurden wir ins Geburtshaus gerufen. Naume und Oloya's (unser Fahrer) Baby hatte plötzlich hohes Fieber, atmete schnell, trank kaum mehr an der Brust und machte einen ziemlich schlechten Eindruck. Wir dachten sofort an einen neonatalen Infekt, welcher bei Neugeborenen sehr gefährlich sein kann und entschieden kurzerhand ins Krankenhaus zu fahren. So fuhren wir im Regen mit den frischen Eltern, Naume's Schwester und ihrem Sohn eine Stunde nach Gulu in's Lacor Hospital. Dort warteten wir lange bis wir an der Reihe waren. Die Bedingungen dort waren für uns beide schockierend. Räume voll mit Betten von kranken Kindern, ihre Mütter auf dem Boden neben an... und viel zu wenig Personal. Endlich wurde der kleine Junge dann auf die Neonatologie mitgenommen, mit Sauerstoff unterstützt und mit den richtigen Medikamenten behandelt. Die Familie schlief im Gang auf dem Boden nebenan...
+Kurz nach dem wir unseren letzen Beitrag verfasst hatten, wurden wir ins Geburtshaus gerufen. Naume und Oloya's (unser Fahrer) Baby hatte plötzlich hohes Fieber, atmete schnell, trank kaum mehr an der Brust und machte einen ziemlich schlechten Eindruck. Wir dachten sofort an einen neonatalen Infekt, welcher bei Neugeborenen sehr gefährlich sein kann und entschieden kurzerhand ins Krankenhaus zu fahren. So fuhren wir im Regen mit den frischen Eltern, Naume's Schwester und ihrem Sohn eine Stunde nach Gulu in's Lacor Hospital. Dort warteten wir lange bis wir an der Reihe waren. Die Bedingungen waren für uns beide schockierend. Räume voll mit Betten von kranken Kindern, ihre Mütter auf dem Boden neben an... und viel zu wenig Personal. Endlich wurde der kleine Junge dann auf die Neonatologie mitgenommen, mit Sauerstoff unterstützt und mit den richtigen Medikamenten behandelt. Die Familie schlief im Gang auf dem Boden nebenan...
 
 Wir beide machten uns also wieder auf den nach Hauseweg. Das Problem war, wir hatten keinen Fahrer! So fuhren wir selber nachts bei Regen und Linksverkehr zurück. Die vielen Schlaglöcher und Geschwindigkeitsbegrenzungshügel machten bei sperlichen Autolicht die Heimfahrt ziemlich abenteuerlich. Der grosse Schockmoment kam als uns plötzlich die Polizei anhielt, denn wir hatten beide keinen Führerschein dabei. Glücklichweise wollten sie aber keine Papiere sehen, denn unser Auto hier ist ziemlich bekannt und sie winkten uns freundlich weiter.
 
@@ -27,8 +27,8 @@ Langsam geht unsere Reise zu Ende und wir werden dass Geburtshaus morgen verlass
 
 ![Natürlich wusste vor Geburt keiner, dass in diesem Bauch gleich zwei kleine Zwerge hausten... ](https://yoma-hebammen.ch/upload/2021/05/20210514_141956.jpg "Zwillingsmama")
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0005.jpg "Die kinder beim Spielen mit unserem neuen Ball")
+![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0005.jpg "Die Kinder beim Spielen mit dem neuen Ball")
 
-![](https://yoma-hebammen.ch/upload/2021/05/20210515_174016.jpg "Zu Besuch im Kindheim gleich nebenan")
+![](https://yoma-hebammen.ch/upload/2021/05/20210515_174016.jpg "Zu Besuch im Kinderheim gleich nebenan")
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0007-1.jpg "Mit Zilla unsere super Köchin und den Kindern")
+![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0007-1.jpg "Mit Zilla unserer super Köchin und den Kindern")
