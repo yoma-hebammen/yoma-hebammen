@@ -20,3 +20,5 @@ Nun ist unserer grosses Uganda Abenteuer vorüber. Gerne erinnern wir uns an die
 
 Mit diesen letzten Bildern lassen wir euch noch Mal in Uganda eintauchen. Wir freuen uns schon auf persönliche Gespräche mit euch, um Genaueres zu erzählen.   
 Viele Liebe Grüsse, Kassiopeia und Kim
+
+![](https://yoma-hebammen.ch/upload/2021/06/whatsapp-image-2021-06-06-at-17-00-38.jpeg "Kassiopeia beim Kochen unserer hauseigenen Tomatensauce")![](https://yoma-hebammen.ch/upload/2021/06/img_5102.jpeg "Tanzen auf der Abschiedsparty")![](https://yoma-hebammen.ch/upload/2021/06/whatsapp-image-2021-06-06-at-17-01-42.jpeg "Die letzte Nacht in der Hütte")
