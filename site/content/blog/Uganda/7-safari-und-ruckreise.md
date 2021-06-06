@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2021-06-05T22:00:00Z
-draft = true
 summary = ""
 tags = []
 thumbnail = ""
