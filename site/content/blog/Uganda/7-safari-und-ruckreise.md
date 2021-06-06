@@ -18,4 +18,5 @@ Am Nachmittag ging es mit dem Boot auf dem weissen Nil zu den gigantischen Murch
 In Kampala liessen wir es uns am letzten Tag so richtig gut gehen mit Pedicure, leckerem Essen, Einkaufen von Mitbringseln und Treffen von Freunden. Am 26. Mai abends hiess es Abschied nehmen von Uganda und wir flogen zurück nach Hause... das Gepäck gefüllt mit unendlich vielen spannenden und eindrucksvollen Erlebnissen. Zuhause wurden wir freudig von unseren Freunden und Familie Willkommen geheissen.  
 Nun ist unserer grosses Uganda Abenteuer vorüber. Gerne erinnern wir uns an diese bereichernde Zeit zurück. Auch wenn nicht immer alles ganz einfach war, würden wir diese Reise genau so wieder machen, denn das was wir dort erleben durften, wird für immer in unseren Gedanken und Herzen bestehen bleiben.
 
-Mit diesen letzten Bildern lassen wir euch noch Mal in Uganda eintauchen. Wir freuen uns schon auf persönliche Gespräche mit euch, um Genaueres zu erzählen.
+Mit diesen letzten Bildern lassen wir euch noch Mal in Uganda eintauchen. Wir freuen uns schon auf persönliche Gespräche mit euch, um Genaueres zu erzählen.   
+Viele Liebe Grüsse, Kassiopeia und Kim
