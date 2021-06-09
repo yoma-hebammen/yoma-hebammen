@@ -1,8 +1,7 @@
 ---
-title: "Coming soon..."
-draft: false
----
+title: Coming soon...
 
+---
 Kim Heiniger & Stefanie Jones
 
-P.S. der **[Blog](blog)** is bereits aktiv 😉
+Ab Herbst 2021 in der Wochenbettbetreuung für Euch da.
