@@ -2,7 +2,17 @@
     <a href="{{ "/" | relURL }}" class="logo">
         <span>Yoma</span>
         <br>
-        Hebammen
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ if eq .Name $currentPage.Name }}
+                {{ $currentTitle := .Name }}
+            {{ end }}
+        {{ end }}
+        {{ if $currentTitle }}
+            {{ $currentTitle }}
+        {{ else }}
+            Hebammen
+        {{ end }}
     </a>
     <nav role="navigation" id="navbar">
         <ul>

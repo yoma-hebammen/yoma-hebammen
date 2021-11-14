@@ -35,6 +35,8 @@ body {
   text-align: center;
   background-color: white;
   color: var(--text-color);
+  margin: auto;
+  width: 90%;
 }
 
 a {

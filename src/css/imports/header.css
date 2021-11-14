@@ -1,20 +1,18 @@
 #header {
-    background-color: var(--header-background-color);
-    box-sizing: border-box;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 10px;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1.5px solid;
 }
 
 .logo {
     color: var(--text-color);
     font-family: 'Red Hat Display';
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     text-align: left;
@@ -22,6 +20,7 @@
 
 .logo span {
     font-weight: 700;
+    font-size: 0.8em;
 }
 
 #navbar ul {
