@@ -1,15 +1,16 @@
 {{ define "main" }}
 
 <section id="contact">
-    <div class="hero-image">
+    <figure class="contact-image">
         <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=320"
              srcset="
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=320 320w,
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=800 800w,
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=1200 1200w,
                   {{ .Params.image | safeURL }}?nf_resize=fit&w=1600 1600w"
-             alt="Kim und Stefanie - Teamfoto" loading="lazy">
-    </div>
+             alt="Kim und Stefanie - Teamfoto"
+             loading="lazy">
+    </figure>
     <div class="content">
         {{ .Content }}
     </div>

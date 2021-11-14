@@ -1,15 +1,19 @@
 #contact  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#contact .hero-image {
-    max-height: 580px;
-    overflow: hidden;
-    width: 100vw;
-    /* height: 100vh; */
+#contact .contact-image {
+    margin: 0;
+    width: 100%;
 }
 
-#contact img {
-
+#contact .contact-image img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 #contact a {

@@ -8,7 +8,6 @@
 
 #blog .announcement p {
     margin-top: 0;
-    font-size: 0.7em;
 }
 
 #blog .post-list {
@@ -54,7 +53,6 @@
 }
 
 #blog .post-preview-item .post-summary {
-    font-size: 0.8em;
     margin: 1.3em 0;
 }
 
@@ -73,7 +71,6 @@
 }
 
 .post article .post-content {
-    font-size: 0.8em;
 }
 
 .post article .post-content img {

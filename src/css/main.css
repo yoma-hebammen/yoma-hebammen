@@ -21,7 +21,7 @@
   Or add your statements here:
  */
 body {
-  font-size: calc(11px + 1vmin);
+  font-size: calc(11px + 0.35vmin);
   font-family: 'Red Hat Display';
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -39,21 +39,29 @@ body {
   width: 90%;
 }
 
+section {
+  margin-top: 2.5em;
+  width: 85%;
+}
+
 a {
   text-decoration: none;
   color: var(--text-color);
 }
-
-.content {
-  padding: 0 32px;
-}
-
 
 .section-title {
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     padding-top: 0.7em;
+}
+
+.content {
+  text-align: left;
+  margin-top: 2.5em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
 }
 
 @media screen and (max-width: 960px),

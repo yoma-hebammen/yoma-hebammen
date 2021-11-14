@@ -1,21 +1,28 @@
 #team {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
 }
 
 #team .team-image {
     margin: 0;
-    /* margin-left: 5vw; */
+    width: 100%;
 }
 
-.team-image img {
-    max-height: 600px;
+
+#team .team-image img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
-.content {
-    margin: auto;
+#team .content {
+    width: 60%;
+}
+
+#team .content span {
+    letter-spacing: 0.2em;
 }
 
 
@@ -23,15 +30,16 @@
 print {
 
     #team {
-        flex-direction: column;
     }
 
     #team .team-image {
-        margin: 0;
+    }
+
+    #team .content {
+        width: 100%;
     }
 
     .team-image img {
-        height: 400px;
     }
 
     .content {
