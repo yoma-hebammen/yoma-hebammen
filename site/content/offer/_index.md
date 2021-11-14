@@ -1,4 +1,4 @@
 ---
-title: Coming soon...
+title: Angebot
 
 ---

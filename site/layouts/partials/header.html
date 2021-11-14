@@ -3,16 +3,16 @@
         <span>Yoma</span>
         <br>
         {{ $currentPage := . }}
+        {{ $headerTitle := "Hebammen" }}
         {{ range .Site.Menus.main }}
-            {{ if eq .Name $currentPage.Name }}
-                {{ $currentTitle := .Name }}
-            {{ end }}
+            {{ if eq $currentPage.Name .Name }}
+                {{ $headerTitle = .Name }}
+            {{end}}
         {{ end }}
-        {{ if $currentTitle }}
-            {{ $currentTitle }}
-        {{ else }}
-            Hebammen
-        {{ end }}
+        {{ if eq $currentPage.Section "blog" }}
+            {{ $headerTitle = "blog"  }}
+        {{end}}
+        {{ $headerTitle }}
     </a>
     <nav role="navigation" id="navbar">
         <ul>
