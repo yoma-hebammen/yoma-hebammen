@@ -17,11 +17,11 @@
     object-fit: contain;
 }
 
-#team .content {
-    width: 60%;
+#team .content .intro {
+    width: 50%;
 }
 
-#team .content span {
+#team .content .intro span {
     letter-spacing: 0.2em;
 }
 
