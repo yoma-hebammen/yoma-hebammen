@@ -12,14 +12,38 @@
     </figure>
     <div class="content">
         <div class="intro">
-            <span><b>DAS SIND WIR</b></span>
+            <span><b>Das sind wir</b></span>
             <br>
-            <span>STEFANIE UND KIM</span>
+            <span>Stefanie und Kim</span>
+        </div>
+        <div class="team-content">
             {{ .Content }}
         </div>
-
-        <div>
+        <div class="member-container">
+            {{ range .Pages }}
+            <div class="member">
+                <figure class="member-image">
+                    <img src="{{ .Params.color_image | safeURL }}?nf_resize=fit&w=300"
+                            srcset="
+                                {{ .Params.color_image | safeURL }}?nf_resize=fit&w=300 300w"
+                            alt="{{ .Params.name }} - Teamfoto"
+                            loading="lazy">
+                </figure>
+                <div class="member-text">
+                    <div class="intro">
+                        <span><b>{{ .Params.name }}</b></span>
+                        <br>
+                        <span>{{ .Params.degree }}</span>
+                    </div>
+                    <div class="member-content">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
+
 </section>
 
 {{ end }}
