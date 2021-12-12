@@ -33,3 +33,4 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         name = "Kontakt"
         url = "contact"
         weight = 400
+

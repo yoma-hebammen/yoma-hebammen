@@ -22,13 +22,30 @@
         <div class="member-container">
             {{ range .Pages }}
             <div class="member">
-                <figure class="member-image">
-                    <img src="{{ .Params.color_image | safeURL }}?nf_resize=fit&w=300"
-                            srcset="
-                                {{ .Params.color_image | safeURL }}?nf_resize=fit&w=300 300w"
-                            alt="{{ .Params.name }} - Teamfoto"
-                            loading="lazy">
-                </figure>
+                <div class="image-container">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <figure class="member-image">
+                                    <img src="{{ .Params.color_image | safeURL }}?nf_resize=fit&w=300"
+                                            srcset="
+                                                {{ .Params.color_image | safeURL }}?nf_resize=fit&w=600 2x"
+                                            alt="{{ .Params.name }} - Teamfoto"
+                                            loading="lazy">
+                                </figure>
+                            </div>
+                            <div class="flip-card-back">
+                                <figure class="member-image">
+                                    <img src="{{ .Params.portrait_image | safeURL }}?nf_resize=fit&w=300"
+                                            srcset="
+                                                {{ .Params.portrait_image | safeURL }}?nf_resize=fit&w=600 2x"
+                                            alt="{{ .Params.name }} - Teamfoto"
+                                            loading="lazy">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="member-text">
                     <div class="intro">
                         <span><b>{{ .Params.name }}</b></span>
