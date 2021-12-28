@@ -1,0 +1,42 @@
+#footer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1.5px solid;
+  min-height: 80px;
+  font-size: 0.7rem;
+}
+
+#footer .footer-container {
+  margin-left: 4em;
+}
+
+#footer a {
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#footer span {
+  margin-left: 1em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 960px),
+print {
+
+  #footer {
+    min-height: 40px;
+    font-size: 0.5rem;
+  }
+
+#footer .footer-container {
+  margin-left: 0;
+}
+
+}
