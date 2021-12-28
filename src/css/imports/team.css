@@ -85,6 +85,39 @@
     transform: rotateY(180deg);
 }
 
+#team .image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#team .contact-image {
+    position: absolute;
+    right: 40px;
+    bottom: -40px;
+    background-color: black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team .contact-image a {
+    margin: auto;
+    font-size: 0.6rem;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+#team .member-text {
+    margin-left: 2rem;
+}
+
 @media screen and (max-width: 960px),
 print {
 
@@ -98,7 +131,7 @@ print {
         width: 100%;
     }
 
-    #team .flip-card {
+    #team .image-container {
         margin: auto;
     }
 
@@ -113,6 +146,7 @@ print {
 
     #team .content .member-container .member .member-text {
         margin-top: 3rem;
+        margin-left: 0;
     }
 
 }
