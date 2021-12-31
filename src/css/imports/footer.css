@@ -35,8 +35,8 @@ print {
     font-size: 0.5rem;
   }
 
-#footer .footer-container {
-  margin-left: 0;
-}
+  #footer .footer-container {
+    margin-left: 0;
+  }
 
 }

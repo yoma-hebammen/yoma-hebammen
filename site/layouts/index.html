@@ -1,10 +1,47 @@
 {{ define "main" }}
 
-<section id="offer">
-    <h1 class="section-title">{{ .Title }}</h1>
-    <div class="content">
-        {{ .Content }}
-    </div>
+<section id="home">
+    <picture id="home-image">
+      <source
+        media="(max-width: 340px)"
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=200 200w,
+                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=400 2x"
+      />
+      <source
+        media="(max-height: 740px) and (max-width: 420px)"
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=250 250w,
+                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=500 2x"
+      />
+      <source
+        media="(max-width: 380px)"
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=350 350w,
+                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=700 2x"
+      />
+      <source
+        media="(max-width: 480px)"
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=400 400w,
+                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=800 2x"
+      />
+      <source
+        media="(max-width: 960px)"
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=450 450w,
+                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=900 2x"
+      />
+      <source
+        srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=950 950w, 
+                {{ .Params.image | safeURL }}?nf_resize=fit&w=1900 2x"
+      />
+      <img
+        src="{{ .Params.image | safeURL }}?nf_resize=fit&w=950"
+        alt="Yoma
+      Hebammen"
+        loading="lazy"
+      />
+    </picture>
+  <div class="content">
+    <span>{{ .Title }}</span>
+    {{ .Content }}
+  </div>
 </section>
 
 {{ end }}

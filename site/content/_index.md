@@ -1,7 +1,7 @@
 ---
-title: Coming soon...
-
+title: Stefanie und Kim
+image: https://yoma-hebammen.ch/upload/2021/12/home.jpg
+image_mobile: https://yoma-hebammen.ch/upload/2021/12/home-mobile.jpg
 ---
-Kim Heiniger & Stefanie Jones
 
-Ab Herbst 2021 in der Wochenbettbetreuung in und um Winterthur für Euch da.
+Als freiberufliche Hebammen in Winterthur in der Schwangerschaft und im Wochenbett für Euch da.

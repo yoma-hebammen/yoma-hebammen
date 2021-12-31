@@ -3,7 +3,7 @@
  */
 @import 'imports/reset.css';
 @import 'imports/header.css';
-@import 'imports/index.css';
+@import 'imports/home.css';
 @import 'imports/team.css';
 @import 'imports/blog.css';
 @import 'imports/contact.css';
@@ -45,7 +45,7 @@ section {
   flex: 1;
   margin-top: 3.0em;
   width: 85%;
-  max-width: 1100px;
+  max-width: 1300px;
 }
 
 a {
