@@ -8,7 +8,7 @@ sections:
   path: site/content/_index.md
   label: Home
 - type: document
-  path: site/content/team/_index.md
+  path: site/content/team
   label: Team
 - type: document
   path: site/content/offer/_index.md
