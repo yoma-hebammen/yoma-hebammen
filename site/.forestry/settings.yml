@@ -7,9 +7,11 @@ sections:
 - type: document
   path: site/content/_index.md
   label: Home
-- type: document
-  path: site/content/team/**/*
+- type: directory
+  path: site/content/team
   label: Team
+  create: documents
+  match: "**/*"
 - type: document
   path: site/content/offer/_index.md
   label: Angebot
