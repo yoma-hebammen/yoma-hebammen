@@ -13,7 +13,7 @@
                 {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=500 2x"
       />
       <source
-        media="(max-width: 380px)"
+        media="(max-width: 400px)"
         srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=350 350w,
                 {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=700 2x"
       />
@@ -28,11 +28,11 @@
                 {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=900 2x"
       />
       <source
-        srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=950 950w, 
+        srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=900 900w, 
                 {{ .Params.image | safeURL }}?nf_resize=fit&w=1900 2x"
       />
       <img
-        src="{{ .Params.image | safeURL }}?nf_resize=fit&w=950"
+        src="{{ .Params.image | safeURL }}?nf_resize=fit&w=850"
         alt="Yoma
       Hebammen"
         loading="lazy"
