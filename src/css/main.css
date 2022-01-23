@@ -1,21 +1,21 @@
 /*
   You can use import statements to include partials:
  */
-@import 'imports/reset.css';
-@import 'imports/header.css';
-@import 'imports/home.css';
-@import 'imports/team.css';
-@import 'imports/blog.css';
-@import 'imports/contact.css';
-@import 'imports/offer.css';
-@import 'imports/footer.css';
+@import "imports/reset.css";
+@import "imports/header.css";
+@import "imports/home.css";
+@import "imports/team.css";
+@import "imports/blog.css";
+@import "imports/contact.css";
+@import "imports/offer.css";
+@import "imports/footer.css";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 :root {
-    --text-color: #231C22;
-    --header-background-color: #D9D9D9;
+  --text-color: #231c22;
+  --header-background-color: #d9d9d9;
 }
 
 /*
@@ -23,7 +23,7 @@
  */
 body {
   font-size: calc(11px + 0.35vmin);
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Display";
   font-weight: 400;
   letter-spacing: 0.05em;
   -webkit-font-smoothing: antialiased;
@@ -43,8 +43,8 @@ body {
 
 section {
   flex: 1;
-  margin-top: 3.0em;
-  width: 85%;
+  margin-top: 3em;
+  width: 90%;
   max-width: 1300px;
 }
 
@@ -54,10 +54,10 @@ a {
 }
 
 .section-title {
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    padding-top: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding-top: 0.7em;
 }
 
 .content {
@@ -68,9 +68,42 @@ a {
   line-height: 1.7em;
 }
 
-@media screen and (max-width: 960px),
-print {
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+}
+
+/* :active for touch devices*/
+.flip-card:hover .flip-card-inner,
+.flip-card:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg) translateZ(1px);
+}
+
+@media screen and (max-width: 960px), print {
   body {
     width: 85%;
   }
@@ -78,5 +111,4 @@ print {
   section {
     width: 100%;
   }
-
 }

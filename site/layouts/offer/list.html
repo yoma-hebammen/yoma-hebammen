@@ -1,10 +1,83 @@
 {{ define "main" }}
 
 <section id="offer">
-    <h1 class="section-title">Coming Soon...</h1>
-    <div class="content">
-        {{ .Content }}
+  <div class="offer-menu">
+    {{ $relSectionUrl := .Permalink }} {{ range .Pages }}
+    <div class="flip-card-container">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <figure class="offer-image">
+              <img
+                src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
+                srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x"
+                alt="{{ .Params.title }}"
+                loading="lazy"
+              />
+            </figure>
+            <span>{{ .Params.title }}</span>
+          </div>
+          <div class="flip-card-back">
+            <a href="{{ $relSectionUrl }}#offer-category-{{ .Params.title }}">
+              <figure class="offer-image">
+                <img
+                  src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
+                  srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x"
+                  alt="{{ .Params.title }}"
+                  loading="lazy"
+                />
+                <div class="offer-category-preview">
+                  {{ range .Pages }}
+                  <a href="{{ $relSectionUrl }}#offer-item-{{ .Params.title }}">
+                    <span>{{ .Params.title }}</span>
+                  </a>
+                  {{ end}}
+                </div>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    {{ end }}
+  </div>
+  <div class="offer-container">
+    {{ range .Pages }}
+    {{ $categoryTitle := .Params.title }} 
+    <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
+      <picture class="offer-category-image">
+        <source
+          media="(max-width: 960px)"
+          srcset="{{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=350,
+                  {{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=700 2x"
+        />
+        <source
+          srcset="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1000 1000w, 
+                  {{ .Params.image_category | safeURL }}?nf_resize=fit&w=1400 1400w"
+        />
+        <img
+          src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=800"
+          alt="{{ $categoryTitle }}"
+          loading="lazy"
+        />
+      </picture>
+      {{ range .Pages}}
+      <div id="offer-item-{{ .Params.title }}" class="offer-item">
+        <div class="offer-title">
+          <span><b>{{ $categoryTitle }}</b></span>
+          <br />
+          <span>{{ .Params.title }}</span>
+        </div>
+        <div class="content">
+          <div class="offer-description">
+          {{ .Content }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
 </section>
 
 {{ end }}

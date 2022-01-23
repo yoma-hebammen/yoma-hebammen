@@ -1,152 +1,111 @@
 #team {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #team .team-image {
-    margin: 0;
-    width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
-
 #team .team-image img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 #team .content .intro {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #team .content .team-content {
-    width: 50%;
+  width: 50%;
 }
 
 #team .content .intro span {
-    letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
 }
 
 #team .content .member-container {
-    margin-top: 4.0rem;
+  margin-top: 4rem;
 }
 
 #team .content .member-container .member {
-    margin-bottom: 9.5rem;
-    display: flex;
-    justify-content: space-between;
+  margin-bottom: 9.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 #team .content .member-container .member .member-image {
-    margin: 0;
-    margin-right: 6rem;
+  margin: 0;
+  margin-right: 6rem;
 }
 
 #team .content .member-container .member .member-image img {
-    max-width: 300px;
+  max-width: 300px;
 }
 
-#team .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-#team .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 1.0s;
-    transform-style: preserve-3d;
-}
-
-/* :active for touch devices*/
-#team .flip-card:hover .flip-card-inner, 
-#team .flip-card:active .flip-card-inner { 
-    transform: rotateY(180deg);
-}
-
-#team .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-}
-
-#team .flip-card-front {
-}
-
-#team .flip-card-back {
-    transform: rotateY(180deg);
-}
-
-#team .image-container {
-    position: relative;
-    width: 300px;
-    height: 300px;
+#team .flip-card-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
 }
 
 #team .contact-image {
-    position: absolute;
-    right: 40px;
-    bottom: -40px;
-    background-color: black;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  right: 40px;
+  bottom: -40px;
+  background-color: black;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #team .contact-image a {
-    margin: auto;
-    font-size: 0.6rem;
-    font-weight: bold;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
+  margin: auto;
+  font-size: 0.6rem;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
 }
 
 #team .member-text {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
-@media screen and (max-width: 960px),
-print {
+@media screen and (max-width: 960px), print {
+  #team {
+  }
 
-    #team {
-    }
+  #team .team-image {
+  }
 
-    #team .team-image {
-    }
+  #team .content .team-content {
+    width: 100%;
+  }
 
-    #team .content .team-content {
-        width: 100%;
-    }
+  #team .image-container {
+    margin: auto;
+  }
 
-    #team .image-container {
-        margin: auto;
-    }
+  #team .content .member-container .member {
+    margin-bottom: 4rem;
+    flex-direction: column;
+  }
 
-    #team .content .member-container .member {
-        margin-bottom: 4rem;
-        flex-direction: column;
-    }
+  #team .content .member-container .member .member-image {
+    margin-right: 0;
+  }
 
-    #team .content .member-container .member .member-image {
-        margin-right: 0;
-    }
-
-    #team .content .member-container .member .member-text {
-        margin-top: 3rem;
-        margin-left: 0;
-    }
-
+  #team .content .member-container .member .member-text {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
 }
