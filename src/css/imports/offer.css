@@ -74,6 +74,7 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
   line-height: 1.5rem;
+  text-align: left;
 }
 
 #offer .offer-category-image img {
