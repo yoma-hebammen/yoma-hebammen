@@ -12,9 +12,11 @@ sections:
   label: Team
   create: documents
   match: "**/*"
-- type: document
-  path: site/content/offer/_index.md
+- type: directory
+  path: site/content/offer
   label: Angebot
+  create: all
+  match: "**/*"
 - type: directory
   path: site/content/blog
   label: Blog
