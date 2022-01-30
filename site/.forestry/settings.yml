@@ -17,7 +17,7 @@ sections:
   label: Angebot
   create: all
   match: "**/*"
-  exclude: ".*/_index.md"
+  exclude: _index.md
   templates:
   - angebot
 - type: directory
