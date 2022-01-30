@@ -52,7 +52,7 @@ fields:
     schema:
       format: markdown
   label: Einsatzgebiet
-- name: Language
+- name: language
   type: text
   config:
     required: false
