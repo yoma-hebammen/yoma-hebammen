@@ -37,3 +37,5 @@ fields:
     schema:
       format: markdown
   label: Einsatzgebiet
+pages:
+- site/content/offer/vor_der_geburt/geburtsvorbereitungskurs.md
