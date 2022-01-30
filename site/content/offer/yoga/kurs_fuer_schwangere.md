@@ -3,8 +3,8 @@ title: Kurs für Schwangere
 weight: 1
 costs: ''
 location: ''
-on_call_toggle: true
-on_call_costs: sdaf
+on_call_toggle: false
+on_call_costs: ''
 language: ''
 
 ---
