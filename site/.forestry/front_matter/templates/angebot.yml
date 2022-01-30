@@ -28,6 +28,9 @@ fields:
     schema:
       format: markdown
   label: Kosten
+- name: on_call_toggle
+  type: boolean
+  label: Pikettentschädigung
 - name: location
   type: textarea
   default: ''
@@ -37,6 +40,18 @@ fields:
     schema:
       format: markdown
   label: Einsatzgebiet
+- name: on_call_costs
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Pikettentschädigung
+  showOnly:
+    field: on_call_toggle
+    value: true
 pages:
 - site/content/offer/nach_der_geburt/wochenbettbetreuung.md
 - site/content/offer/vor_der_geburt/akupunktur.md
