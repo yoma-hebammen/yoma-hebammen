@@ -93,8 +93,7 @@
 }
 
 #offer .offer-infos {
-  max-width: 50%;
-  margin-left: 2fsm;
+  margin-left: 2em;
 }
 
 #offer .offer-infos span {
@@ -114,5 +113,10 @@ print {
 
   #offer .offer-description {
     max-width: 100%;
+    margin: 0;
+  }
+
+  #offer .offer-infos {
+    margin: 0;
   }
 }
