@@ -72,6 +72,12 @@
           <div class="offer-description">
           {{ .Content }}
           </div>
+          <div class="offer-infos">
+            {{ if ne .Params.costs "" }}<p><span>Kosten: </span>{{ .Params.costs}}</p>{{ end }}
+            {{ if ne .Params.on_call_costs "" }}<p><span>Pikettentschädigung: </span>{{ .Params.on_call_costs}}</p>{{ end }}
+            {{ if ne .Params.language "" }}<p><span>Sprache: </span>{{ .Params.language}}</p>{{ end }}
+            {{ if ne .Params.location "" }}<p><span>Einsatzgebiet: </span>{{ .Params.location}}</p>{{ end }}
+          </div>
         </div>
       </div>
       {{ end }}

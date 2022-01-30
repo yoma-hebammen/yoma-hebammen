@@ -89,6 +89,16 @@
 
 #offer .offer-description {
   max-width: 50%;
+  margin-right: 2em;
+}
+
+#offer .offer-infos {
+  max-width: 50%;
+  margin-left: 2em;
+}
+
+#offer .offer-infos span {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 960px),
