@@ -4,16 +4,16 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: number
   name: weight
-  label: weight
+  label: Gewichtung
 - type: file
   name: image_menu
-  label: image_menu
+  label: Bild im Menu
 - type: file
   name: image_category
-  label: image_category
+  label: Bild
 - type: file
   name: image_category_mobile
-  label: image_category_mobile
+  label: Bild Mobile
