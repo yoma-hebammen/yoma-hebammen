@@ -39,10 +39,10 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Pikettentschädigung
   showOnly:
     field: on_call_toggle
     value: true
+  label: "-"
 - name: location
   type: textarea
   default: ''
