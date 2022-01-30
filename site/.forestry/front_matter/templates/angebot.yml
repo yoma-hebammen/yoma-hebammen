@@ -45,13 +45,19 @@ fields:
   label: "-"
 - name: location
   type: textarea
-  default: ''
+  default: Winterthur und nahe Umgebung
   config:
     required: false
     wysiwyg: false
     schema:
       format: markdown
   label: Einsatzgebiet
+- name: Language
+  type: text
+  config:
+    required: false
+  label: Sprache
+  default: Deutsch oder Englisch
 pages:
 - site/content/offer/nach_der_geburt/wochenbettbetreuung.md
 - site/content/offer/vor_der_geburt/akupunktur.md
