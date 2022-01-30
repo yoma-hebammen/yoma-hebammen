@@ -17,6 +17,8 @@ sections:
   label: Angebot
   create: all
   match: "**/*"
+  templates:
+  - angebot
 - type: directory
   path: site/content/blog
   label: Blog
