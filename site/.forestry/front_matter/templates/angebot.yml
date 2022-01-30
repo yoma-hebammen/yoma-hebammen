@@ -1,4 +1,39 @@
 ---
 label: Angebot
 hide_body: false
-fields: []
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: weight
+  type: number
+  label: Gewichtung
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  description: Die Reihenfolge der Einträge wird anhand des Gewichts bestimmt. Kleinestes
+    Gewicht -&gt; Ganz oben.
+- name: costs
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Kosten
+- name: location
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Einsatzgebiet
