@@ -1,9 +1,10 @@
 ---
 title: Wochenbettbetreuung
 weight: 1
+costs: ''
+location: ''
 
 ---
-
 Das Wochenbett beginnt nach der Geburt und dauert 8 Wochen. Dies ist die Zeit, in der ihr euch als Familie kennenlernen dürft und du dich von der Geburt erholen kannst. Wir freuen uns, euch in dieser aufregenden, schönen und manchmal auch ganz schön herausfordernden Anfangsphase zu begleiten. 
 
 Sobald also euer Baby auf der Welt ist, sind wir froh, wenn ihr uns möglichst bald kontaktiert, damit wir besprechen können, wann der erste Besuch bei euch zu Hause stattfinden soll. Ein Wochenbettbesuch dauert circa 1 Stunde. Wie viele Besuche ihr benötigt, werden wir individuell handhaben.
