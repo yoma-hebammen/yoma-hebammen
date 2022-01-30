@@ -1,0 +1,19 @@
+---
+label: Angebotskategorie
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: number
+  name: weight
+  label: weight
+- type: file
+  name: image_menu
+  label: image_menu
+- type: file
+  name: image_category
+  label: image_category
+- type: file
+  name: image_category_mobile
+  label: image_category_mobile
