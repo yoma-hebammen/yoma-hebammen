@@ -1,7 +1,7 @@
 #offer {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 #offer .offer-menu {
@@ -94,7 +94,7 @@
 
 #offer .offer-infos {
   max-width: 50%;
-  margin-left: 2em;
+  margin-left: 2fsm;
 }
 
 #offer .offer-infos span {
