@@ -6,6 +6,7 @@ costs: "100 CHF / Stunde. \nEin Kurs dauert je nach Bedürfnis circa 3 Stunden. 
 location: Winterthur und nahe Umgebung
 on_call_toggle: false
 on_call_costs: ''
+Language: Deutsch oder Englisch
 
 ---
 Du befindest dich ungefähr in der 32. Schwangerschaftswoche und möchtest dich langsam auf die bevorstehende Geburt vorbereiten? Gerne bieten wir dir und deinem Partner oder deiner Partnerin einen privaten Geburtsvorbereitungskurs bei euch zu Hause an. 
