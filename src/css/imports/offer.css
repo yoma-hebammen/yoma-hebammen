@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 0;
 }
 
 #offer .offer-menu {
@@ -12,19 +13,52 @@
   width: 100%;
 }
 
-#offer .flip-card-container {
+#offer .menu-card {
   position: relative;
   width: 350px;
   height: 350px;
-  margin-top: 15rem;
+  margin-top: 25%;
+  transition: transform .2s ease-in-out, opacity .2s ease-in-out;
 }
 
-#offer .flip-card {
-  width: 350px;
-  height: 350px;
+#offer .menu-card:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+  opacity: 0.8;
 }
 
-#offer .flip-card-front span {
+#offer .menu-card:hover .menu-card-front{
+  visibility: hidden;
+  opacity: 0;
+}
+
+#offer .menu-card:hover .menu-card-back {
+  visibility: visible;
+  opacity: 1;
+}
+
+#offer .menu-card-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  transition: visibility 0s, opacity .4s ease-in-out;
+}
+
+#offer .menu-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity .4s ease-in-out;
+}
+
+#offer .menu-card-front span {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,8 +76,7 @@
   margin: 0;
 }
 
-#offer .flip-card-back .offer-image img {
-  opacity: 0.75;
+#offer .menu-card-back .offer-image img {
 }
 
 #offer .offer-category-preview {
@@ -100,7 +133,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 960px),
+@media screen and (max-width: 1310px),
 print { 
   #offer .offer-menu {
     display: none;
