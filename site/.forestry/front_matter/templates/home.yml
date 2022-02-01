@@ -12,3 +12,5 @@ fields:
 - type: file
   name: image_mobile
   label: Bild Mobile
+pages:
+- site/content/_index.md
