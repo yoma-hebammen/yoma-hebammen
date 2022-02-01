@@ -18,7 +18,7 @@
   width: 350px;
   height: 350px;
   margin-top: 25%;
-  transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 #offer .menu-card:hover {
@@ -27,7 +27,7 @@
   opacity: 0.8;
 }
 
-#offer .menu-card:hover .menu-card-front{
+#offer .menu-card:hover .menu-card-front {
   visibility: hidden;
   opacity: 0;
 }
@@ -44,7 +44,7 @@
   width: 100%;
   height: 100%;
   visibility: visible;
-  transition: visibility 0s, opacity .4s ease-in-out;
+  transition: visibility 0s, opacity 0.4s ease-in-out;
 }
 
 #offer .menu-card-back {
@@ -55,7 +55,7 @@
   height: 100%;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity .4s ease-in-out;
+  transition: visibility 0s, opacity 0.4s ease-in-out;
 }
 
 #offer .menu-card-front span {
@@ -65,7 +65,7 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.45rem;
+  font-size: 1.9rem;
   letter-spacing: 0.3em;
   color: white;
   width: 95%;
@@ -74,9 +74,6 @@
 #offer .offer-image {
   position: relative;
   margin: 0;
-}
-
-#offer .menu-card-back .offer-image img {
 }
 
 #offer .offer-category-preview {
@@ -108,6 +105,11 @@
   letter-spacing: 0.2em;
   line-height: 1.5rem;
   text-align: left;
+  margin-bottom: 45px;
+}
+
+#offer .offer-category-image {
+  display: block;
 }
 
 #offer .offer-category-image img {
@@ -121,11 +123,12 @@
 }
 
 #offer .offer-description {
-  max-width: 50%;
+  width: 50%;
   margin-right: 2em;
 }
 
 #offer .offer-infos {
+  width: 50%;
   margin-left: 2em;
 }
 
@@ -133,8 +136,37 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 1310px),
-print { 
+#offer .offer-category-image-container {
+  position: relative;
+}
+
+#offer .offer-category-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 0.3em;
+  color: white;
+}
+
+#offer .offer-item {
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+
+#offer .content {
+  margin: 0;
+}
+
+@media screen and (max-width: 1310px), print {
+  #offer {
+    margin-top: 3em;
+  }
+
   #offer .offer-menu {
     display: none;
   }
@@ -144,12 +176,27 @@ print {
     flex-direction: column;
   }
 
+  #offer .offer-category-title {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  #offer .offer-title {
+    margin-bottom: 10px;
+  }
+
+  #offer .offer-item {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
   #offer .offer-description {
-    max-width: 100%;
+    width: 100%;
     margin: 0;
   }
 
   #offer .offer-infos {
+    width: 100%;
     margin: 0;
   }
 }

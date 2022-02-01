@@ -3,52 +3,54 @@
 <section id="offer">
   <div class="offer-menu">
     {{ $relSectionUrl := .Permalink }} {{ range .Pages }}
-      <div class="menu-card">
-            <figure class="offer-image">
-              <img
-                src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
-                srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x"
-                alt="{{ .Params.title }}"
-                loading="lazy"
-              />
-            </figure>
-          <div class="menu-card-front">
-            <span>{{ .Params.title }}</span>
-          </div>
-          <div class="menu-card-back">
-            <a href="{{ $relSectionUrl }}#offer-category-{{ .Params.title }}">
-                <div class="offer-category-preview">
-                  {{ range .Pages }}
-                  <a href="{{ $relSectionUrl }}#offer-item-{{ .Params.title }}">
-                    <span>{{ .Params.title }}</span>
-                  </a>
-                  {{ end}}
-                </div>
-            </a>
-          </div>
+    <div class="menu-card">
+      <figure class="offer-image">
+        <img
+          src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
+          srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x"
+          alt="{{ .Params.title }}"
+          loading="lazy"
+        />
+      </figure>
+      <div class="menu-card-front">
+        <span>{{ .Params.title }}</span>
       </div>
+      <div class="menu-card-back">
+        <a href="{{ $relSectionUrl }}#offer-category-{{ .Params.title }}">
+          <div class="offer-category-preview">
+            {{ range .Pages }}
+            <a href="{{ $relSectionUrl }}#offer-item-{{ .Params.title }}">
+              <span>{{ .Params.title }}</span>
+            </a>
+            {{ end}}
+          </div>
+        </a>
+      </div>
+    </div>
     {{ end }}
   </div>
   <div class="offer-container">
-    {{ range .Pages }}
-    {{ $categoryTitle := .Params.title }} 
+    {{ range .Pages }} {{ $categoryTitle := .Params.title }}
     <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
-      <picture class="offer-category-image">
-        <source
-          media="(max-width: 960px)"
-          srcset="{{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=350,
+      <div class="offer-category-image-container">
+        <picture class="offer-category-image">
+          <source
+            media="(max-width: 960px)"
+            srcset="{{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=350,
                   {{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=700 2x"
-        />
-        <source
-          srcset="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1000 1000w, 
+          />
+          <source
+            srcset="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1000 1000w, 
                   {{ .Params.image_category | safeURL }}?nf_resize=fit&w=1400 1400w"
-        />
-        <img
-          src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=800"
-          alt="{{ $categoryTitle }}"
-          loading="lazy"
-        />
-      </picture>
+          />
+          <img
+            src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=800"
+            alt="{{ $categoryTitle }}"
+            loading="lazy"
+          />
+        </picture>
+        <div class="offer-category-title">{{ $categoryTitle }}</div>
+      </div>
       {{ range .Pages}}
       <div id="offer-item-{{ .Params.title }}" class="offer-item">
         <div class="offer-title">
@@ -57,14 +59,17 @@
           <span>{{ .Params.title }}</span>
         </div>
         <div class="content">
-          <div class="offer-description">
-          {{ .Content }}
-          </div>
+          <div class="offer-description">{{ .Content }}</div>
           <div class="offer-infos">
-            {{ if ne .Params.costs "" }}<p><span>Kosten: </span>{{ .Params.costs}}</p>{{ end }}
-            {{ if ne .Params.on_call_costs "" }}<p><span>Pikettentschädigung: </span>{{ .Params.on_call_costs}}</p>{{ end }}
-            {{ if ne .Params.language "" }}<p><span>Sprache: </span>{{ .Params.language}}</p>{{ end }}
-            {{ if ne .Params.location "" }}<p><span>Einsatzgebiet: </span>{{ .Params.location}}</p>{{ end }}
+            {{ if ne .Params.costs "" }}
+            <p><span>Kosten: </span>{{ .Params.costs}}</p>
+            {{ end }} {{ if ne .Params.on_call_costs "" }}
+            <p><span>Pikettentschädigung: </span>{{ .Params.on_call_costs}}</p>
+            {{ end }} {{ if ne .Params.language "" }}
+            <p><span>Sprache: </span>{{ .Params.language}}</p>
+            {{ end }} {{ if ne .Params.location "" }}
+            <p><span>Einsatzgebiet: </span>{{ .Params.location}}</p>
+            {{ end }}
           </div>
         </div>
       </div>
