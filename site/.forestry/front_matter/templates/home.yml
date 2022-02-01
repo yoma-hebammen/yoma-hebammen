@@ -4,10 +4,10 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: file
   name: image
-  label: image
+  label: Bild
 - type: file
   name: image_mobile
-  label: image_mobile
+  label: Bild Mobile
