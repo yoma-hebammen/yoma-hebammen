@@ -12,6 +12,9 @@ sections:
   label: Team
   create: documents
   match: "**/*"
+  templates:
+  - teammitglied
+  - team
 - type: directory
   path: site/content/offer
   label: Angebot
