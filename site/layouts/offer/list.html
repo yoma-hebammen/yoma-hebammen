@@ -1,8 +1,9 @@
 {{ define "main" }}
 
 <section id="offer">
+  {{ if eq .CurrentSection .FirstSection}}
   <div class="offer-menu">
-    {{ $relSectionUrl := .Permalink }} {{ range .Pages }}
+    {{ range .Pages }}
     <div class="menu-card">
       <figure class="offer-image">
         <img
@@ -16,12 +17,12 @@
         <span>{{ .Params.title }}</span>
       </div>
       <div class="menu-card-back">
-        <a href="{{ $relSectionUrl }}#offer-category-{{ .Params.title }}">
+        <a href="{{ .Permalink }}">
           <div class="offer-category-preview">
             {{ range .Pages }}
-            <a href="{{ $relSectionUrl }}#offer-item-{{ .Params.title }}">
-              <span>{{ .Params.title }}</span>
-            </a>
+            <span class="offer-category-preview-item">
+              {{ .Params.title }}
+            </span>
             {{ end}}
           </div>
         </a>
@@ -29,8 +30,9 @@
     </div>
     {{ end }}
   </div>
+  {{else}}
   <div class="offer-container">
-    {{ range .Pages }} {{ $categoryTitle := .Params.title }}
+    {{ $categoryTitle := .Params.title }}
     <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
       <div class="offer-category-image-container">
         <picture class="offer-category-image">
@@ -75,8 +77,8 @@
       </div>
       {{ end }}
     </div>
-    {{ end }}
   </div>
+  {{end}}
 </section>
 
 {{ end }}
