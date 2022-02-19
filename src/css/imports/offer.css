@@ -14,26 +14,10 @@
 
 #offer .menu-card {
   position: relative;
-  margin:auto 20px auto 20px;
+  margin: auto 20px auto 20px;
   width: auto;
   height: auto;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
-}
-
-#offer .menu-card:hover {
-  transform: scale(1.2);
-  z-index: 1000;
-  opacity: 0.8;
-}
-
-#offer .menu-card:hover .menu-card-front {
-  visibility: hidden;
-  opacity: 0;
-}
-
-#offer .menu-card:hover .menu-card-back {
-  visibility: visible;
-  opacity: 1;
 }
 
 #offer .menu-card-front {
@@ -70,6 +54,25 @@
   width: 95%;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  #offer .menu-card:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    opacity: 0.8;
+  }
+
+  #offer .menu-card:hover .menu-card-front {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #offer .menu-card:hover .menu-card-back {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
 #offer .offer-image {
   position: relative;
   margin: 0;
@@ -96,7 +99,7 @@
   overflow-wrap: break-word;
   text-align: left;
   list-style: none;
-  justify-content: center
+  justify-content: center;
 }
 
 #offer .offer-category-preview-item {
@@ -179,18 +182,18 @@
     margin-top: 3em;
   }
 
-#offer .offer-menu {
-  flex-direction: column;
-}
+  #offer .offer-menu {
+    flex-direction: column;
+  }
 
   #offer .content {
     display: flex;
     flex-direction: column;
   }
 
-#offer .menu-card {
-  margin-bottom: 3em;
-}
+  #offer .menu-card {
+    margin-bottom: 3em;
+  }
 
   #offer .offer-category-title {
     font-size: 1.3rem;
