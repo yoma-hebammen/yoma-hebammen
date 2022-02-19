@@ -1,46 +1,35 @@
 {{ define "main" }}
 
 <section id="home">
+  <div class="image-container">
     <picture id="home-image">
       <source
-        media="(max-width: 340px)"
-        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=200 200w,
-                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=400 2x"
-      />
-      <source
-        media="(max-height: 740px) and (max-width: 420px)"
-        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=250 250w,
-                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=500 2x"
-      />
-      <source
-        media="(max-width: 400px)"
-        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=350 350w,
-                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=700 2x"
-      />
-      <source
         media="(max-width: 480px)"
-        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=400 400w,
-                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=800 2x"
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=300,
+                {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=600 2x"
       />
       <source
         media="(max-width: 960px)"
-        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=450 450w,
+        srcset="{{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=450,
                 {{ .Params.image_mobile | safeURL }}?nf_resize=fit&w=900 2x"
       />
       <source
-        srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=900 900w, 
-                {{ .Params.image | safeURL }}?nf_resize=fit&w=1900 2x"
+        srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=900, 
+                {{ .Params.image | safeURL }}?nf_resize=fit&w=1800 2x"
       />
       <img
-        src="{{ .Params.image | safeURL }}?nf_resize=fit&w=850"
+        src="{{ .Params.image | safeURL }}?nf_resize=fit&w=900"
         alt="Yoma
       Hebammen"
         loading="lazy"
       />
     </picture>
+  </div>
   <div class="content">
-    <span>{{ .Title }}</span>
-    {{ .Content }}
+    <div class="content-container">
+      <span>{{ .Title }}</span>
+      {{ .Content }}
+    </div>
   </div>
 </section>
 
