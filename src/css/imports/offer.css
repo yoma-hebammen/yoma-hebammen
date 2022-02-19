@@ -178,9 +178,6 @@
 }
 
 @media screen and (max-width: 960px), print {
-  #offer {
-    margin-top: 3em;
-  }
 
   #offer .offer-menu {
     flex-direction: column;
@@ -192,7 +189,7 @@
   }
 
   #offer .menu-card {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
   }
 
   #offer .offer-category-title {

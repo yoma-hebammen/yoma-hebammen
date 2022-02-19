@@ -43,7 +43,6 @@ body {
 
 section {
   flex: 1;
-  margin-top: 3em;
   width: 90%;
   max-width: 1300px;
 }
@@ -110,5 +109,6 @@ a {
 
   section {
     width: 100%;
+    margin-top: 7rem; /* 4rem header + 3rem margin*/
   }
 }
