@@ -9,6 +9,7 @@ location: Winterthur und nahe Umgebung
 on_call_toggle: false
 on_call_costs: ''
 language: Deutsch oder Englisch
+titlecolor: "#90A5AF"
 
 ---
 Akupunktur ist ein Teilbereich der traditionellen chinesischen Medizin (TCM). Da sich Frauen während der Schwangerschaft in einer sehr sensiblen Phase befinden, sprechen sie häufig besonders gut auf die Akupunktur an. 
