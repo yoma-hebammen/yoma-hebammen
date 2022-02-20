@@ -20,3 +20,7 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
   beim frühen Tod ihres Kindes
 * 2019 BLS AED
 * 2018 HebiTaping- Taping für Schwangerschaft und Wochenbett
+
+**Mitglied bei:**
+
+* Schweizerischer Hebammenverband
