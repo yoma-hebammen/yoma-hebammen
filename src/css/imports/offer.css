@@ -49,7 +49,7 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   letter-spacing: 0.3em;
   color: white;
   width: 95%;
@@ -107,16 +107,26 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   padding: 8px 0 8px 0;
 }
 
 #offer .offer-title {
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
   text-align: left;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
+  padding: 1.4rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  height: 3.9rem;
+}
+
+#offer .offer-title span {
+  display: inline-block;
+  max-width: min-content;
 }
 
 #offer .offer-category-image {
@@ -161,13 +171,13 @@
 
 #offer .offer-category-title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   letter-spacing: 0.3em;
   color: white;
 }
@@ -175,10 +185,35 @@
 #offer .offer-item {
   margin-bottom: 75px;
   margin-top: 75px;
+  position: relative;
 }
 
 #offer .content {
   margin: 0;
+}
+
+#offer .contact-image {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  background-color: black;
+  background-size: 110px 110px;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#offer .contact-image a {
+  margin: auto;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
 }
 
 @media screen and (max-width: 960px), print {
@@ -210,6 +245,8 @@
 
   #offer .offer-title {
     margin-bottom: 10px;
+    font-size: 1.0rem;
+    padding: 1.2rem;
   }
 
   #offer .offer-item {
@@ -226,4 +263,16 @@
     width: 100%;
     margin: 0;
   }
+
+#offer .contact-image {
+  height: 70px;
+  width: 70px;
+  background-size: 70px 70px;
+  right: 15px;
+  top: 50px;
+}
+
+#offer .contact-image a {
+  font-size: 0.6rem;
+}
 }

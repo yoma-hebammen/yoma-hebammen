@@ -33,6 +33,7 @@
   {{else}}
   <div class="offer-container">
     {{ $categoryTitle := .Params.title }}
+    {{ $categoryContactImage := .Params.image_contact }}
     <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
       <div class="offer-category-image-container">
         <picture class="offer-category-image">
@@ -55,10 +56,11 @@
       </div>
       {{ range .Pages}}
       <div id="offer-item-{{ .Params.title }}" class="offer-item">
-        <div class="offer-title">
-          <span><b>{{ $categoryTitle }}</b></span>
-          <br />
+        <div class="offer-title" style="background-color: {{ .Params.titlecolor }}">
           <span>{{ .Params.title }}</span>
+            <div class="contact-image" style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );">
+                <a href="mailto:yoma@hebamme-hin.ch?subject=Anfrage: {{.Params.title}}">Anfrage</a>
+            </div>
         </div>
         <div class="content">
           <div class="offer-description">{{ .Content }}</div>
