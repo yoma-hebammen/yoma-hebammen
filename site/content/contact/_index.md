@@ -3,7 +3,9 @@ title: Kontakt
 image: https://yoma-hebammen.ch/upload/2021/11/contact.jpg
 
 ---
-### **Kontakt: yoma@hebamme-hin.ch**
+### **Kontakt**
+
+### **yoma@hebamme-hin.ch**
 
 Wir freuen uns sehr über eure Kontaktaufnahme!
 
