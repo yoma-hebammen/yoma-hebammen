@@ -18,3 +18,8 @@ fields:
 - type: file
   name: image_category_mobile
   label: Bild Mobile
+- name: image_contact
+  type: file
+  config:
+    maxSize: 64
+  label: Bild Anfrage
