@@ -3,8 +3,12 @@ title: Kontakt
 image: https://yoma-hebammen.ch/upload/2021/11/contact.jpg
 
 ---
-Stefanie und Kim in und um Winterthur für euch da.
+#### **yoma@hebamme-hin.ch**
 
-Anfragen für Geburtsvorbereitung, Wochenbett und Yoga unter:
+Wir freuen uns sehr über eure Kontaktaufnahme! 
 
-yoma@hebamme-hin.ch
+Für Anfragen zur Hebammenbetreuung schreibt uns doch gerne eure Anliegen und Fragen, sowie den errechneten Geburtstermin, das wievielte Kind es ist und eure Adresse. 
+
+Eure Stefanie und Kim
+
+### 
