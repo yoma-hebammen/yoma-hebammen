@@ -4,6 +4,7 @@ weight: 1
 costs: Die Wochenbettbesuche durch die Hebamme werden von der Krankenkasse übernommen.
   Die Hebamme kann 10 Besuche in den ersten 56 Tagen nach der Geburt machen. Bei Erstgebärenden,
   nach Kaiserschnitt, Zwillingen, krankem Kind oder Komplikationen sind es 16 Besuche.
+  Ein Hausbesuch dauert circa eine Stunde.
 location: Winterthur und nahe Umgebung
 on_call_toggle: true
 on_call_costs: Die Geburt wird zwischen der 37. und 42. Schwangerschaftswoche erwartet.
@@ -16,9 +17,9 @@ language: Deutsch oder Englisch
 titlecolor: "#659CCA"
 
 ---
-Das Wochenbett beginnt nach der Geburt und dauert 8 Wochen. Dies ist die Zeit, in der ihr euch als Familie kennenlernen dürft und du dich von der Geburt erholen kannst. Wir freuen uns, euch in dieser aufregenden, schönen und manchmal auch ganz schön herausfordernden Anfangsphase zu begleiten.
+Das Wochenbett beginnt nach der Geburt und dauert 8 Wochen. Dies ist die Zeit, in der ihr euch als Familie kennenlernen dürft und du dich von der Geburt erholen kannst. Wir freuen uns, euch in dieser aufregenden, wunderbaren und manchmal auch ganz schön herausfordernden Anfangsphase zu begleiten.
 
-Sobald also euer Baby auf der Welt ist, sind wir froh, wenn ihr uns möglichst bald kontaktiert, damit wir besprechen können, wann der erste Besuch bei euch zu Hause stattfinden soll. Ein Wochenbettbesuch dauert circa 1 Stunde. Wie viele Besuche ihr benötigt, werden wir individuell handhaben.
+Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen verfügbar sein möchten, arbeiten wir zu zweit im Team. Um unseren Hebammenalltag etwas planen zu  können, sind wird also froh, wenn ihr uns möglichst bald kontaktiert, sobald euer Baby da ist. Weitere Hausbesuche planen wir dann flexibel vor Ort mit euch.
 
 **Im Zentrum der Wochenbettbetreuung stehen:**
 
@@ -29,10 +30,5 @@ Sobald also euer Baby auf der Welt ist, sind wir froh, wenn ihr uns möglichst b
 * Babypflege
 * Ernährung des Babys und Stillberatung
 * Tragetuch-Instruktion
-* Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische UnterstützungKinderarzt, Rückbildungskurse)
-
-**Weitere Behandlungsmöglichkeiten sind:**
-
-* Taping
-* Akupunktur
-* Guasha
+* Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische Unterstützung, Kinderarzt, Rückbildungskurse)
+* Behandlungen mit Taping, Akupunktur, Guasha
