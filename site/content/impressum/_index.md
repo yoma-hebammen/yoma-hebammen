@@ -1,23 +1,35 @@
 ---
-title: 'Impressum'
----
+title: Impressum
 
-Inhaberinnen
+---
+**Inhaberinnen**
+
+
 Kim Heiniger und Stefanie Jones
 
-Kontakt
+**Kontakt**
+
+
 yoma@hebamme-hin.ch
 
-Branche
+**Branche**
+
+
 Frei praktizierende Hebammen fpH
 
-Website
+**Website**
+
+
 Gestaltung: Linda Walter (Website Link)
 Programmierung: Jonathan Stahl (Website Link)
 
-Haftungshinweis
+**Haftungshinweis**
+
+
 Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte der externen Links. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich.
 
-Copyright 
+**Copyright**
+
+
 2022 by Yoma Hebammen, Schweiz
 Alle Rechte vorbehalten
