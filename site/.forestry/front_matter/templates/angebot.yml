@@ -59,7 +59,5 @@ fields:
   label: Sprache
   default: ''
 pages:
-- site/content/offer/nach_der_geburt/wochenbettbetreuung.md
-- site/content/offer/vor_der_geburt/akupunktur.md
-- site/content/offer/vor_der_geburt/geburtsvorbereitungskurs.md
+- site/content/offer/vor-der-geburt/geburtsvorbereitungskurs.md
 - site/content/offer/yoga/kurs_fuer_schwangere.md
