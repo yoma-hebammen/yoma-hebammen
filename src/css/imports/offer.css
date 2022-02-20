@@ -55,7 +55,7 @@
   width: 95%;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) and (min-width: 960px) {
   #offer .menu-card:hover {
     transform: scale(1.2);
     z-index: 1000;
