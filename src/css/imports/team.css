@@ -61,6 +61,7 @@
   border-radius: 50%;
   height: 80px;
   width: 80px;
+  background-size: 80px 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,6 +99,10 @@
   #team .content .member-container .member {
     margin-bottom: 4rem;
     flex-direction: column;
+  }
+
+  #team .contact-image {
+    z-index: 1000;
   }
 
   #team .content .member-container .member .member-image {
