@@ -10,14 +10,14 @@
   margin-top: 4rem; /* For header */
 }
 
-#home-image {
+#home #home-image {
   margin: 0;
   left: 10%;
   position: relative;
   height: 100%;
 }
 
-#home-image img {
+#home #home-image img {
   max-height: 100%;
 }
 
