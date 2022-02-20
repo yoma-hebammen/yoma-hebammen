@@ -1,144 +1,138 @@
 #header {
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1.5px solid;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid;
+  position: fixed;
+  width: 85%;
+  height: 4rem;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 
 .logo {
-    color: var(--text-color);
-    font-family: 'Red Hat Display';
-    font-weight: 700;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    text-align: left;
+  color: var(--text-color);
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .logo span {
-    font-weight: 700;
-    font-size: 1.5em;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 #navbar ul {
-    text-transform: uppercase;
-    list-style: none;
-    display: flex;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
 }
 
 .nav-item a {
-    color: var(--text-color);
-    padding: 10px 30px;
-    letter-spacing: 0.1em;
+  color: var(--text-color);
+  padding: 10px 30px;
+  letter-spacing: 0.1em;
 }
 
 #navbar-burger {
-    display: none;
+  display: none;
 }
 
+@media screen and (max-width: 960px), print {
+  #navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 0%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
 
-@media screen and (max-width: 960px),
-print {
-    #header {
-        height: 4rem;
-        position: fixed;
-        width: 85%;
-        top: 0;
-        z-index: 1000;
-        background-color: white;
-    }
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
 
-    #navbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        height: 0%;
-        width: 100%;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgba(0,0,0, 0.9);
-        overflow-y: hidden;
+  #navbar ul {
+    height: 100%;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+  }
 
-        opacity: 0.0;
-        transition: opacity 0.5s;
-    }
+  .nav-item a {
+    color: white;
+    font-size: 1.8em;
+  }
 
-    #navbar ul {
-        height: 100%;
-        padding: 0;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin: auto;
-    }
+  #navbar.is-active {
+    opacity: 1;
+    display: flex;
+    height: 100%;
+    backdrop-filter: blur(4px); /*Not yet supported in Firefox*/
+  }
 
-    .nav-item a {
-        color: white;
-        font-size: 1.8em;
-    }
+  #navbar-burger {
+    cursor: pointer;
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    right: 10px;
+  }
 
-    #navbar.is-active {
-        opacity: 1.0;
-        display: flex;
-        height: 100%;
-        backdrop-filter: blur(4px); /*Not yet supported in Firefox*/
-    }
+  #navbar-burger span {
+    display: block;
+    background-color: var(--text-color);
+    /* border-radius: 3px; */
+    height: 1.5px;
+    position: absolute;
+    left: 4px;
+    width: 40px;
+    transform-origin: center;
+    transition: 0.5s;
+  }
 
-    #navbar-burger {
-        cursor: pointer;
-        display: block;
-        height: 3rem;
-        width: 3rem;
-        position: relative;
-        right: 10px;
-    }
+  #navbar-burger.is-active {
+    z-index: 2;
+  }
 
-    #navbar-burger span {
-        display: block;
-        background-color: var(--text-color);
-        /* border-radius: 3px; */
-        height: 1.5px;
-        position: absolute;
-        left: 4px;
-        width: 40px;
-        transform-origin: center;
-        transition: 0.5s;
-    }
+  #navbar-burger.is-active span {
+    background-color: white;
+  }
 
-    #navbar-burger.is-active {
-        z-index: 2;
-    }
+  #navbar-burger span:nth-child(1) {
+    top: calc(50% - 11px);
+  }
 
-    #navbar-burger.is-active span {
-        background-color: white;
-    }
+  #navbar-burger span:nth-child(2) {
+    top: calc(50% - 2px);
+  }
 
-    #navbar-burger span:nth-child(1) {
-        top: calc(50% - 11px);
-    }
+  #navbar-burger span:nth-child(3) {
+    top: calc(50% + 7px);
+  }
 
-    #navbar-burger span:nth-child(2) {
-        top: calc(50% - 2px);
-    }
+  #navbar-burger.is-active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
 
-    #navbar-burger span:nth-child(3) {
-        top: calc(50% + 7px);
-    }
+  #navbar-burger.is-active span:nth-child(2) {
+    opacity: 0;
+  }
 
-    #navbar-burger.is-active span:nth-child(1) {
-        transform: translateY(9px) rotate(45deg);
-    }
-
-    #navbar-burger.is-active span:nth-child(2) {
-        opacity: 0;
-    }
-
-    #navbar-burger.is-active span:nth-child(3) {
-        transform: translateY(-9px) rotate(-45deg);
-    }
-
+  #navbar-burger.is-active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
 }

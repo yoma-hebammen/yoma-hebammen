@@ -7,6 +7,7 @@
 
 #home .image-container {
   max-height: 60vh;
+  margin-top: 4rem; /* For header */
 }
 
 #home-image {
