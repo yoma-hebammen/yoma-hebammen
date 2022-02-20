@@ -1,16 +1,22 @@
 {{ define "main" }}
 
 <section id="contact">
-    <figure class="contact-image">
-        <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=320"
-             srcset="
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=320 320w,
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=800 800w,
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1200 1200w,
-                  {{ .Params.image | safeURL }}?nf_resize=fit&w=1600 1600w"
-             alt="Kim und Stefanie - Teamfoto"
-             loading="lazy">
-    </figure>
+  <picture class="contact-image">
+    <source
+      media="(max-width: 960px)"
+      srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
+              {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x"
+    />
+    <source
+      srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300, 
+              {{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x"
+    />
+    <img
+      src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1300"
+      alt="Kim und Stefanie - Teamfoto"
+      loading="lazy"
+    />
+  </picture>
     <div class="content">
         {{ .Content }}
     </div>
