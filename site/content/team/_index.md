@@ -1,6 +1,6 @@
 ---
 title: Team
-image: https://yoma-hebammen.ch/upload/2022/02/teamfoto.jpg
+image: ''
 image_description: ''
 
 ---
