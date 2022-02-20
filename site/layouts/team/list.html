@@ -1,17 +1,22 @@
 {{ define "main" }}
 
 <section id="team">
-  <figure class="team-image">
+  <picture class="team-image">
+    <source
+      media="(max-width: 960px)"
+      srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
+              {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x"
+    />
+    <source
+      srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300, 
+              {{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x"
+    />
     <img
-      src="{{ .Params.image | safeURL }}?nf_resize=fit&w=320"
-      srcset="
-                    {{ .Params.image | safeURL }}?nf_resize=fit&w=320 320w,
-                    {{ .Params.image | safeURL }}?nf_resize=fit&w=800 800w,
-                    {{ .Params.image | safeURL }}?nf_resize=fit&w=1200 1200w"
+      src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1300"
       alt="Kim und Stefanie - Teamfoto"
       loading="lazy"
     />
-  </figure>
+  </picture>
   <div class="content">
     <div class="intro">
       <span><b>Das sind wir</b></span>
@@ -52,7 +57,9 @@
               class="contact-image"
               style="background-image: url( '{{ .Params.color_image | safeURL }}?nf_resize=fit&w=160' );"
             >
-              <a href="mailto:yoma@hebamme-hin.ch?subject=Kontaktanfrage">Kontakt</a>
+              <a href="mailto:yoma@hebamme-hin.ch?subject=Kontaktanfrage"
+                >Kontakt</a
+              >
             </div>
           </div>
         </div>
