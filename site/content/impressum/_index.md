@@ -20,7 +20,7 @@ Gestaltung: [Linda Walter](linda4.walter@hispeed.ch "Linda Walter")
 
 Programmierung: [Jonathan Stahl ](https://jonathanstahl.ch "https://jonathanstahl.ch")
 
-Fotografie: [Letizia Haessig Photography](www.lety.ch "Letizia Haessig Photography") 
+Fotografie: [Letizia Haessig Photography](https://lety.ch "https://lety.ch")
 
 **Haftungshinweis**
 
