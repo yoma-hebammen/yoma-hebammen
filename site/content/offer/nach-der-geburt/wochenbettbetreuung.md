@@ -35,4 +35,4 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 * Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische Unterstützung, Kinderarzt, Rückbildungskurse)
 * Behandlungen mit Taping, Akupunktur, Guasha
 
-Wir übernehmen auch 
+Wir übernehmen auch kurzfristige Anfragen bei Betreuung von Familien mit Kindsverlust.
