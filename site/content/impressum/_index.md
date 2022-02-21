@@ -16,9 +16,11 @@ Frei praktizierende Hebammen fpH
 
 **Website**
 
-Gestaltung: Linda Walter (Website Link)
+Gestaltung: [Linda Walter](linda4.walter@hispeed.ch "Linda Walter")
 
 Programmierung: [Jonathan Stahl ](https://jonathanstahl.ch "https://jonathanstahl.ch")
+
+Fotografie: [Letizia Haessig Photography](www.lety.ch "Letizia Haessig Photography") 
 
 **Haftungshinweis**
 
