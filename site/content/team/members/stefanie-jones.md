@@ -21,4 +21,4 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
 
 **Mitglied bei:**
 
-* [Schweizerischer Hebammenverband (SHV)](www.hebamme.ch "Schweizerischer Hebammenverband")
+* [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https://www.hebamme.ch")
