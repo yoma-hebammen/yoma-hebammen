@@ -25,6 +25,24 @@ fields:
     step: 
   description: Die Reihenfolge der Einträge wird anhand des Gewichts bestimmt. Kleinestes
     Gewicht -&gt; Ganz oben.
+- name: duration
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Dauer
+- name: timing
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Zeitpunkt
 - name: costs
   type: textarea
   default: ''
@@ -49,7 +67,7 @@ fields:
     field: on_call_toggle
     value: true
   label: "-"
-- name: location
+- name: location_area
   type: textarea
   default: ''
   config:
@@ -64,6 +82,15 @@ fields:
     required: false
   label: Sprache
   default: ''
+- name: location
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Ort
 pages:
 - site/content/offer/nach-der-geburt/wochenbettbetreuung.md
 - site/content/offer/vor-der-geburt/akupunktur.md
