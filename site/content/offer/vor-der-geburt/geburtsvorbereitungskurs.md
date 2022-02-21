@@ -9,6 +9,9 @@ on_call_costs: ''
 Language: Deutsch oder Englisch
 language: ''
 titlecolor: "#B6CAD3"
+duration: ''
+timing: ''
+location_area: ''
 
 ---
 Du befindest dich ungefähr in der 32. Schwangerschaftswoche und möchtest dich langsam auf die bevorstehende Geburt vorbereiten? Gerne bieten wir dir und deinem Partner oder deiner Partnerin einen privaten Geburtsvorbereitungskurs bei euch zu Hause an. 
