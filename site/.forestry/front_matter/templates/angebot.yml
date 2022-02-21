@@ -52,9 +52,6 @@ fields:
     schema:
       format: markdown
   label: Kosten
-- name: on_call_toggle
-  type: boolean
-  label: Pikettentschädigung
 - name: on_call_costs
   type: textarea
   default: ''
@@ -64,9 +61,8 @@ fields:
     schema:
       format: markdown
   showOnly:
-    field: on_call_toggle
     value: true
-  label: "-"
+  label: Pikettentschädigung
 - name: location_area
   type: textarea
   default: ''
