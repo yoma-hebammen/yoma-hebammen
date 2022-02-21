@@ -18,7 +18,7 @@ Frei praktizierende Hebammen fpH
 
 Gestaltung: Linda Walter (Website Link)
 
-Programmierung: Jonathan Stahl (Website Link)
+Programmierung: [Jonathan Stahl ](https://jonathanstahl.ch "https://jonathanstahl.ch")
 
 **Haftungshinweis**
 
