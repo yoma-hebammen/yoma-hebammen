@@ -34,8 +34,7 @@
                 <figure class="member-image">
                   <img
                     src="{{ .Params.color_image | safeURL }}?nf_resize=fit&w=300"
-                    srcset="
-                                                {{ .Params.color_image | safeURL }}?nf_resize=fit&w=600 2x"
+                    srcset="{{ .Params.color_image | safeURL }}?nf_resize=fit&w=600 2x"
                     alt="{{ .Params.name }} - Teamfoto"
                     loading="lazy"
                   />
@@ -45,22 +44,21 @@
                 <figure class="member-image">
                   <img
                     src="{{ .Params.portrait_image | safeURL }}?nf_resize=fit&w=300"
-                    srcset="
-                                                {{ .Params.portrait_image | safeURL }}?nf_resize=fit&w=600 2x"
+                    srcset="{{ .Params.portrait_image | safeURL }}?nf_resize=fit&w=600 2x"
                     alt="{{ .Params.name }} - Teamfoto"
                     loading="lazy"
                   />
                 </figure>
               </div>
             </div>
-            <div
-              class="contact-image"
-              style="background-image: url( '{{ .Params.color_image | safeURL }}?nf_resize=fit&w=160' );"
+          </div>
+          <div
+            class="contact-image"
+            style="background-image: url( '{{ .Params.color_image | safeURL }}?nf_resize=fit&w=160' );"
+          >
+            <a href="mailto:yoma@hebamme-hin.ch?subject=Kontaktanfrage"
+              >Kontakt</a
             >
-              <a href="mailto:yoma@hebamme-hin.ch?subject=Kontaktanfrage"
-                >Kontakt</a
-              >
-            </div>
           </div>
         </div>
         <div class="member-text">
