@@ -23,4 +23,4 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 
 **Mitglied bei:**
 
-* [Schweizerischer Hebammenverband (SHV)](www.hebamme.ch "Schweizerischer Hebammenverband")
+* [Schweizerischer Hebammenverband (SHV)](https://hebamme.ch "https://hebamme.ch")
