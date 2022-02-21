@@ -16,7 +16,7 @@ Frei praktizierende Hebammen fpH
 
 **Website**
 
-Gestaltung: [Linda Walter](linda4.walter@hispeed.ch "Linda Walter")
+Gestaltung: [Linda Walter](linda4.walter@hispeed.ch "linda4.walter@hispeed.ch")
 
 Programmierung: [Jonathan Stahl ](https://jonathanstahl.ch "https://jonathanstahl.ch")
 
