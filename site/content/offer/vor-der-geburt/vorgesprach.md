@@ -1,6 +1,5 @@
 +++
 costs = "100 CHF (wird teilweise von der Krankenkasse übernommen)"
-draft = true
 duration = "Eine Stunde"
 language = "Deutsch oder Englisch"
 location = ""
