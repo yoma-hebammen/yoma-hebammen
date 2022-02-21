@@ -7,12 +7,11 @@ costs: Die Wochenbettbesuche durch die Hebamme werden von der Krankenkasse über
   Ein Hausbesuch dauert circa eine Stunde.
 location: ''
 on_call_toggle: true
-on_call_costs: Die Geburt wird zwischen der 37. und 42. Schwangerschaftswoche erwartet.
+on_call_costs: 'Die Geburt wird zwischen der 37. und 42. Schwangerschaftswoche erwartet.
   In dieser Zeit leisten wir einen Bereitschaftsdienst, damit wir euch nach Spital-
   und Geburtshausaustritt betreuen können. Für diese Pikettzeit verrechnen wir freipraktizierenden
   Hebammen eine einmalige Gebühr von 115 CHF. Viele Wohngemeinden übernehmen diese
-  Pikettentschädigung. Gerne schauen wir für euch nach, ob dies bei Euch der Fall
-  ist. Falls nicht, wird euch dieser Betrag in Rechnung gestellt.
+  Gebühr. Gerne schauen wir für euch nach, ob dies bei Euch der Fall ist. '
 language: Deutsch oder Englisch
 titlecolor: "#659CCA"
 duration: ''
@@ -35,3 +34,5 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 * Tragetuch-Instruktion
 * Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische Unterstützung, Kinderarzt, Rückbildungskurse)
 * Behandlungen mit Taping, Akupunktur, Guasha
+
+Wir übernehmen auch 
