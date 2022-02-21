@@ -9,7 +9,7 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
 
 * Seit 2021 Freiberufliche Hebamme
 * Seit 2019 Hebamme in der Gebärabteilung Spital Zollikerberg
-* 2015-2019 Ausbildung zur Hebamme Bsc
+* 2015-2019 Ausbildung zur Hebamme BSc
 
 **Weiterbildungen:**
 
@@ -21,4 +21,4 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
 
 **Mitglied bei:**
 
-* Schweizerischer Hebammenverband
+* Schweizerischer Hebammenverband (SHV)
