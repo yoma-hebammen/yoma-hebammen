@@ -32,8 +32,8 @@
   </div>
   {{else}}
   <div class="offer-container">
-    {{ $categoryTitle := .Params.title }}
-    {{ $categoryContactImage := .Params.image_contact }}
+    {{ $categoryTitle := .Params.title }} {{ $categoryContactImage :=
+    .Params.image_contact }}
     <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
       <div class="offer-category-image-container">
         <picture class="offer-category-image">
@@ -56,23 +56,38 @@
       </div>
       {{ range .Pages}}
       <div id="offer-item-{{ .Params.title }}" class="offer-item">
-        <div class="offer-title" style="background-color: {{ .Params.titlecolor }}">
+        <div
+          class="offer-title"
+          style="background-color: {{ .Params.titlecolor }}"
+        >
           <span>{{ .Params.title }}</span>
-            <div class="contact-image" style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );">
-                <a href="mailto:yoma@hebamme-hin.ch?subject=Anfrage: {{.Params.title}}">Anfrage</a>
-            </div>
+          <div
+            class="contact-image"
+            style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );"
+          >
+            <a
+              href="mailto:yoma@hebamme-hin.ch?subject=Anfrage: {{.Params.title}}"
+              >Anfrage</a
+            >
+          </div>
         </div>
         <div class="content">
           <div class="offer-description">{{ .Content }}</div>
           <div class="offer-infos">
-            {{ if ne .Params.costs "" }}
+            {{ if ne .Params.duration "" }}
+            <p><span>Dauer: </span>{{ .Params.duration}}</p>
+            {{ end }} {{ if ne .Params.timing "" }}
+            <p><span>Zeitpunkt: </span>{{ .Params.timing}}</p>
+            {{ end }} {{ if ne .Params.costs "" }}
             <p><span>Kosten: </span>{{ .Params.costs}}</p>
             {{ end }} {{ if ne .Params.on_call_costs "" }}
             <p><span>Pikettentschädigung: </span>{{ .Params.on_call_costs}}</p>
             {{ end }} {{ if ne .Params.language "" }}
             <p><span>Sprache: </span>{{ .Params.language}}</p>
+            {{ end }} {{ if ne .Params.location_area "" }}
+            <p><span>Einsatzgebiet: </span>{{ .Params.location_area}}</p>
             {{ end }} {{ if ne .Params.location "" }}
-            <p><span>Einsatzgebiet: </span>{{ .Params.location}}</p>
+            <p><span>Ort: </span>{{ .Params.location }}</p>
             {{ end }}
           </div>
         </div>
