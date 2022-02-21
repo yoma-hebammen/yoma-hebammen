@@ -29,4 +29,5 @@ Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für di
 **Copyright**
 
 2022 by Yoma Hebammen, Schweiz
+
 Alle Rechte vorbehalten
