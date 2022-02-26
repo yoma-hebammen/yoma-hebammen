@@ -4,13 +4,8 @@
         <br>
         {{ $currentPage := . }}
         {{ $headerTitle := "Hebammen" }}
-        {{ range .Site.Menus.main }}
-            {{ if eq $currentPage.Name .Name }}
-                {{ $headerTitle = .Name }}
-            {{end}}
-        {{ end }}
-        {{ if eq $currentPage.Section "blog" }}
-            {{ $headerTitle = "blog"  }}
+        {{ if ne $currentPage.Section "" }}
+            {{ $headerTitle = $currentPage.Section  }}
         {{end}}
         <span>{{ $headerTitle }}</span>
     </a>

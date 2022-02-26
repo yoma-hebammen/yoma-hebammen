@@ -5,7 +5,7 @@
   <div class="offer-menu">
     {{ range .Pages }}
     <div class="menu-card">
-      <a href="{{ .Permalink }}">
+      <a href="{{ .URL }}">
         <figure class="offer-image">
           <img
             src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"

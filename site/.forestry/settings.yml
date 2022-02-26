@@ -16,7 +16,7 @@ sections:
   - teammitglied
   - team
 - type: directory
-  path: site/content/offer
+  path: site/content/angebot
   label: Angebot
   create: all
   match: "**/*"
@@ -33,7 +33,7 @@ sections:
   templates:
   - blog-post
 - type: document
-  path: site/content/contact/_index.md
+  path: site/content/kontakt/_index.md
   label: Kontakt
 - type: document
   path: site/content/impressum/_index.md

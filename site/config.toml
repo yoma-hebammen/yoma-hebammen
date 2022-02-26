@@ -17,9 +17,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         weight = 100
 
     [[menu.main]]
-        identifier = "offer"
+        identifier = "angebot"
         name = "Angebot"
-        url = "offer"
+        url = "angebot"
         weight = 200
 
     [[menu.main]]
@@ -29,8 +29,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         weight = 300
 
     [[menu.main]]
-        identifier = "contact"
+        identifier = "kontakt"
         name = "Kontakt"
-        url = "contact"
+        url = "kontakt"
         weight = 400
 
