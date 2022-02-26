@@ -59,7 +59,10 @@
   #offer .menu-card:hover {
     transform: scale(1.2);
     z-index: 1000;
-    opacity: 0.8;
+  }
+
+  #offer .menu-card:hover .offer-image {
+    filter: brightness(70%);
   }
 
   #offer .menu-card:hover .menu-card-front {
