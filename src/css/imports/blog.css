@@ -1,9 +1,5 @@
-#blog {
-    width: 100%;
-}
-
-#blog .announcement h5 {
-    margin-bottom: 0;
+#blog .announcement h4 {
+    margin: 0;
 }
 
 #blog .announcement p {
@@ -19,8 +15,6 @@
 #blog .post-preview-item {
     text-align: left;
     margin-bottom: 4em;
-    margin-left: 6em;
-    margin-right: 6em;
 }
 
 #blog .post-preview-item .post-item-title a {
@@ -58,8 +52,6 @@
 
 .post article {
     text-align: left;
-    margin-left: 6em;
-    margin-right: 6em;
 }
 
 .post article .post-title h2 {
@@ -68,9 +60,6 @@
 
 .post article .post-info .post-date {
     font-size: 0.8em;
-}
-
-.post article .post-content {
 }
 
 .post article .post-content img {
@@ -86,14 +75,5 @@
 @media screen and (max-width: 960px),
 print {
 
-    #blog .post-preview-item {
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-
-    .post article {
-        margin-left: 3em;
-        margin-right: 3em;
-    }
 
 }

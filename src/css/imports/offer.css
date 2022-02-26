@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 4rem;
 }
 
 #offer .offer-menu {
@@ -164,10 +163,6 @@
   height: 100%;
 }
 
-#offer .offer-category {
-  margin-top: 75px;
-}
-
 #offer .offer-category-image-container {
   position: relative;
 }
@@ -220,10 +215,6 @@
 }
 
 @media screen and (max-width: 960px), print {
-  #offer {
-    margin-top: 7rem;
-  }
-
   #offer .offer-menu {
     flex-direction: column;
   }
@@ -234,7 +225,7 @@
   }
 
   #offer .menu-card {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   #offer .offer-category {
