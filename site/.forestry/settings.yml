@@ -22,8 +22,8 @@ sections:
   match: "**/*"
   exclude: _index.md
   templates:
-  - angebotskategorie
   - angebot
+  - angebotskategorie
 - type: directory
   path: site/content/blog
   label: Blog
