@@ -1,5 +1,4 @@
 #header {
-  width: 100%;
   box-sizing: border-box;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -8,10 +7,10 @@
   align-items: center;
   border-bottom: 1.5px solid;
   position: fixed;
-  width: 85%;
+  width: 90%;
   height: 4rem;
   top: 0;
-  z-index: 1000;
+  z-index: 10000;
   background-color: white;
 }
 
@@ -46,6 +45,10 @@
 }
 
 @media screen and (max-width: 960px), print {
+  #header {
+    width: 85%;
+  }
+
   #navbar {
     display: flex;
     justify-content: center;
