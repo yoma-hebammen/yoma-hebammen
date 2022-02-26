@@ -15,6 +15,12 @@ sections:
   templates:
   - teammitglied
   - team
+- type: document
+  path: site/content/kontakt/_index.md
+  label: Kontakt
+- type: document
+  path: site/content/impressum/_index.md
+  label: Impressum
 - type: heading
   label: Angebot
 - type: directory
@@ -34,12 +40,6 @@ sections:
   exclude: _index.md
   templates:
   - blog-post
-- type: document
-  path: site/content/kontakt/_index.md
-  label: Kontakt
-- type: document
-  path: site/content/impressum/_index.md
-  label: Impressum
 upload_dir: site/static/upload
 public_path: https://yoma-hebammen.ch/upload
 front_matter_path: ''
