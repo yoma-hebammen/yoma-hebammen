@@ -1,6 +1,5 @@
 +++
 costs = "CHF 370"
-draft = true
 duration = "2 Einheiten à 3 Stunden"
 language = "Deutsch"
 location = "8400 Winterthur"
