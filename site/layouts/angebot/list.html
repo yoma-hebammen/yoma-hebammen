@@ -75,19 +75,19 @@
           <div class="offer-description">{{ .Content }}</div>
           <div class="offer-infos">
             {{ if ne .Params.duration "" }}
-            <p><span>Dauer: </span>{{ .Params.duration}}</p>
+            <p><span>Dauer: </span>{{ .Params.duration | markdownify }}</p>
             {{ end }} {{ if ne .Params.timing "" }}
-            <p><span>Zeitpunkt: </span>{{ .Params.timing}}</p>
+            <p><span>Zeitpunkt: </span>{{ .Params.timing | markdownify }}</p>
             {{ end }} {{ if ne .Params.costs "" }}
-            <p><span>Kosten: </span>{{ .Params.costs}}</p>
+            <p><span>Kosten: </span>{{ .Params.costs | markdownify }}</p>
             {{ end }} {{ if ne .Params.on_call_costs "" }}
-            <p><span>Pikettentschädigung: </span>{{ .Params.on_call_costs}}</p>
+            <p><span>Pikettentschädigung: </span>{{ .Params.on_call_costs | markdownify }}</p>
             {{ end }} {{ if ne .Params.language "" }}
-            <p><span>Sprache: </span>{{ .Params.language}}</p>
+            <p><span>Sprache: </span>{{ .Params.language | markdownify }}</p>
             {{ end }} {{ if ne .Params.location_area "" }}
-            <p><span>Einsatzgebiet: </span>{{ .Params.location_area}}</p>
+            <p><span>Einsatzgebiet: </span>{{ .Params.location_area | markdownify }}</p>
             {{ end }} {{ if ne .Params.location "" }}
-            <p><span>Ort: </span>{{ .Params.location }}</p>
+            <p><span>Ort: </span>{{ .Params.location | markdownify }}</p>
             {{ end }}
           </div>
         </div>
