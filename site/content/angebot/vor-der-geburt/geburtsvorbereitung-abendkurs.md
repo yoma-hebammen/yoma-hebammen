@@ -1,6 +1,5 @@
 +++
 costs = "CHF 400\n(Die Krankenkasse übernimmt in den meisten Fällen CHF 150.)"
-draft = true
 duration = "4 Einheiten à jeweils 2 Stunden"
 language = "Deutsch"
 location = "8400 Winterthur"
