@@ -12,9 +12,9 @@ titlecolor = "#8F8888"
 weight = 3
 
 +++
-**_Noch ein Platz verfügbar!_**_  
-  
-_An unserem Wochenendkurs bringen wir dir und deiner Begleitperson folgende Themen näher, sodass du entspannt in deine Geburt gehen kannst. Wir sind eine kleine Gruppe von max. 4 Paaren, sodass genügend Zeit für Fragen und Wünsche bleibt. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
+**_Noch ein Platz verfügbar!_**
+
+An unserem Wochenendkurs bringen wir dir und deiner Begleitperson folgende Themen näher, sodass du entspannt in deine Geburt gehen kannst. Wir sind eine kleine Gruppe von max. 4 Paaren, sodass genügend Zeit für Fragen und Wünsche bleibt. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
 
 * Geburtsvorbereitende Möglichkeiten
 * Anzeichen der Geburt
