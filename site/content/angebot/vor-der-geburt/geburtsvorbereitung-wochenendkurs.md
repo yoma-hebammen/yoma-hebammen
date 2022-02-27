@@ -1,5 +1,5 @@
 +++
-costs = "CHF 370"
+costs = "CHF 370\n(Die Krankenkasse übernimmt einen Teil der Kosten)"
 duration = "2 Einheiten à 3 Stunden"
 language = "Deutsch"
 location = "8400 Winterthur"
