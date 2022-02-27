@@ -4,7 +4,7 @@ image: https://yoma-hebammen.ch/upload/2022/02/teamfoto.jpg
 image_description: ''
 
 ---
-Wir sind zwei aufgestellte Frauen, welche beide ein riesiges Herz für werdende junge Familien haben.
+Wir sind zwei aufgestellte Frauen aus Winterthur, welche beide ein riesiges Herz für werdende junge Familien haben.
 
 Kennengelernt haben wir uns im Spital Zollikerberg in der Gebärabteilung, wo wir beide teilzeit arbeiten. Dort betreuen wir Frauen in der Schwangerschaft, während der Geburt und in den ersten paar Stunden des Wochenbetts. Das Wunder der Geburt ist jedes Mal aufs Neue eine Bereicherung für uns beide.
 
