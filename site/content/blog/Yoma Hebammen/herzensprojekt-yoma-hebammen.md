@@ -21,4 +21,4 @@ Viel Spass beim Durchstöbern der Website. Wir freuen uns auf eure Rückmeldunge
 
 Herzlichst, Steffi und Kim
 
-![](https://yoma-hebammen.ch/upload/2022/02/lhp-ks-14.jpg)
+![](https://yoma-hebammen.ch/upload/2022/02/lhp-ks-14.jpg =x400)
