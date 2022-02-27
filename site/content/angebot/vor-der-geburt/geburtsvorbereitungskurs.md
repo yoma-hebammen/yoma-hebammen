@@ -1,5 +1,5 @@
 ---
-title: Private Geburtsvorbereitung
+title: Geburtsvorbereitung Privatkurs
 weight: 2
 costs: "100 CHF / Stunde. \nEin Kurs dauert je nach Bedürfnis circa 3 Stunden. \LDie
   Krankenkasse übernimmt einen Teil der Kosten."
