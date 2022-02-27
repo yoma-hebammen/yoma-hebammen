@@ -1,5 +1,5 @@
 +++
-costs = "100 CHF (wird teilweise von der Krankenkasse übernommen)"
+costs = "100 CHF. Das Gespräch wird teilweise von der Krankenkasse übernommen."
 duration = "Eine Stunde"
 language = "Deutsch oder Englisch"
 location = ""
