@@ -30,7 +30,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: Dauer
@@ -41,14 +41,14 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: markdown
   label: Zeitpunkt
 - name: costs
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: Kosten
@@ -57,7 +57,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   showOnly:
@@ -68,7 +68,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: Einsatzgebiet
@@ -83,7 +83,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: Ort
