@@ -5,13 +5,13 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-kim.jpg
 portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 
 ---
-**Ausbildung und Berufserfahrung als Hebamme:**
+**Ausbildung und Berufserfahrung**
 
 * Seit 2020 Freiberufliche Hebamme
 * Seit 2018 Hebamme in der Gebärabteilung Spital Zollikerberg
 * 2014-2018 Ausbildung zur Hebamme BSc
 
-**Weiterbildungen:**
+**Weiterbildungen**
 
 * 2021 Yoga Teacher (RYT200h)
 * 2021 Start4Neo am Spital Zollikerberg
@@ -21,6 +21,6 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 * 2019 BLS AED
 * 2018 HebiTaping- Taping für Schwangerschaft und Wochenbett
 
-**Mitglied bei:**
+**Mitglied bei**
 
 * [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https://www.hebamme.ch")
