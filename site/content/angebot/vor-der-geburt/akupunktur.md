@@ -1,17 +1,15 @@
 ---
 title: Akupunktur
 weight: 3
-costs: Die geburtsvorbereitende Akupunktur findet ab der 36. Schwangerschaftswoche
-  1x wöchentlich bei dir zu Hause statt. Eine Behandlung dauert ca. 40 min und kostet
-  60 CHF. Die Kosten der Akupunktur durch die Hebamme werden meist nicht von der Krankenkasse
-  übernommen.
+costs: Eine Behandlung dauert ca. 40 min und kostet 60 CHF. Die Kosten der Akupunktur
+  durch die Hebamme werden meist nicht von der Krankenkasse übernommen.
 location: ''
 on_call_toggle: false
 on_call_costs: ''
 language: Deutsch oder Englisch
 titlecolor: "#B4C5C6"
 duration: ''
-timing: ''
+timing: Ab der 36. Schwangerschaftswuche 1x wöchentlich bei dir zu Hause.
 location_area: Winterthur und nahe Umgebung
 
 ---
