@@ -8,11 +8,11 @@ thumbnail = ""
 title = "Herzensprojekt Yoma Hebammen"
 
 +++
-Es ist endliche soweit! Wir Yoma Hebammen sind online!
+Es ist endlich soweit! Wir Yoma Hebammen sind online!
 
 Wir können es kaum glauben, denn der Hebammenalltag ist wie immer voll und irgendwie stecken wir auch schon mitten in unserem Herzensprojekt drin.
 
-Neben unseren (manchmal verrücketen) Tagen im Spital - Frühdienst, Nachdienst, Spätdient und dann erneut alles von vorne - bereiten wir Paare auf ihre baldigen Geburten vor, besuchen Familien im Wochenbett und sind fleissig daran, Vorgespräche für die kommenden Wochenbetten durchzuführen. Auch planen wir bereits Geburtsvorbereitungskurse mit mehreren Paaren im Frühling. Wir haben einen wunderschönen kleinen Raum gefunden und freuen uns so sehr auf die Kurse. Die Hauptprobe in dem Raum hat bereits statt gefunden... nämlich mit einem Schwangerschaftsyoga mit Freundinnen. Nun sind auch unsere Visitenkarten gedruckt und bald düsen wir mit unserem Logo auf unseren Autos durch die Stadt. Und ab nächster Woche wird dann auch unsere Geschäftstelefon aufgeschaltet. 
+Neben unseren (manchmal verrücketen) Tagen im Spital - Frühdienst, Nachdienst, Spätdient und dann erneut alles von vorne - bereiten wir Paare auf ihre baldigen Geburten vor, besuchen Familien im Wochenbett und sind fleissig daran, Vorgespräche für die kommenden Wochenbetten durchzuführen. Auch planen wir bereits Geburtsvorbereitungskurse mit mehreren Paaren im Frühling. Wir haben einen wunderschönen kleinen Raum gefunden und freuen uns so sehr auf die Kurse. Die Hauptprobe in dem Raum hat bereits statt gefunden... nämlich mit einem Schwangerschaftsyoga mit Freundinnen. Nun sind auch unsere Visitenkarten gedruckt und bald düsen wir mit unserem Logo auf unseren Autos durch die Stadt. Und ab nächster Woche wird dann auch unsere Geschäftstelefon aufgeschaltet.
 
 Und jetzt machen wir uns bekannt! Diese wundervolle Website nach persönlichem Steffi-Kim-Gusto verdanken wir unseren Freunden Linda Walter (Gestaltung) und Jonathan Stahl (Programmierung). Die Monde haben wir selbst kreiert und gemalt, das design wurde viele Male verändert und die Farben angepasst. Und dann kam die Umsetzung... Auch beim Programmieren gab es Nachtschichten. Danke von Herzen euch beiden Joni und Linda!!
 
