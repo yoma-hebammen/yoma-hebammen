@@ -9,7 +9,7 @@ location: ''
 on_call_toggle: false
 on_call_costs: ''
 language: Deutsch oder Englisch
-titlecolor: "#90A5AF"
+titlecolor: "#B4C5C6"
 duration: ''
 timing: ''
 location_area: Winterthur und nahe Umgebung
