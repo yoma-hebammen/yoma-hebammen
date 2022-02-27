@@ -36,3 +36,5 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 * Behandlungen mit Taping, Akupunktur, Guasha
 
 Wir übernehmen auch kurzfristige Anfragen bei Betreuung von Familien mit Kindsverlust.
+
+**_Für Juni 2022 sind wir bereits ausgebucht!_**
