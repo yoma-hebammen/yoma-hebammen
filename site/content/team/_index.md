@@ -10,6 +10,7 @@ Kennengelernt haben wir uns im Spital Zollikerberg in der Gebärabteilung, wo wi
 
 In unserer selbständigen Arbeit sind wir als  
 **YOMA HEBAMMEN** unterwegs.  
-«Yoma» beudetet auf Kurdisch **«die Glücksbringende».**
+«Yoma» bedeutet **«die Glücksbringende».  
+**Der Mond ist ein Symbol für das Weibliche, die Rundungen und die Fruchtbarkeit. Seine Phasen stehen auch für den Neuanfang, die Veränderung, die Reife und die Vergänglichkeit. 
 
 Wir begleiten als freiberufliche Hebammen Familien zu Hause im Wochenbett in und um Winterthur. Diese sensible Arbeit ermöglicht uns Familien in ihrem Zusammenwachsen zu unterstützen. Wir freuen uns, als Hebammen zu eurem Glück beitragen zu können.
