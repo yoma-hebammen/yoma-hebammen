@@ -5,7 +5,7 @@ draft = true
 summary = ""
 tags = []
 thumbnail = ""
-title = "Herzensprojekt Yoma Hebammen"
+title = "Herzensprojekt YOMA HEBAMMEN"
 
 +++
 Es ist endlich soweit! Wir Yoma Hebammen sind online!
@@ -21,3 +21,5 @@ Einige von euch haben die Website, als sie noch im Aufbau war, vielleicht schon 
 Viel Spass beim Durchstöbern der Website. Wir freuen uns auf eure Rückmeldungen, Feedbacks, Anfragen und Anmeldungen!
 
 Herzlichst, Steffi und Kim
+
+![](https://yoma-hebammen.ch/upload/2022/02/lhp-ks-14.jpg)
