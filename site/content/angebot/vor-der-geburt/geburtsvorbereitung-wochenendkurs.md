@@ -1,5 +1,5 @@
 +++
-costs = "370"
+costs = "CHF 370"
 draft = true
 duration = "2 Einheiten à 3 Stunden"
 language = "Deutsch"
@@ -8,7 +8,7 @@ location_area = ""
 on_call_costs = ""
 timing = "Sa, 19.03.22, 14.00 - 17.00 Uhr\nSo, 20.03.22, 10.00-13.00 Uhr"
 title = "Geburtsvorbereitung Wochenendkurs"
-titlecolor = ""
+titlecolor = "#8F8888"
 weight = 3
 
 +++
