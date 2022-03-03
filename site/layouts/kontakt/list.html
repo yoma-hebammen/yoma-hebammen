@@ -1,25 +1,44 @@
 {{ define "main" }}
 
 <section id="contact">
-  <picture class="contact-image">
-    <source
-      media="(max-width: 960px)"
-      srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
-              {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x"
-    />
-    <source
-      srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300, 
-              {{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x"
-    />
-    <img
-      src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1300"
-      alt="Kim und Stefanie - Teamfoto"
-      loading="lazy"
-    />
-  </picture>
-    <div class="content">
-        {{ .Content }}
+	<picture class="contact-image">
+		<source
+			media="(max-width: 960px)"
+			srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
+							{{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x"
+		/>
+		<source
+			srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300,
+							{{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x"
+		/>
+		<img
+			src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1300"
+			alt="Kim und Stefanie - Teamfoto"
+			loading="lazy"
+		/>
+	</picture>
+		<div class="content">
+				{{ .Content }}
+
     </div>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+<label><input type="radio" name="radio"> Select me</label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
 </section>
 
 {{ end }}
