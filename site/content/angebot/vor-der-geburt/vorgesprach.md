@@ -1,5 +1,5 @@
 +++
-costs = "100 CHF. Das Gespräch wird teilweise von der Krankenkasse übernommen."
+costs = "Das Gespräch wird als Schwangerschaftskontrolle abgerechnet und wird meist von der Krankenkasse übernommen."
 duration = "Eine Stunde"
 language = "Deutsch oder Englisch"
 location = ""
