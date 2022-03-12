@@ -66,7 +66,7 @@
             style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );"
           >
             <a
-              href="mailto:yoma@hebamme-hin.ch?subject=Anfrage: {{.Params.title}}"
+              href='{{ "/kontakt/" | relURL }}'
               >Anfrage</a
             >
           </div>

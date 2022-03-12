@@ -56,7 +56,7 @@
             class="contact-image"
             style="background-image: url( '{{ .Params.color_image | safeURL }}?nf_resize=fit&w=160' );"
           >
-            <a href="mailto:yoma@hebamme-hin.ch?subject=Kontaktanfrage"
+            <a href='{{ "/kontakt/" | relURL }}'
               >Kontakt</a
             >
           </div>
