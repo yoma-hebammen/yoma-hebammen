@@ -1,43 +1,62 @@
 {{ define "main" }}
 
 <section id="contact">
-	<picture class="contact-image">
-		<source
-			media="(max-width: 960px)"
-			srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
-							{{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x"
-		/>
-		<source
-			srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300,
-							{{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x"
-		/>
-		<img
-			src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1300"
-			alt="Kim und Stefanie - Teamfoto"
-			loading="lazy"
-		/>
-	</picture>
-		<div class="content">
-				{{ .Content }}
-
-    </div>
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-<label><input type="radio" name="radio"> Select me</label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+  <picture class="contact-image">
+    <source media="(max-width: 960px)" srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
+              {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x" />
+    <source srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300,
+              {{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x" />
+    <img src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1300" alt="Kim und Stefanie - Teamfoto"
+      loading="lazy" />
+  </picture>
+  <div class="content">
+    <form name="contact" method="POST" data-netlify="true">
+      <h2 class="form-subtitle">Ich melde mich bezüglich...</h2>
+      <div class="form-group radio-group">
+        <label><input type="radio" name="radio-reason" checked required><span>Geburtsvorbereitungskurs</span></label>
+        <label><input type="radio" name="radio-reason" required><span>Wochenbettbetreuung</span></label>
+        <label><input type="radio" name="radio-reason" required><span>Fragen, Anliegen und Rückmeldungen</span></label>
+      </div>
+      <h2 class="form-subtitle">Bei...</h2>
+      <div class="form-group radio-group">
+        <label><input type="radio" name="radio-contact" checked required><span>Yoma Hebammen</span></label>
+        <label><input type="radio" name="radio-contact" required><span>Stefanie Jones</span></label>
+        <label><input type="radio" name="radio-contact" required><span>Kim Heiniger</span></label>
+      </div>
+      <h2 class="form-subtitle">Kontaktdaten</h2>
+      <div class="form-group contact-data">
+        <div class="form-row">
+          <label for="input-name">Vorname</label>
+          <input id="input-name" type="text" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="input-lastname">Name</label>
+          <input id="input-lastname" type="text" name="lastname" required>
+        </div>
+        <div class="form-row">
+          <label for="input-address">Adresse</label>
+          <input id="input-address" type="text" name="address" required>
+        </div>
+        <div class="form-row">
+          <label for="input-email">Email</label>
+          <input id="input-email" type="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="input-phone">Telefon</label>
+          <input id="input-phone" type="tel" name="phone" required>
+        </div>
+        <div class="form-row">
+          <label for="input-birthdate">Errechneter Geburtstermin</label>
+          <input id="input-birthdate" type="date" name="birthdate" required>
+        </div>
+      </div>
+      <h2 class="form-subtitle">Nachricht</h2>
+      <div class="form-group">
+        <textarea placeholder="Schreib uns was..." name="message"></textarea>
+      </div>
+      <button type="submit">Senden</button>
+    </form>
+  </div>
 
 </section>
 

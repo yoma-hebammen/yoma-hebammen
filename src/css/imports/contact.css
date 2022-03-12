@@ -1,4 +1,4 @@
-#contact  {
+#contact {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,7 +16,146 @@
     object-fit: contain;
 }
 
-#contact a {
-    color: var(--text-color);
-    font-weight: bold;
+#contact .form-group {
+    margin-bottom: 75px;
+}
+
+#contact .form-subtitle {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+}
+
+#contact input {
+    font-family: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    font-style: italic;
+}
+
+#contact textarea {
+    font-family: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    font-style: italic;
+    height: 320px;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.5s;
+    padding: 30px;
+    box-sizing: border-box;
+    resize: none;
+    margin: 0;
+}
+
+#contact textarea:focus {
+    border: 2px solid black;
+}
+
+#contact .radio-group input {
+    display: none;
+}
+
+#contact .radio-group label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#contact .radio-group label span {
+    position: relative;
+}
+
+#contact .radio-group label span:before {
+    border: 1px solid #222021;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+#contact .radio-group label span:after {
+    background: #222021;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    transition: 300ms;
+    opacity: 0;
+}
+
+#contact .radio-group label input:checked+span:after {
+    opacity: 1;
+}
+
+#contact .radio-group label span:before,
+label span:after {
+    content: '';
+}
+
+#contact .contact-data {
+    position: relative;
+}
+
+#contact .contact-data {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact .form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact .form-row>label {
+    flex: 1;
+}
+
+#contact .form-row>input {
+    border: none;
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+    outline: none;
+    flex: 2;
+}
+
+#contact .form-row>input:focus {
+    border-bottom: 2px solid black;
+}
+
+#contact .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact button {
+    background: none;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    height: 60px;
+    width: 215px;
+    margin-bottom: 75px;
+}
+
+#contact button:hover {
+    cursor: pointer;
+}
+
+#contact button:active {
+    border: 4px solid black;
+}
+
+@media screen and (max-width: 960px), print {
+    #contact .radio-group label span:after {
+        top: 2.5px;
+    }
+
+    #contact .form-group {
+        margin-bottom: 50px;
+    }
 }
