@@ -10,49 +10,49 @@
       loading="lazy" />
   </picture>
   <div class="content">
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="Kontaktformular" method="POST" data-netlify="true">
       <h2 class="form-subtitle">Ich melde mich bezüglich...</h2>
       <div class="form-group radio-group">
-        <label><input type="radio" name="radio-reason" checked required><span>Geburtsvorbereitungskurs</span></label>
-        <label><input type="radio" name="radio-reason" required><span>Wochenbettbetreuung</span></label>
-        <label><input type="radio" name="radio-reason" required><span>Fragen, Anliegen und Rückmeldungen</span></label>
+        <label><input type="radio" name="Betreff" value="Geburtsvorbereitungskurs" checked required><span>Geburtsvorbereitungskurs</span></label>
+        <label><input type="radio" name="Betreff" value="Wochenbettbetreuung" required><span>Wochenbettbetreuung</span></label>
+        <label><input type="radio" name="Betreff" value="Fragen, Anliegen und Rückmeldungen" required><span>Fragen, Anliegen und Rückmeldungen</span></label>
       </div>
       <h2 class="form-subtitle">Bei...</h2>
       <div class="form-group radio-group">
-        <label><input type="radio" name="radio-contact" checked required><span>Yoma Hebammen</span></label>
-        <label><input type="radio" name="radio-contact" required><span>Stefanie Jones</span></label>
-        <label><input type="radio" name="radio-contact" required><span>Kim Heiniger</span></label>
+        <label><input type="radio" name="Empfänger" value="Yoma Hebammen" checked required><span>Yoma Hebammen</span></label>
+        <label><input type="radio" name="Empfänger" value="Stefanie Jones" required><span>Stefanie Jones</span></label>
+        <label><input type="radio" name="Empfänger" value="Kim Heiniger" required><span>Kim Heiniger</span></label>
       </div>
       <h2 class="form-subtitle">Kontaktdaten</h2>
       <div class="form-group contact-data">
         <div class="form-row">
           <label for="input-name">Vorname</label>
-          <input id="input-name" type="text" name="name" required>
+          <input id="input-name" type="text" name="Vorname" required>
         </div>
         <div class="form-row">
           <label for="input-lastname">Name</label>
-          <input id="input-lastname" type="text" name="lastname" required>
+          <input id="input-lastname" type="text" name="Nachname" required>
         </div>
         <div class="form-row">
           <label for="input-address">Adresse</label>
-          <input id="input-address" type="text" name="address" required>
+          <input id="input-address" type="text" name="Adresse" required>
         </div>
         <div class="form-row">
           <label for="input-email">Email</label>
-          <input id="input-email" type="email" name="email" required>
+          <input id="input-email" type="email" name="Email" required>
         </div>
         <div class="form-row">
           <label for="input-phone">Telefon</label>
-          <input id="input-phone" type="tel" name="phone" required>
+          <input id="input-phone" type="tel" name="Telefon" required>
         </div>
         <div class="form-row">
           <label for="input-birthdate">Errechneter Geburtstermin</label>
-          <input id="input-birthdate" type="date" name="birthdate" required>
+          <input id="input-birthdate" type="date" name="Errechneter Geburtstermin" required>
         </div>
       </div>
       <h2 class="form-subtitle">Nachricht</h2>
       <div class="form-group">
-        <textarea placeholder="Schreib uns was..." name="message"></textarea>
+        <textarea placeholder="Schreib uns was..." name="Nachricht"></textarea>
       </div>
       <button type="submit">Senden</button>
     </form>
