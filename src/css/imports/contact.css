@@ -49,6 +49,19 @@
     margin: 0;
 }
 
+#contact textarea,
+input.text,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 #contact textarea:focus {
     border: 2px solid black;
 }
