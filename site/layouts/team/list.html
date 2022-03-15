@@ -56,9 +56,9 @@
             class="contact-image"
             style="background-image: url( '{{ .Params.color_image | safeURL }}?nf_resize=fit&w=160' );"
           >
-            <a href='{{ "/kontakt/" | relURL }}'
-              >Kontakt</a
-            >
+            {{ $contactPath := "/kontakt?bei=" }}
+            {{ $contactPath = printf "%s%s" $contactPath .Params.name }}
+            <a href='{{ $contactPath | relURL }}'>Kontakt</a>
           </div>
         </div>
         <div class="member-text">

@@ -66,6 +66,11 @@ input[type="submit"],
     border: 2px solid black;
 }
 
+#contact .radio-group-subtitle {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 #contact .radio-group input {
     display: none;
 }

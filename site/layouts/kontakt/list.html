@@ -12,16 +12,29 @@
   <div class="content">
     <form name="Kontaktformular" method="POST" data-netlify="true">
       <h2 class="form-subtitle">Ich melde mich bezüglich...</h2>
-      <div class="form-group radio-group">
-        <label><input type="radio" name="Betreff" value="Geburtsvorbereitungskurs" checked required><span>Geburtsvorbereitungskurs</span></label>
-        <label><input type="radio" name="Betreff" value="Wochenbettbetreuung" required><span>Wochenbettbetreuung</span></label>
-        <label><input type="radio" name="Betreff" value="Fragen, Anliegen und Rückmeldungen" required><span>Fragen, Anliegen und Rückmeldungen</span></label>
+      <div id="contact-form-subject" class="form-group radio-group">
+        {{ range .Site.Sections }}
+        {{ if eq .Name "Angebot" }}
+        {{ range .Sections}}
+        <span class="radio-group-subtitle">{{ .Title }}</span>
+        {{ range .Pages }}
+        <label><input id="radio-button-{{ .Title }}" type="radio" name="Betreff" value="{{.Title}}"
+            required><span>{{.Title}}</span></label>
+        {{ end }}
+        {{ end }}
+        {{ end}}
+        {{ end }}
+        <span class="radio-group-subtitle">Sonstiges</span>
+        <label><input type="radio" name="Betreff" value="Fragen, Anliegen und Rückmeldungen" checked
+            required><span>Fragen,
+            Anliegen und Rückmeldungen</span></label>
       </div>
       <h2 class="form-subtitle">Bei...</h2>
       <div class="form-group radio-group">
-        <label><input type="radio" name="Empfänger" value="Yoma Hebammen" checked required><span>Yoma Hebammen</span></label>
-        <label><input type="radio" name="Empfänger" value="Stefanie Jones" required><span>Stefanie Jones</span></label>
-        <label><input type="radio" name="Empfänger" value="Kim Heiniger" required><span>Kim Heiniger</span></label>
+        <label><input type="radio" name="Empfänger" value="Yoma Hebammen" checked required><span>Yoma
+            Hebammen</span></label>
+        <label><input id="radio-button-Stefanie Jones" type="radio" name="Empfänger" value="Stefanie Jones" required><span>Stefanie Jones</span></label>
+        <label><input id="radio-button-Kim Heiniger" type="radio" name="Empfänger" value="Kim Heiniger" required><span>Kim Heiniger</span></label>
       </div>
       <h2 class="form-subtitle">Kontaktdaten</h2>
       <div class="form-group contact-data">
@@ -57,6 +70,25 @@
       <button type="submit">Senden</button>
     </form>
   </div>
+
+  <script>
+    const preFillRadioButtonGroup = (group) => {
+      const params = window.location.search;
+      if (!params) {
+        return;
+      }
+      const urlParams = new URLSearchParams(params);
+      const param = urlParams.get(group);
+      if (!param) {
+        return;
+      }
+      const radioButtonId = "radio-button-" + param;
+      const radioButton = document.getElementById(radioButtonId);
+      radioButton.checked = true;
+    };
+    preFillRadioButtonGroup("angebot");
+    preFillRadioButtonGroup("bei");
+  </script>
 
 </section>
 

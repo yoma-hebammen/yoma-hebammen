@@ -7,12 +7,9 @@
     <div class="menu-card">
       <a href="{{ .URL }}">
         <figure class="offer-image">
-          <img
-            src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
-            srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x"
-            alt="{{ .Params.title }}"
-            loading="lazy"
-          />
+          <img src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
+            srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x" alt="{{ .Params.title }}"
+            loading="lazy" />
         </figure>
         <div class="menu-card-front">
           <span>{{ .Params.title }}</span>
@@ -37,38 +34,24 @@
     <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
       <div class="offer-category-image-container">
         <picture class="offer-category-image">
-          <source
-            media="(max-width: 960px)"
-            srcset="{{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=350,
-                  {{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=700 2x"
-          />
-          <source
-            srcset="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1000 1000w, 
-                  {{ .Params.image_category | safeURL }}?nf_resize=fit&w=1400 1400w"
-          />
-          <img
-            src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=800"
-            alt="{{ $categoryTitle }}"
-            loading="lazy"
-          />
+          <source media="(max-width: 960px)" srcset="{{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=350,
+                  {{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=700 2x" />
+          <source srcset="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1000 1000w, 
+                  {{ .Params.image_category | safeURL }}?nf_resize=fit&w=1400 1400w" />
+          <img src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=800" alt="{{ $categoryTitle }}"
+            loading="lazy" />
         </picture>
         <div class="offer-category-title">{{ $categoryTitle }}</div>
       </div>
       {{ range .Pages}}
       <div id="offer-item-{{ .Params.title }}" class="offer-item">
-        <div
-          class="offer-title"
-          style="background-color: {{ .Params.titlecolor }}"
-        >
+        <div class="offer-title" style="background-color: {{ .Params.titlecolor }}">
           <span>{{ .Params.title }}</span>
-          <div
-            class="contact-image"
-            style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );"
-          >
-            <a
-              href='{{ "/kontakt/" | relURL }}'
-              >Anfrage</a
-            >
+          <div class="contact-image"
+            style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );">
+            {{ $offerPath := "/kontakt?angebot=" }}
+            {{ $offerPath = printf "%s%s" $offerPath .Params.title }}
+            <a href='{{ $offerPath | relURL }}'>Anfrage</a>
           </div>
         </div>
         <div class="content">
