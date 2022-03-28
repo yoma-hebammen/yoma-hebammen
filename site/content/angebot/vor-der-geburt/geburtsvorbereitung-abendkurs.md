@@ -13,7 +13,7 @@ weight = 4
 +++
 **_Noch ein Platz verfügbar!_**
 
-Der optimale Zeitpunkt für diesen Kurs ist ca. 28.-35. Schwangerschaftswoche. Wir sind eine kleine Gruppe von max. 4 Paaren, sodass genügend Zeit für Fragen und Wünsche bleibt. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
+Der optimale Zeitpunkt für diesen Kurs ist ca. 28.-35. Schwangerschaftswoche. Wir sind eine kleine Gruppe von max. 4 Paaren, sodass genügend Zeit für Fragen bleibt. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
 
 * Geburtsvorbereitende Möglichkeiten
 * Anzeichen der Geburt
