@@ -1,11 +1,11 @@
 +++
-costs = "CHF 370. Die Krankenkasse übernimmt einen Teil der Kosten."
+costs = "CHF 370.   \nDie Krankenkasse übernimmt einen Teil der Kosten."
 duration = "2 Einheiten à 3 Stunden"
 language = "Deutsch"
 location = "8400 Winterthur"
 location_area = ""
 on_call_costs = ""
-timing = "**Mai Kurs**  \nSa, 07.05.22, 10.00 - 13.00 Uhr\n\nSo, 08.05.22, 10.00 - 13.00 Uhr\n\n**Juni Kurs**\n\nFr, 10.06.22, am Abend\n\nSa, 11.06.22, am Vormittag"
+timing = "**Mai Kurs**  \nSa, 07.05.22, 10.00 - 13.00 Uhr  \nSo, 08.05.22, 10.00 - 13.00 Uhr\n\n**Juni Kurs  \n**Fr, 10.06.22, am Abend  \nSa, 11.06.22, am Vormittag"
 title = "Geburtsvorbereitung Wochenendkurs"
 titlecolor = "#AEBBC1"
 weight = 3
