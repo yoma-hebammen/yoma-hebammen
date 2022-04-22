@@ -12,4 +12,4 @@ timing: ''
 location_area: ''
 
 ---
-Ein Kurs für Yoga in der Schwangerschaft befindet sich im Aufbau. Bei Interesse darfst du dich gerne bei Kim melden.
+Momentan findet kein Kurs statt. Bei Interesse darfst du dich jedoch direkt bei Kim melden. 
