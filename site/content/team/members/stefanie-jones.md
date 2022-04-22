@@ -13,6 +13,7 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
 
 **Weiterbildungen**
 
+* 2022 Grundlagen der Babymassage
 * 2021 Akupunktur für Hebammen am Zhong Institut
 * 2020 Basiskurs: Professionelle Familienbegleitung beim frühen Tod ihres Kindes
 * 2020 Start4Neo am Spital Zollikerberg
