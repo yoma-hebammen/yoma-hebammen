@@ -1,0 +1,9 @@
+#datenschutz .content {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 960px), print {
+  #datenschutz {
+    margin-top: 5rem;
+  }
+}
