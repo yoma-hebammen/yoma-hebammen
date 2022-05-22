@@ -173,6 +173,10 @@ label span:after {
     margin-top: 20px;
 }
 
+#contact a {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 960px), print {
     #contact .radio-group label span:after {
         top: 2.5px;
@@ -184,5 +188,6 @@ label span:after {
 
     #contact button {
         margin-bottom: 50px;
+        width: 100%;
     }
 }
