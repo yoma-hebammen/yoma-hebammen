@@ -12,4 +12,6 @@ timing: ''
 location_area: ''
 
 ---
-Momentan findet kein Kurs statt. Bei Interesse darfst du dich jedoch direkt bei Kim melden. 
+Momentan findet kein internes Yoga statt. Wir arbeiten jedoch mit dem Yogastudio "Yogamoves" zusammen: [https://www.yoga-moves.ch](https://www.yoga-moves.ch "https://www.yoga-moves.ch")
+
+Bei Interesse darfst du dich bei Kim oder aber auch direkt dort melden.
