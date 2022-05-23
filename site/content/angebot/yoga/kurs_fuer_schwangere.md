@@ -14,6 +14,6 @@ location_area: ''
 ---
 Momentan findet kein internes Yoga statt. Wir arbeiten jedoch mit dem Yogastudio "[**Yogamoves**](https://www.yoga-moves.ch "Yogamoves")" in Winterthur zusammen.
 
-[www.yoga-moves.ch]( "Yogamoves")
+[www.yoga-moves.ch](https://www.yoga-moves.ch "Yogamoves")
 
 Bei Interesse darfst du dich bei Kim oder aber auch direkt dort melden.
