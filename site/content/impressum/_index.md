@@ -1,6 +1,6 @@
 ---
 title: Impressum
-image: https://yoma-hebammen.ch/upload/2022/05/impressum-image.jpg
+image: https://yoma-hebammen.ch/upload/2022/05/impressum-image-1.jpg
 quote: "The moon danced \Lwith the stars on the night you \Lwere born."
 
 ---
