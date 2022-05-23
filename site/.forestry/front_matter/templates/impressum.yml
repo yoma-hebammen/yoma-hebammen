@@ -10,3 +10,5 @@ fields:
   config:
     maxSize: 64
   label: Bild
+pages:
+- site/content/impressum/_index.md

@@ -1,5 +1,6 @@
 ---
 title: Impressum
+image: https://yoma-hebammen.ch/upload/2022/05/impressum-image.jpg
 
 ---
 **Inhaberinnen**\
