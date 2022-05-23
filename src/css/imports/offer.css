@@ -251,7 +251,6 @@
   #offer .offer-description {
     width: 100%;
     margin: 0;
-    margin-top: 1.6rem;
   }
 
   #offer .offer-infos {
@@ -259,15 +258,15 @@
     margin: 0;
   }
 
-#offer .contact-image {
-  height: 70px;
-  width: 70px;
-  background-size: 70px 70px;
-  right: 15px;
-  top: 75px;
-}
+  #offer .contact-image {
+    height: 70px;
+    width: 70px;
+    background-size: 70px 70px;
+    right: 15px;
+    top: 50px;
+  }
 
-#offer .contact-image a {
-  font-size: 0.5rem;
-}
+  #offer .contact-image a {
+    font-size: 0.5rem;
+  }
 }
