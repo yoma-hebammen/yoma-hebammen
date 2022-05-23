@@ -10,7 +10,7 @@ fields:
   config:
     maxSize: 64
   label: Bild
-- name: text
+- name: quote
   type: textarea
   default: ''
   config:
@@ -18,6 +18,6 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: text
+  label: Zitat
 pages:
 - site/content/impressum/_index.md
