@@ -62,22 +62,14 @@
           <label for="input-birthdate">Errechneter Geburtstermin</label>
           <input id="input-birthdate" type="date" name="Errechneter Geburtstermin">
         </div>
+        <div class="form-row">
+          <span class="form-info">* = benötigte Angaben</span>
+        </div>
       </div>
       <h2 class="form-subtitle">Nachricht</h2>
       <div class="form-group">
         <textarea placeholder="Schreib uns was..." name="Nachricht"></textarea>
-      </div>
-      <h2 class="form-subtitle">Datenschutz</h2>
-      <div class="form-group radio-group">
-        <div class="form-row">
-          <label>
-            <input type="checkbox" name="Datenschutz" value="Einverstanden" required>
-            <span>Ich erkläre mich hiermit einverstanden, dass Yoma Hebammen die oben eingetragenen Personendaten gemäss <a href='{{ "/datenschutz/" | relURL }}' target="_blank">Datenschutzbestimmung</a> verarbeiten darf, um meine Anfrage zu beantworten bzw. meinen Auftrag zu bearbeiten.*</span>
-          </label>
-        </div>
-        <div class="form-row">
-          <span class="form-info">* = benötigte Angaben</span>
-        </div>
+
       </div>
       <button type="submit">Senden</button>
     </form>

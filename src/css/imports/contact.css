@@ -171,6 +171,8 @@ label span:after {
 
 #contact .form-info {
     margin-top: 20px;
+    width: 100%;
+    text-align: right;
 }
 
 #contact a {
