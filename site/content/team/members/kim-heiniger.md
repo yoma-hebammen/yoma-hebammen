@@ -13,7 +13,7 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 
 **Weiterbildungen**
 
-* 2022 Pre- and Postnatal Yoga (in Ausbildung)
+* 2022 Pre- and Postnatal Yoga
 * 2022 Grundlagen der Babymassage
 * 2021 Yoga Teacher (RYT200h)
 * 2021 Start4Neo am Spital Zollikerberg
