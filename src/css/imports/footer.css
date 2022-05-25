@@ -15,11 +15,18 @@
 
 #footer a {
   letter-spacing: 0.3em;
+  margin-right: -0.3em; /*Removes space after last letter*/
+  margin-left: -0.05em; /*Removes space before first letter*/
   font-weight: bold;
   text-transform: uppercase;
 }
 
-#footer span {
+#footer .footer-separator {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#footer .footer-copyright {
   margin-left: 1em;
   font-weight: 500;
   letter-spacing: 0.1em;
