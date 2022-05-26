@@ -1,36 +1,51 @@
+#impressum {
+  display: flex;
+  flex-direction: row;
+}
+
 #impressum .content {
   width: 50%;
-  padding-left: 3rem;
   margin-top: 0;
 }
 
 #impressum .moon-container {
   display: flex;
   flex-direction: row;
-  height: 600px;
   margin-top: 100px;
 }
 
 #impressum .moon {
   position: absolute;
-  left: 0;
+  right: 0;
+  transform: scaleX(-1);
 }
 
 #impressum .quote {
   font-size: 1.2rem;
   margin: auto;
-  margin-left: 420px;
+  margin-right: 400px;
   margin-top: 200px;
-  max-width: 270px;
+  max-width: 350px;
   font-weight: 700;
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1200px), print {
+
+  #impressum .quote {
+    margin-right: 300px;
+  }
+
+}
+
 @media screen and (max-width: 960px), print {
+  #impressum {
+    flex-direction: column;
+  }
+
   #impressum .content {
     width: 100%;
-    padding-left: 0;
     margin-top: 0;
   }
 
@@ -42,6 +57,12 @@
     flex-direction: column;
     height: 600px;
     margin-top: 100px;
+  }
+
+  #impressum .moon {
+    left: 0;
+    right: auto;
+    transform: none;
   }
 
   #impressum .quote {

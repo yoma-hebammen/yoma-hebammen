@@ -10,6 +10,11 @@
                 {{ .Params.image | safeURL }}?nf_resize=fit&w=600 2x"
       />
       <source
+        media="(max-width: 1200px)"
+        srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
+                {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x"
+      />
+      <source
         srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=450, 
                 {{ .Params.image | safeURL }}?nf_resize=fit&w=900 2x"
       />
