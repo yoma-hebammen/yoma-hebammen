@@ -125,10 +125,10 @@
 }
 
 #team .flip-card-back {
-  transform: rotateY(180deg) translateZ(1px);
-  -webkit-transform:rotateY(180deg) translateZ(1px);
-  -moz-transform:rotateY(180deg) translateZ(1px);
-  -o-transform:rotateY(180deg) translateZ(1px);
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 #team .contact-image {
