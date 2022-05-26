@@ -126,7 +126,9 @@
 
 #team .flip-card-back {
   transform: rotateY(180deg) translateZ(1px);
-  animation: none;
+  -webkit-transform:rotateY(180deg) translateZ(1px);
+  -moz-transform:rotateY(180deg) translateZ(1px);
+  -o-transform:rotateY(180deg) translateZ(1px);
 }
 
 #team .contact-image {
@@ -151,6 +153,7 @@
   text-transform: uppercase;
   color: white;
   text-align: center;
+  text-decoration: none;
 }
 
 #team .member-text {
