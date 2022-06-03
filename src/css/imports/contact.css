@@ -229,4 +229,8 @@ label span:after {
         height: 300px;
         margin-bottom: 50px;
     }
+
+    #contact .leaflet-control-attribution {
+        font-size: 0.3rem;
+    }
 }
