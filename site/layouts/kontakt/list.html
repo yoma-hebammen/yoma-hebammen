@@ -119,7 +119,7 @@
   preFillRadioButtonGroup("bei");
 
   /* Setup Leaflet */
-  const map = L.map('map');
+  const map = L.map('map', { dragging: !L.Browser.mobile });
   L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
     minZoom: 0,
     maxZoom: 20,
