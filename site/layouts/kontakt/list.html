@@ -11,30 +11,41 @@
   </picture>
   <div class="content">
     <form name="Kontaktformular" method="POST" data-netlify="true">
-      <h2 class="form-subtitle">Ich melde mich bezüglich...</h2>
-      <div id="contact-form-subject" class="form-group radio-group">
-        {{ range .Site.Sections }}
-        {{ if eq .Name "Angebot" }}
-        {{ range .Sections}}
-        <span class="radio-group-subtitle">{{ .Title }}</span>
-        {{ range .Pages }}
-        <label><input id="radio-button-{{ .Title }}" type="radio" name="Betreff" value="{{.Title}}"
-            required><span>{{.Title}}</span></label>
-        {{ end }}
-        {{ end }}
-        {{ end}}
-        {{ end }}
-        <span class="radio-group-subtitle">Sonstiges</span>
-        <label><input type="radio" name="Betreff" value="Fragen, Anliegen und Rückmeldungen" checked
-            required><span>Fragen,
-            Anliegen und Rückmeldungen</span></label>
-      </div>
-      <h2 class="form-subtitle">Bei...</h2>
-      <div class="form-group radio-group">
-        <label><input type="radio" name="Empfänger" value="Yoma Hebammen" checked required><span>Yoma
-            Hebammen</span></label>
-        <label><input id="radio-button-Stefanie Jones" type="radio" name="Empfänger" value="Stefanie Jones" required><span>Stefanie Jones</span></label>
-        <label><input id="radio-button-Kim Heiniger" type="radio" name="Empfänger" value="Kim Heiniger" required><span>Kim Heiniger</span></label>
+      <div class="map-container">
+        <div class="column-container">
+          <div id="contact-form-subject" class="form-group radio-group">
+            <h2 class="form-subtitle">Ich melde mich bezüglich...</h2>
+            {{ range .Site.Sections }}
+            {{ if eq .Name "Angebot" }}
+            {{ range .Sections}}
+            <span class="radio-group-subtitle">{{ .Title }}</span>
+            {{ range .Pages }}
+            <label><input id="radio-button-{{ .Title }}" type="radio" name="Betreff" value="{{.Title}}"
+                required><span>{{.Title}}</span></label>
+            {{ end }}
+            <br>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            <span class="radio-group-subtitle">Sonstiges</span>
+            <label><input type="radio" name="Betreff" value="Fragen, Anliegen und Rückmeldungen" checked
+                required><span>Fragen,
+                Anliegen und Rückmeldungen</span></label>
+          </div>
+          <h2 class="form-subtitle">Bei...</h2>
+          <div class="form-group radio-group">
+            <label><input type="radio" name="Empfänger" value="Yoma Hebammen" checked required><span>Yoma
+                Hebammen</span></label>
+            <label><input id="radio-button-Stefanie Jones" type="radio" name="Empfänger" value="Stefanie Jones"
+                required><span>Stefanie Jones</span></label>
+            <label><input id="radio-button-Kim Heiniger" type="radio" name="Empfänger" value="Kim Heiniger"
+                required><span>Kim Heiniger</span></label>
+          </div>
+        </div>
+        <div class="column-container">
+          <h2 class="form-subtitle">Unser Einsatzgebiet</h2>
+          <div id="map"></div>
+        </div>
       </div>
       <h2 class="form-subtitle">Kontaktdaten</h2>
       <div class="form-group contact-data">
@@ -73,26 +84,68 @@
       <button type="submit">Senden</button>
     </form>
   </div>
-
-  <script>
-    const preFillRadioButtonGroup = (group) => {
-      const params = window.location.search;
-      if (!params) {
-        return;
-      }
-      const urlParams = new URLSearchParams(params);
-      const param = urlParams.get(group);
-      if (!param) {
-        return;
-      }
-      const radioButtonId = "radio-button-" + param;
-      const radioButton = document.getElementById(radioButtonId);
-      radioButton.checked = true;
-    };
-    preFillRadioButtonGroup("angebot");
-    preFillRadioButtonGroup("bei");
-  </script>
-
 </section>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+  integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+  crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+  integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+  crossorigin=""></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.css"
+  integrity="sha512-jgC7UUaraDNfHV+p1HP+uv4N4xyeIIJPiHC4VhSHoiRZxAcf51j9vhq5ExRyPWZyfjEcKwtxioV3oyhcWuknqQ=="
+  crossorigin="" />
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.js" charset="utf-8"
+  integrity="sha512-EUuoSG45fcDUjN1ewxDDO1BTCDYf2CUgXDAAWaz/vbz53vziljC5dNXK+UsBCKnpxLIJZn3hNS5S/kUVJZreFA=="
+  crossorigin=""></script>
+
+<script>
+  const preFillRadioButtonGroup = (group) => {
+    const params = window.location.search;
+    if (!params) {
+      return;
+    }
+    const urlParams = new URLSearchParams(params);
+    const param = urlParams.get(group);
+    if (!param) {
+      return;
+    }
+    const radioButtonId = "radio-button-" + param;
+    const radioButton = document.getElementById(radioButtonId);
+    radioButton.checked = true;
+  };
+
+  preFillRadioButtonGroup("angebot");
+  preFillRadioButtonGroup("bei");
+
+  /* Setup Leaflet */
+  const map = L.map('map');
+  L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+    minZoom: 0,
+    maxZoom: 20,
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+  }).addTo(map);
+
+  /* Add geolocate button */
+  L.control.locate({ keepCurrentZoomLevel: true }).addTo(map);
+
+  /* Fetch and add service area polygon */
+  fetch('{{ "/files/yoma-service-area.geojson" | relURL }}')
+    .then(response => {
+      return response.json();
+    })
+    .then(geojson => {
+      const serviceAreaLayer = L.geoJSON(geojson,
+        {
+          style: {
+            stroke: false,
+            color: '#1f658e',
+            fillOpacity: 0.5
+          }
+        }
+      ).addTo(map);
+      map.fitBounds(serviceAreaLayer.getBounds());
+    });
+</script>
 
 {{ end }}

@@ -17,7 +17,7 @@
 }
 
 #contact .form-group {
-    margin-bottom: 75px;
+    margin-bottom: 60px;
 }
 
 #contact .form-subtitle {
@@ -68,7 +68,6 @@ input[type="submit"],
 
 #contact .radio-group-subtitle {
     font-weight: bold;
-    margin-top: 10px;
 }
 
 #contact .radio-group input {
@@ -179,6 +178,31 @@ label span:after {
     text-decoration: underline;
 }
 
+#contact .map-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#contact #map {
+    width: 100%;
+    height: 350px;
+}
+
+#contact #map a {
+    text-decoration: none;
+}
+
+#contact .leaflet-control-attribution {
+    font-size: 0.6rem;
+}
+
+#contact .column-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 @media screen and (max-width: 960px), print {
     #contact .radio-group label span:after {
         top: 2.5px;
@@ -191,5 +215,18 @@ label span:after {
     #contact button {
         margin-bottom: 50px;
         width: 100%;
+    }
+
+    #contact .column-container {
+        width: 100%;
+    }
+
+    #contact .map-container {
+        flex-direction: column;
+    }
+
+    #contact #map {
+        height: 300px;
+        margin-bottom: 50px;
     }
 }
