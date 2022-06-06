@@ -130,7 +130,7 @@
   L.control.locate({ keepCurrentZoomLevel: true }).addTo(map);
 
   /* Fetch and add service area polygon */
-  fetch('{{ "/files/yoma-service-area.geojson" | relURL }}')
+  fetch('{{ "/files/yoma-service-area-10KM.geojson" | relURL }}')
     .then(response => {
       return response.json();
     })
