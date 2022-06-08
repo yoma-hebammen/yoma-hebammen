@@ -40,6 +40,10 @@ sections:
 - type: document
   path: site/content/impressum/_index.md
   label: Impressum
+- type: document
+  path: site/content/datenschutz/_index.md
+  label: Datenschutz
+  match: "**/*"
 upload_dir: site/static/upload
 public_path: https://yoma-hebammen.ch/upload
 front_matter_path: ''
