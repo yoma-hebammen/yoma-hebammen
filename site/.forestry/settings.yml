@@ -32,9 +32,11 @@ sections:
   exclude: _index.md
   templates:
   - blog-post
-- type: document
-  path: site/content/kontakt/_index.md
+- type: directory
+  path: site/content/kontakt
   label: Kontakt
+  create: all
+  match: "**/*"
 - type: document
   path: site/content/impressum/_index.md
   label: Impressum
