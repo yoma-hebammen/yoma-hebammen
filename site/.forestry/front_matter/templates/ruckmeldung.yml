@@ -1,4 +1,15 @@
 ---
 label: Rückmeldung
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: date
+  type: text
+  config:
+    required: false
+  label: Datum
+  description: Monat und Jahr
