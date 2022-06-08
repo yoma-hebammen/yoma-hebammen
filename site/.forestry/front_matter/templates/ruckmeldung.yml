@@ -19,5 +19,6 @@ fields:
     maxSize: 64
   label: Bild
 pages:
+- site/content/kontakt/Rückmeldungen/armanda-und-david-mit-astrid.md
 - site/content/kontakt/Rückmeldungen/mark-und-ornella-mit-raven.md
 - site/content/kontakt/Rückmeldungen/nadine-und-dani-mit-sven.md
