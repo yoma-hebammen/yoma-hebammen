@@ -13,5 +13,10 @@ fields:
     required: false
   label: Datum
   description: Monat und Jahr
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Bild
 pages:
 - site/content/kontakt/Rückmeldungen/mark-und-ornella-mit-raven.md
