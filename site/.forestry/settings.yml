@@ -37,6 +37,8 @@ sections:
   label: Kontakt
   create: all
   match: "**/*"
+  templates:
+  - ruckmeldung
 - type: document
   path: site/content/impressum/_index.md
   label: Impressum
