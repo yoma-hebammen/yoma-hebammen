@@ -1,7 +1,7 @@
 ---
 title: Akupunktur
 weight: 5
-costs: Eine Behandlung dauert ca. 40 min und kostet 60 CHF. Die Kosten der Akupunktur
+costs: Eine Behandlung dauert ca. 30 - 40 min und kostet 60 CHF. Die Kosten der Akupunktur
   durch die Hebamme werden meist nicht von der Krankenkasse übernommen.
 location: ''
 on_call_toggle: false
