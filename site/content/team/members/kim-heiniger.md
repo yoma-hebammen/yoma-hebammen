@@ -14,13 +14,13 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 **Weiterbildungen**
 
 * 2022 Pre- and Postnatal Yoga
+* 2022 BLS AED
 * 2022 Grundlagen der Babymassage
 * 2021 Yoga Teacher (RYT200h)
 * 2021 Start4Neo am Spital Zollikerberg
 * 2020 Akupunktur für Hebammen am Zhong Institut
 * 2019 Basiskurs: Professionelle Familienbegleitung  
   beim frühen Tod ihres Kindes
-* 2019 BLS AED
 * 2018 HebiTaping- Taping für Schwangerschaft und Wochenbett
 
 **Mitglied bei**
