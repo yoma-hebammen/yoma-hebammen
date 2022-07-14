@@ -37,4 +37,4 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 
 Wir übernehmen auch kurzfristige Anfragen bei Betreuung von Familien mit Kindsverlust.
 
-**_Leider sind wir bis Oktober 2022 für Wochenbettbetreuungen bereits ausgebucht! Gerne nehmen wir ab November 2022 wieder Betreuungen an._**
+**_Leider sind wir bis Ende 2022 komplett ausgelastet. Wir nehmen gerne wieder Wochenbettbetreuungen an mit errechnetem Geburtstermin ab Januar 2023._** 
