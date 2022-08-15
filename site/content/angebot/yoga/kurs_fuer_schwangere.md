@@ -1,5 +1,5 @@
 ---
-title: Kurs für Schwangere
+title: Yoga in der Schwangerschaft
 weight: 1
 costs: ''
 location: ''
@@ -12,7 +12,7 @@ timing: ''
 location_area: ''
 
 ---
-Momentan findet kein internes Yoga statt. Wir arbeiten jedoch mit dem Yogastudio "[**Yogamoves**](https://www.yoga-moves.ch "Yogamoves")" in Winterthur zusammen.
+Jeden Dienstagabend 18.30 Uhr - 19.45 Uhr an der Schulgasse 3 in Kooperation mit [**yogamoves **](https://www.yoga-moves.ch "yogamoves")Winterthur
 
 [www.yoga-moves.ch](https://www.yoga-moves.ch "Yogamoves")
 
