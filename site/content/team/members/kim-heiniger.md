@@ -7,6 +7,7 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
+* Seit 2022 Yoga-Lehrerin für Schwangerschaftsyoga bei yogamoves Winterthur
 * Seit 2020 Freiberufliche Hebamme
 * Seit 2018 Hebamme in der Gebärabteilung Spital Zollikerberg
 * 2014-2018 Ausbildung zur Hebamme BSc
