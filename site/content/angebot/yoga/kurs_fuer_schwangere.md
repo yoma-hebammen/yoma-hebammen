@@ -12,8 +12,8 @@ timing: ''
 location_area: ''
 
 ---
-Jeden Dienstagabend 18.30 Uhr - 19.45 Uhr an der Schulgasse 3 in Kooperation mit [yogamoves](https://www.yoga-moves.ch "yogamoves") Winterthur
+Jeden Dienstagabend 18.30 Uhr - 19.45 Uhr an der Schulgasse 3 in Kooperation mit [yogamoves](https://www.yoga-moves.ch/news-uebersicht/yoga-in-der-schwangerschaft "yogamoves") Winterthur
 
 [www.yoga-moves.ch](https://www.yoga-moves.ch "Yogamoves")
 
-Bei Interesse darfst du dich bei Kim oder aber auch direkt dort melden.
+Bei Fragen darfst du dich gerne an Kim wenden. Anmelden kannst du dich direkt über den [Online Stundenplan](https://www.eversports.ch/widget/w/4793zm "Online Stundenplan").
