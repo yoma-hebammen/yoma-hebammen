@@ -12,7 +12,7 @@ timing: ''
 location_area: ''
 
 ---
-Jeden Dienstagabend 18.30 Uhr - 19.45 Uhr an der Schulgasse 3 in Kooperation mit [**yogamoves **](https://www.yoga-moves.ch "yogamoves")Winterthur
+Jeden Dienstagabend 18.30 Uhr - 19.45 Uhr an der Schulgasse 3 in Kooperation mit [yogamoves](https://www.yoga-moves.ch "yogamoves") Winterthur
 
 [www.yoga-moves.ch](https://www.yoga-moves.ch "Yogamoves")
 
