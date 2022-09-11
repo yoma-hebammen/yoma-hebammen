@@ -7,8 +7,8 @@ location_area = ""
 on_call_costs = ""
 timing = "Ab ca. 4-6 Wochen bis zum Krabbelalter"
 title = "Babymassage"
-titlecolor = "#1C7868"
-weight = 0
+titlecolor = "#2A8A9D"
+weight = 3
 
 +++
 In diesem Kurs lernst du die Babymassage nach traditionell indischem Muster. Die Babymassage ist nicht nur für dich und dein Baby eine Zeit der Verwöhnung, sondern unterstützt dein Kind in Wachstum und Entwicklung.
