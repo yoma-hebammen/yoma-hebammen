@@ -8,7 +8,7 @@ location_area = ""
 on_call_costs = ""
 timing = "Ab 36+ 0 Schwangerschaftswochen, meist wöchentlich bis zur Geburt"
 title = "Akupunktur"
-titlecolor = ""
+titlecolor = "#04634B"
 weight = 1
 
 +++
