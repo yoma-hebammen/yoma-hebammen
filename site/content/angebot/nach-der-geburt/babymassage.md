@@ -7,7 +7,7 @@ location_area = ""
 on_call_costs = ""
 timing = "ab ca. 4-6 Wochen bis zum Krabbelalter"
 title = "Babymassage"
-titlecolor = "#3759A6"
+titlecolor = "#2B407B"
 weight = 2
 
 +++
