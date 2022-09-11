@@ -6,8 +6,8 @@ language = ""
 location = "Bewegungsatelier Karin Gruber  \nRütlistrasse 2, 8400 Winterthur"
 location_area = ""
 on_call_costs = ""
-timing = ""
-title = "Akupunktur"
+timing = "Ab der 36. Schwangerschaftswuche 1x wöchentlich. Melde dich bei Bedarf und wir senden dir die möglichen Zeiten."
+title = "Geburtsvorbereitende Akupunktur"
 titlecolor = "#04634B"
 weight = 1
 
