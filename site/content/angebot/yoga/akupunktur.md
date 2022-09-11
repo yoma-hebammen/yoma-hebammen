@@ -7,7 +7,7 @@ location_area = ""
 on_call_costs = ""
 timing = "Ab der 36. Schwangerschaftswoche 1x wöchentlich am Dienstagnachmittag. Melde dich bei Bedarf und wir senden dir die möglichen Zeiten."
 title = "Geburtsvorbereitende Akupunktur"
-titlecolor = "#2764A7"
+titlecolor = "#97BABF"
 weight = 1
 
 +++
