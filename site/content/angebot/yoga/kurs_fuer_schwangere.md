@@ -1,6 +1,6 @@
 ---
 title: Yoga in der Schwangerschaft
-weight: 0
+weight: 1
 costs: ''
 location: ''
 on_call_toggle: false
