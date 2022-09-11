@@ -1,11 +1,11 @@
 +++
-costs = "Eine Behandlung dauert ca. 30 - 40 min und kostet 60 CHF. Die Kosten der Akupunktur durch die Hebamme werden meist nicht von der Krankenkasse übernommen."
+costs = "Eine Behandlung dauert ca. 30 - 40 min und kostet CHF 60.- Die Kosten der Akupunktur durch die Hebamme werden meist nicht von der Krankenkasse übernommen."
 duration = "30 - 40 min"
 language = ""
 location = "Bewegungsatelier Karin Gruber  \nRütlistrasse 2, 8400 Winterthur"
 location_area = ""
 on_call_costs = ""
-timing = "Ab der 36. Schwangerschaftswuche 1x wöchentlich. Melde dich bei Bedarf und wir senden dir die möglichen Zeiten."
+timing = "Ab der 36. Schwangerschaftswoche 1x wöchentlich am Dienstagnachmittag. Melde dich bei Bedarf und wir senden dir die möglichen Zeiten."
 title = "Geburtsvorbereitende Akupunktur"
 titlecolor = "#04634B"
 weight = 1
