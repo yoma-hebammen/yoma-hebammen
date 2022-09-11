@@ -1,6 +1,5 @@
 +++
 costs = "CHF 140.-"
-draft = true
 duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich)"
 language = "Deutsch, Englisch"
 location = "Bewegungsatelier Karin Gruber, Rütlistrasse 2, 8400 Winterthur"
@@ -8,7 +7,7 @@ location_area = ""
 on_call_costs = ""
 timing = "ab ca. 4-6 Wochen bis zum Krabbelalter"
 title = "Babymassage"
-titlecolor = ""
+titlecolor = "#3759A6"
 weight = 2
 
 +++
