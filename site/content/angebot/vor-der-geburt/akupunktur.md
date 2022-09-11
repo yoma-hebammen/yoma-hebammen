@@ -9,10 +9,8 @@ on_call_costs: ''
 language: Deutsch oder Englisch
 titlecolor: "#B4C5C6"
 duration: ''
-timing: |-
-  Ab der 36. Schwangerschaftswuche 1x wöchentlich.
-
-  Melde dich bei Bedarf und wir senden dir die möglichen Zeiten.
+timing: Ab der 36. Schwangerschaftswuche 1x wöchentlich. Melde dich bei Bedarf und
+  wir senden dir die möglichen Zeiten.
 location_area: ''
 
 ---
