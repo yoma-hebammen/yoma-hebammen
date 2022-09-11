@@ -14,7 +14,6 @@ timing: |-
 
   Melde dich bei Bedarf und wir senden dir die möglichen Zeiten.
 location_area: ''
-draft: true
 
 ---
 Akupunktur ist ein Teilbereich der traditionellen chinesischen Medizin (TCM). Da sich Frauen während der Schwangerschaft in einer sehr sensiblen Phase befinden, sprechen sie häufig besonders gut auf die Akupunktur an.
