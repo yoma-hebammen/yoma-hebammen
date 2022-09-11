@@ -1,6 +1,6 @@
 +++
 costs = "CHF 140.-"
-duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich)"
+duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich). Pro Kurs 2 bis max. 4 Babys mit Begleitperson."
 language = "Deutsch, Englisch"
 location = "Bewegungsatelier Karin Gruber, Rütlistrasse 2, 8400 Winterthur"
 location_area = ""
@@ -16,3 +16,5 @@ In diesem Kurs lernst du die Babymassage nach traditionell indischem Muster. Die
 Der Kurs bietet dir die Möglichkeit, den Massageablauf zu erlernen, mehr über die Babymassage zu lernen und auch Zeit um sich mit anderen Mamis/ Papis auszutauschen.
 
 Dein Baby kann entweder mit der Mama, dem Papa, einem Opa, einer Oma oder einer sonst ihm vertrauten Person kommen.
+
+**_Der erste Kurs startet ab dem 27.9.22_**
