@@ -14,7 +14,7 @@ Wir versuchen stehts unser Angebot zu erweitern und uns immer wieder weiter zu b
 Natürlich wollen wir diese neuen Fertigkeiten auch direkt anwenden ;). Darum haben wir unser Angebot erweitern können:
 
 * Kim unterrichtet Schwangerschafts-Yoga im yogamoves Winterthur jeweils am Dienstagabend
-* Weiter beginnt unser erster Babymassagekurs am 27.9.23 bzw. ab genügend Teilnehmenden. Wir treffen uns jeweils 3mal am Dienstagnachmittag zusammen mit euren Kleinen.
+* Weiter beginnt unser erster Babymassagekurs am 04.10.23 bzw. ab genügend Teilnehmenden. Wir treffen uns jeweils 3mal am Dienstagnachmittag zusammen mit euren Kleinen.
 
 Wir freuen uns sehr euch beim einen oder anderen Kurs das erste Mal oder auch wieder zu sehen.
 
