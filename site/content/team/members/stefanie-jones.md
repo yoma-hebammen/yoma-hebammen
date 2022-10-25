@@ -13,12 +13,12 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
 
 **Weiterbildungen**
 
-* 2022 Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
+* seit 2022 Beginn: Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
+* 2017 BLS AED
+* 2022 Start4Neo am Spital Zollikerberg
 * 2022 Grundlagen der Babymassage
 * 2021 Akupunktur für Hebammen am Zhong Institut
 * 2020 Basiskurs: Professionelle Familienbegleitung beim frühen Tod ihres Kindes
-* 2020 Start4Neo am Spital Zollikerberg
-* 2017 BLS AED
 * 2017 K-Active Taping Gynäkologie & Geburtshilfe
 
 **Mitglied bei**
