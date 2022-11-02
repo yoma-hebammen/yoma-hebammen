@@ -1,6 +1,5 @@
 +++
 date = 2022-05-01T00:00:00Z
-draft = true
 image = "https://yoma-hebammen.ch/upload/2022/11/bild_fam_bonsera.jpg"
 title = "Amleto und Mara mit Enea "
 
