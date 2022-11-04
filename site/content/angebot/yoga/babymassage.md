@@ -17,4 +17,4 @@ Der Kurs bietet dir die Möglichkeit, den Massageablauf zu erlernen, mehr über 
 
 Dein Baby kann entweder mit der Mama, dem Papa, einem Opa, einer Oma oder einer ihm vertrauten Person kommen.
 
-**_Der erste Kurs startet am 04.10.22. Bitte um Anfrage für genauere Infos._**
+**_Sobald genügend Anmeldungen vorhanden sind, startet der erste Kurs. Bitte um Anfrage für genauere Infos._**
