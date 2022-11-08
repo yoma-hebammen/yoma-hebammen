@@ -1,6 +1,6 @@
 +++
 date = 2022-08-01T00:00:00Z
-image = ""
+image = "https://yoma-hebammen.ch/upload/2022/11/alessandro.jpg"
 title = "Cornelia und Michele mit Alessandro"
 
 +++
