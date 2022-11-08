@@ -1,6 +1,6 @@
 +++
 date = 2022-06-01T00:00:00Z
-image = "https://yoma-hebammen.ch/upload/2022/11/dsc_9963.jpeg"
+image = ""
 title = "Rahel & Claudio mit Alia"
 
 +++
