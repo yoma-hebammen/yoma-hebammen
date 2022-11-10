@@ -1,6 +1,5 @@
 +++
 date = 2022-06-01T00:00:00Z
-draft = true
 image = "https://yoma-hebammen.ch/upload/2022/11/baby_foto.jpg"
 title = "Sofia und Patric mit Diego"
 
