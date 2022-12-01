@@ -1,5 +1,5 @@
 +++
-costs = "CHF 140.-"
+costs = "CHF 140.-\n\nFrage bei deiner Krankenkasse nach, ob sie einen Anteil übernehmen."
 duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich). Pro Kurs 2 bis max. 4 Babys mit Begleitperson."
 language = ""
 location = "Bewegungsatelier in 8400 Winterthur (Anfrage für genauere Infos)"
