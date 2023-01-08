@@ -14,6 +14,7 @@ color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
 **Weiterbildungen**
 
 * seit 2022 Beginn: Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
+* 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
 * 2022 Start4Neo am Spital Zollikerberg
 * 2022 Grundlagen der Babymassage
