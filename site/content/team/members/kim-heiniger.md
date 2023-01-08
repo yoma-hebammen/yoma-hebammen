@@ -15,6 +15,7 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 **Weiterbildungen**
 
 * 2022 Pre- and Postnatal Yoga
+* 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
 * 2022 Grundlagen der Babymassage
 * 2021 Yoga Teacher (RYT200h)
