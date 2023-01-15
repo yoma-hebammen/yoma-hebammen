@@ -1,6 +1,5 @@
 +++
 date = 2022-09-01T00:00:00Z
-draft = true
 image = ""
 title = "Lina und Miro mit Laia"
 
