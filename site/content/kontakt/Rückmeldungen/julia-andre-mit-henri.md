@@ -1,6 +1,5 @@
 +++
 date = 2022-12-01T00:00:00Z
-draft = true
 image = "https://yoma-hebammen.ch/upload/2022/05/impressum-image-1.jpg"
 title = "Julia & André mit Henri"
 
