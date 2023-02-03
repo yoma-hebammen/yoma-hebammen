@@ -1,6 +1,6 @@
 +++
 date = 2022-10-01T00:00:00Z
-image = ""
+image = "https://yoma-hebammen.ch/upload/2022/05/impressum-image-1.jpg"
 title = "Sabine & Manyck mit Levy"
 
 +++
