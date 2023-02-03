@@ -1,6 +1,6 @@
 +++
 date = 2022-09-01T00:00:00Z
-image = "https://yoma-hebammen.ch/upload/2023/02/yasmin_linn.jpeg"
+image = "https://yoma-hebammen.ch/upload/2023/02/yasmin_linn-kopie.jpeg"
 title = "Yasmin & Marco mit Linn"
 
 +++
