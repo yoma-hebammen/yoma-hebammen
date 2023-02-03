@@ -1,6 +1,5 @@
 +++
 date = 2023-07-01T00:00:00Z
-draft = true
 image = "https://yoma-hebammen.ch/upload/2023/02/laura_deva.jpeg"
 title = "Laura und Pra mit Deva"
 
