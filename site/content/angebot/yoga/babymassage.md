@@ -17,4 +17,4 @@ Der Kurs bietet dir die Möglichkeit, den Massageablauf zu erlernen, mehr über 
 
 Dein Baby kann entweder mit der Mama, dem Papa, einem Opa, einer Oma oder einer ihm vertrauten Person kommen.
 
-Melde dich bei Interesse bei Stefanie Jones.
+Melde dich bei Interesse bei Stefanie.
