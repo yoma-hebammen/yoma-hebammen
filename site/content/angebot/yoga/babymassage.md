@@ -2,7 +2,7 @@
 costs = "CHF 140.-\n\nFrage bei deiner Krankenkasse nach, ob sie einen Anteil übernehmen."
 duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich). Pro Kurs 2 bis max. 4 Babys mit Begleitperson."
 language = ""
-location = "Bewegungsatelier in 8400 Winterthur (Anfrage für genauere Infos)"
+location = "Bewegungsatelier in 8400 Winterthur   \n(Anfrage für genauere Infos)"
 location_area = ""
 on_call_costs = ""
 timing = "Ab ca. 4-6 Wochen bis zum Krabbelalter"
