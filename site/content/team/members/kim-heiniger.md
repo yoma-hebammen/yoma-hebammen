@@ -14,8 +14,8 @@ portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
 
 **Weiterbildungen**
 
-* 2023 Start4Neo am Spital Zollikerberg
 * 2022 - aktuell Birthlight Perinatal Yoga 
+* 2023 Start4Neo am Spital Zollikerberg
 * 2022 Pre- and Postnatal Yoga, Yogaplace
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
