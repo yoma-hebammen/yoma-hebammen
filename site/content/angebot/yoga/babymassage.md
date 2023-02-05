@@ -1,6 +1,6 @@
 +++
 costs = "CHF 140.-\n\nFrage bei deiner Krankenkasse nach, ob sie einen Anteil übernehmen."
-duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich). Pro Kurs 2 bis max. 4 Babys mit Begleitperson.  \nMelde dich bei Interesse bei Stefanie Jones."
+duration = "3 Einheiten à 1 Stunde (jeweils 1x wöchentlich). Pro Kurs 2 bis max. 4 Babys mit Begleitperson."
 language = ""
 location = "Bewegungsatelier in 8400 Winterthur (Anfrage für genauere Infos)"
 location_area = ""
@@ -16,3 +16,5 @@ In diesem Kurs lernst du die Babymassage nach traditionell indischem Muster. Die
 Der Kurs bietet dir die Möglichkeit, den Massageablauf zu erlernen, mehr über die Babymassage zu lernen und auch Zeit um sich mit anderen Mamis/ Papis auszutauschen.
 
 Dein Baby kann entweder mit der Mama, dem Papa, einem Opa, einer Oma oder einer ihm vertrauten Person kommen.
+
+Melde dich bei Interesse bei Stefanie Jones.
