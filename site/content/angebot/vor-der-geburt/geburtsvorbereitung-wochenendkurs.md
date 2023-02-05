@@ -2,7 +2,7 @@
 costs = "CHF 390  \nDie Krankenkasse übernimmt einen Teil der Kosten."
 duration = "1 Einheit à 3 Stunden, 1 Einheit à 4 Stunden  \n(Freitag + Samstag)"
 language = "Deutsch"
-location = "Bewegungsatelier in 8400 Winterthur  \n(Details auf Anfrage)"
+location = "Bewegungsatelier in 8400 Winterthur  \n(Anfrage für genauere Infos)"
 location_area = ""
 on_call_costs = ""
 timing = "Termine auf Anfrage.  \nDer Kurs findet 1x im Monat statt."
