@@ -15,3 +15,5 @@ fields:
 - type: file
   name: color_image
   label: Mondbild
+pages:
+- site/content/team/members/Sarah Muffler.md
