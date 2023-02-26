@@ -19,5 +19,5 @@ Programmierung: [Jonathan Stahl ](https://jonathanstahl.ch "https://jonathanstah
 Fotografie: [Letizia Haessig Photography](https://lety.ch "https://lety.ch")
 
 **Copyright**  
-2022 by Yoma Hebammen, Schweiz  
+2023 by Yoma Hebammen, Schweiz  
 Alle Rechte vorbehalten
