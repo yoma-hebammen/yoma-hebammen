@@ -22,24 +22,3 @@ fields:
     time_format: 
     display_utc: false
     export_format: MMMM YYYY
-pages:
-- site/content/kontakt/Rückmeldungen/amleto-und-mara-mit-enea.md
-- site/content/kontakt/Rückmeldungen/armanda-und-david-mit-astrid.md
-- site/content/kontakt/Rückmeldungen/bettina-sven-mit-alina.md
-- site/content/kontakt/Rückmeldungen/christina-stefan-mit-lou.md
-- site/content/kontakt/Rückmeldungen/cornelia-und-michele-mit-alessandro.md
-- site/content/kontakt/Rückmeldungen/jasmin-und-cris-mit-jaron.md
-- site/content/kontakt/Rückmeldungen/julia-andre-mit-henri.md
-- site/content/kontakt/Rückmeldungen/laura-und-pra-mit-deva.md
-- site/content/kontakt/Rückmeldungen/lea-und-dario-mit-chiara.md
-- site/content/kontakt/Rückmeldungen/lina-und-miro-mit-laia.md
-- site/content/kontakt/Rückmeldungen/madeleine-danilo-mit-ellie.md
-- site/content/kontakt/Rückmeldungen/marina-achille-mit-federico.md
-- site/content/kontakt/Rückmeldungen/mark-und-ornella-mit-raven.md
-- site/content/kontakt/Rückmeldungen/nadine-und-dani-mit-sven.md
-- site/content/kontakt/Rückmeldungen/olivia-denis-und-theodore.md
-- site/content/kontakt/Rückmeldungen/rahel-claudio-mit-alia.md
-- site/content/kontakt/Rückmeldungen/sabine-manyck-mit-levy.md
-- site/content/kontakt/Rückmeldungen/sarah-und-alex-mit-eliana.md
-- site/content/kontakt/Rückmeldungen/sofia-und-patric-mit-diego.md
-- site/content/kontakt/Rückmeldungen/yasmin-marco-mit-linn.md

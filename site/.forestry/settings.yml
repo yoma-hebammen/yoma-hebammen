@@ -33,12 +33,18 @@ sections:
   templates:
   - blog-post
 - type: directory
+  path: site/content/feedback
+  label: Feedback
+  create: all
+  match: "**/*"
+  templates:
+  - ruckmeldung
+- type: directory
   path: site/content/kontakt
   label: Kontakt
   create: all
   match: "**/*"
   templates:
-  - ruckmeldung
   - kontakt
 - type: document
   path: site/content/impressum/_index.md
