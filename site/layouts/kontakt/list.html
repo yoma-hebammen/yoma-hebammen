@@ -86,35 +86,6 @@
       </div>
       <button type="submit">Senden</button>
     </form>
-    <hr class="divider">
-    <div id="feedback-container">
-      <h2 id="feedback-title">
-        Yoma
-        <br>
-        <span>Rückmeldungen</span>
-      </h2>
-      {{ range .Pages }}
-      <div class="feedback-entry">
-        <div class="feedback-image">
-        <picture>
-          <source media="(max-width: 960px)" srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
-                        {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x" />
-          <source srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=300,
-                        {{ .Params.image | safeURL }}?nf_resize=fit&w=600 2x" />
-          <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=300" alt="Feedback - {{ .Params.title }}"
-            loading="lazy" />
-        </picture>
-        </div>
-        <div class="feedback">
-          <div class="feedback-entry-title">{{ .Params.title }}</div>
-          <div class="feedback-entry-date">{{ dateFormat "January 2006" .Date.Local }}</div>
-          <div class="feedback-content">
-            {{ .Content }}
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
   </div>
 </section>
 

@@ -31,8 +31,14 @@ pluralizeListTitles = false
         weight = 300
 
     [[menu.main]]
+        identifier = "feedback"
+        name = "Feedback"
+        url = "feedback"
+        weight = 400
+
+    [[menu.main]]
         identifier = "kontakt"
         name = "Kontakt"
         url = "kontakt"
-        weight = 400
+        weight = 500
 

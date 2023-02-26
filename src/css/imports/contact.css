@@ -157,7 +157,6 @@ label span:after {
     letter-spacing: 0.2em;
     height: 60px;
     width: 215px;
-    margin-top: 15px;
     margin-bottom: 75px;
 }
 
@@ -204,53 +203,6 @@ label span:after {
     width: 50%;
 }
 
-#contact #feedback-title {
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    text-align: left;
-    margin-bottom: 75px;
-}
-
-#contact #feedback-title span {
-    font-size: 1.2em;
-}
-
-#contact .feedback-entry {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 75px;
-}
-
-#contact .feedback {
-    margin-left: 80px;
-    text-align: left;
-    width: 100%;
-}
-
-#contact .feedback-entry-title {
-    font-weight: 700;
-}
-
-#contact .feedback-content {
-    margin-top: 30px;
-}
-
-#contact .feedback-content p::before {
-    content: "\00ab";
-}
-
-#contact .feedback-content p::after {
-    content: "\00bb";
-}
-
-#contact .divider {
-    width: 80%;
-    margin-bottom: 70px;
-    border: 0;
-    border-top: 1px solid;
-}
 
 @media screen and (max-width: 960px), print {
     #contact .radio-group label span:after {
@@ -281,23 +233,5 @@ label span:after {
 
     #contact .leaflet-control-attribution {
         font-size: 0.4rem;
-    }
-
-    #contact #feedback-title {
-        margin-bottom: 50px;
-    }
-
-    #contact .feedback-entry {
-        flex-direction: column;
-        margin-bottom: 50px;
-    }
-
-    #contact .feedback {
-        margin-left: 0;
-    }
-
-    #contact .feedback-image img {
-        max-width: 100%;
-        object-fit: contain;
     }
 }
