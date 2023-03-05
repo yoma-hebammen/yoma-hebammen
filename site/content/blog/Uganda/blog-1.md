@@ -1,12 +1,12 @@
-+++
-categories = []
-date = 2021-04-23T08:00:00Z
-summary = ""
-tags = []
-thumbnail = ""
-title = "#1 Abflug nach Uganda"
-
-+++
+---
+categories: []
+date: 2021-04-23T08:00:00Z
+summary: ""
+tags: []
+thumbnail: ""
+title: "#1 Abflug nach Uganda"
+_template: blog
+---
 Hallo ihr Lieben
 
 Nun sitzen wir, Kassiopeia und Kim, voller Vorfreude und einer Prise Nervosität am Flughafen in Amsterdam. Die erste Etappe verlief schon mal reibungslos... über **60kg Babykleidung** sind mit dabei, dank euren grosszügigen Spenden. Die letzten Tage mit geburtenreichen Nachtdiensten im Zolli und Packen der Spenden waren intensiv, aber trotzdem mit freudiger Spannung gefüllt.

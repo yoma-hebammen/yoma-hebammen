@@ -10,7 +10,7 @@ titlecolor: "#5C8288"
 duration: ''
 timing: Jeden Dienstag, 18.30 Uhr - 19:45 Uhr
 location_area: ''
-
+_template: angebot
 ---
 Im Yoga für Schwangere kombinieren wir sanfte Bewegung, bewusste Atmung, Körperwahrnehmung und Meditation, damit du und dein Baby gestärkt und mit Vertrauen durch die Schwangerschaft und in die Geburt gehen könnt.
 

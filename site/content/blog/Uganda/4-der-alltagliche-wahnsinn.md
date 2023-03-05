@@ -1,12 +1,12 @@
-+++
-categories = []
-date = 2021-05-05T21:00:00Z
-summary = ""
-tags = []
-thumbnail = ""
-title = "#4 Der alltägliche Wahnsinn"
+---
+categories: []
+date: 2021-05-05T21:00:00Z
+summary: ""
+tags: []
+thumbnail: ""
+title: "#4 Der alltägliche Wahnsinn"
 
-+++
+---
 Karibu!
 
 Nun finden wir endlich Zeit mal wieder was von uns hören zu lassen. Wir haben in den letzten eineinhalb Wochen nämlich fast durchgehend gearbeitet. Die Schichten waren häufig streng und nicht selten geburtenreich. Teilweise arbeiten wir 24 Stunden am Stück, wobei die Arbeit nicht vergleichbar ist mir der in der Schweiz. Da die meisten Mitarbeiter auf dem Gelände des Geburtshauses wohnen, gibt es keine Trennung zwischen Arbeit und Privatem. Mit unserer Ankunft wurde das sehr geschwächte Hebammenteam von zwei einheimische Hebammen durch uns gestärkt und wir wurden intensiv eingesetzt. Vor ein paar Tagen kam dann glücklicherweise noch eine weitere einheimische Hebamme dazu.

@@ -3,7 +3,7 @@ name: Stefanie Jones
 degree: Dipl. Hebamme BSc
 portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-stefanie.jpg
 color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-stefanie.jpg
-
+_template: teammitglied
 ---
 **Ausbildung und Berufserfahrung**
 

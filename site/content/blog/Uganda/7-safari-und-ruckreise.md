@@ -1,12 +1,12 @@
-+++
-categories = []
-date = 2021-06-05T22:00:00Z
-summary = ""
-tags = []
-thumbnail = ""
-title = "#7 Safari und Rückreise"
+---
+categories: []
+date: 2021-06-05T22:00:00Z
+summary: ""
+tags: []
+thumbnail: ""
+title: "#7 Safari und Rückreise"
 
-+++
+---
 Es ist schon eine Zeit lang her, dass wir uns das letzte Mal bei euch gemeldet haben. Es ist viel passiert... Fangen wir doch mal von vorne an.
 
 Unseren letzten Tag im Geburtshaus verbrachten wir mit Packen, Aufräumen und vor allem mit den Vorbereitungen zu unserer Abschiedsfest. Unsere Köchin Zilla kochte das reichhaltigste und vielfältigste ugandische Essen. Es wurden sogar 3 ihrer Hühner für uns geschlachtet! Unser Beitrag war selbstgemachte Tomatensauce mit Pasta, da wir etwas Abwechslung benötigten. An diesem Tag haben wir auch mal wieder bemerkt, was afrikanische Zeit bedeutet. Abgemacht war 3 Uhr nachmittags, die ersten Gäste trafen jedoch erst zwischen 5 und 6 Uhr abends ein. Es wurde getanzt, gequatscht, viel gegessen und wäre das Gewitter nicht dazwischen gekommen, hätten wir noch die ganze Nacht gefeiert. Zu unserer Freude kam an dem Abend Godfrey unser Safari-Guide in Atiak an. Auch er genoss an diesem Abend das einfache Leben und erfreute sich an den Kindern, welche auch kräftig mittanzten.

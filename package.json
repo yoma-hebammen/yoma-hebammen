@@ -21,6 +21,11 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@tinacms/cli": "^1.2.2",
+    "next-tinacms-cloudinary": "^4.1.2",
+    "tinacms": "^1.2.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.1",

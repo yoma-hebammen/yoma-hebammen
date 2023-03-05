@@ -1,12 +1,12 @@
-+++
-categories = []
-date = 2022-02-26T23:00:00Z
-summary = ""
-tags = []
-thumbnail = ""
-title = "#8 Herzensprojekt YOMA HEBAMMEN"
+---
+categories: []
+date: 2022-02-26T23:00:00Z
+summary: ""
+tags: []
+thumbnail: ""
+title: "#8 Herzensprojekt YOMA HEBAMMEN"
 
-+++
+---
 Es ist endlich soweit! Wir Yoma Hebammen sind online!
 
 Wir können es kaum glauben, denn der Hebammenalltag ist wie immer voll und irgendwie stecken wir auch schon mitten in unserem Herzensprojekt drin.

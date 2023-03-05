@@ -1,12 +1,12 @@
-+++
-categories = []
-date = 2021-05-21T21:00:00Z
-summary = ""
-tags = []
-thumbnail = ""
-title = "#6 When time flies..."
+---
+categories: []
+date: 2021-05-21T21:00:00Z
+summary: ""
+tags: []
+thumbnail: ""
+title: "#6 When time flies..."
 
-+++
+---
 Lange Zeit ist vergangen, seit wir uns das letzte Mal gemeldet haben und es ist auch soo viel passiert!!
 
 Kurz nach dem wir unseren letzen Beitrag verfasst hatten, wurden wir ins Geburtshaus gerufen. Naume und Oloya's (unser Fahrer) Baby hatte plötzlich hohes Fieber, atmete schnell, trank kaum mehr an der Brust und machte einen ziemlich schlechten Eindruck. Wir dachten sofort an einen neonatalen Infekt, welcher bei Neugeborenen sehr gefährlich sein kann und entschieden kurzerhand ins Krankenhaus zu fahren. So fuhren wir im Regen mit den frischen Eltern, Naume's Schwester und ihrem Sohn eine Stunde nach Gulu in's Lacor Hospital. Dort warteten wir lange bis wir an der Reihe waren. Die Bedingungen waren für uns beide schockierend. Räume voll mit Betten von kranken Kindern, ihre Mütter auf dem Boden neben an... und viel zu wenig Personal. Endlich wurde der kleine Junge dann auf die Neonatologie mitgenommen, mit Sauerstoff unterstützt und mit den richtigen Medikamenten behandelt. Die Familie schlief im Gang auf dem Boden nebenan...

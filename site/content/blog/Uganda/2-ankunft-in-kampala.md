@@ -1,12 +1,12 @@
-+++
-categories = []
-date = 2021-04-24T21:00:00Z
-summary = ""
-tags = []
-thumbnail = ""
-title = "#2 Kampala"
+---
+categories: []
+date: 2021-04-24T21:00:00Z
+summary: ""
+tags: []
+thumbnail: ""
+title: "#2 Kampala"
 
-+++
+---
 Hallo zusammen.
 
 Am Freitag spät abends sind wir problemlos nach einem langen Flug in Entebbe angekommen. Die vielen Spenden kamen mit kleinen Hindernissen über die Grenze und warten auf die Weiterreise nach Atiak.
