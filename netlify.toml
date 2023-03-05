@@ -2,11 +2,11 @@
   NPM_VERSION = "8.5.0"
 
 [build]
-  command = "npm run tinacms && npm run build"
+  command = "tinacms build && npm run build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "npm run build:preview"
+  command = "tinacms build && npm run build:preview"
 
 [[headers]]
   for = "/*"
