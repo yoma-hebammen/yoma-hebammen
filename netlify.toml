@@ -6,7 +6,7 @@
   publish = "dist"
 
 [context.deploy-preview]
-  command = "tinacms build && npm run build:preview"
+  command = "npm run build:preview && tinacms build"
 
 [[headers]]
   for = "/*"

@@ -38,3 +38,5 @@ router.delete('/cloudinary/:media', (req, res) => {
 });
 
 app.use('/api/', router);
+
+module.exports.handler = serverless(app);
