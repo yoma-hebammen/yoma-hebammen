@@ -6,4 +6,4 @@ site/data/webpack.json
 .log
 
 # Local Netlify folder
-.netlify
+# .netlify
