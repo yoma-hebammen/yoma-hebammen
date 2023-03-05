@@ -1,5 +1,6 @@
 const serverless = require('serverless-http')
-const express, { Router } = require('express')
+const express = require('express')
+const { Router } = require('express')
 const { isAuthorized } = require('@tinacms/auth')
 const { createMediaHandler } = require('next-tinacms-cloudinary/dist/handlers')
 
