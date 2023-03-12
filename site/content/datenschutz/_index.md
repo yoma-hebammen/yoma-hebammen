@@ -1,3 +1,6 @@
+---
+title: Datenschutz
+---
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
 Yoma Hebammen\

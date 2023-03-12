@@ -1,0 +1,146 @@
+backend:
+  name: git-gateway
+  branch: decapcms
+media_folder: "site/static/upload"
+public_folder: "/upload"
+site_url: https://yoma-hebammen.ch
+editor:
+  preview: false
+format: frontmatter
+collections:
+  - label: "Single Pages"
+    name: "pages"
+    files:
+      - label: "Team"
+        name: "team"
+        file: "site/content/team/_index.md"
+        fields:
+          - {label: Template, name: _template, widget: hidden}
+          - {label: Titel, name: title, widget: string}
+          - {label: Bild, name: image, widget: image}
+          - {label: Content, name: body, widget: markdown}
+      - label: "Kontakt"
+        name: "contact"
+        file: "site/content/kontakt/_index.md"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Bild, name: image, widget: image}
+      - label: "Impressum"
+        name: "impressum"
+        file: "site/content/impressum/_index.md"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Zitat, name: quote, widget: string}
+          - {label: Bild, name: image, widget: image}
+          - {label: Content, name: body, widget: markdown}
+      - label: "Datenschutz"
+        name: "datenschutz"
+        file: "site/content/datenschutz/_index.md"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+  - label: Teammitglieder
+    label_singular: Teammitglied
+    name: "team-members"
+    folder: "site/content/team/members"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: Name, name: name, widget: string}
+      - {label: Degree, name: degree, widget: string}
+      - {label: Mondbild, name: color_image, widget: image}
+      - {label: Bild, name: portrait_image, widget: image}
+      - {label: Content, name: body, widget: markdown}
+  - label: Angebotskategorien
+    label_singular: Angebotskategorie
+    name: "offer-categories"
+    folder: "site/content/angebot"
+    filter: {field: template, value: angebotskategorie}
+    nested:
+      depth: 3
+    fields:
+      - {label: Template, name: template, widget: hidden, default: angebotskategorie}
+      - {label: Titel, name: title, widget: string}
+      - {label: Gewichtung, name: weight, widget: number}
+      - {label: "Bild (Menu)", name: "image_menu", widget: image}
+      - {label: Bild, name: "image_category", widget: image}
+      - {label: "Bild (Mobile)", name: "image_category_mobile", widget: image}
+      - {label: "Bild (Anfrage)", name: "image_contact", widget: image}
+  - label: Angebote - Vor der Geburt
+    label_singular: Angebot - Vor der Geburt
+    name: "offers-1"
+    folder: "site/content/angebot/vor-der-geburt"
+    filter: {field: template, value: angebot}
+    create: true
+    preview_path: "angebot/{{dirname}}"
+    fields:
+      - {label: Template, name: template, widget: hidden, default: angebot}
+      - {label: Titel, name: title, widget: string}
+      - {label: Farbe, name: titlecolor, widget: color}
+      - {label: Gewichtung, name: weight, widget: number}
+      - {label: Kosten, name: costs, widget: markdown, required: false}
+      - {label: Bereitschaftsdienst, name: "on_call_costs", widget: markdown, required: false}
+      - {label: Ort, name: location, widget: markdown, required: false}
+      - {label: Einsatzgebiet, name: location_area, widget: markdown, required: false}
+      - {label: Sprache, name: language, widget: markdown, required: false}
+      - {label: Dauer, name: duration, widget: markdown, required: false}
+      - {label: Zeitpunkt, name: timing, widget: markdown, required: false}
+      - {label: Content, name: body, widget: markdown}
+  - label: Angebote - Nach der Geburt
+    label_singular: Angebot - Nach der Geburt
+    name: "offers-2"
+    folder: "site/content/angebot/nach-der-geburt"
+    filter: {field: template, value: angebot}
+    create: true
+    preview_path: "angebot/{{dirname}}"
+    fields:
+      - {label: Template, name: template, widget: hidden, default: angebot}
+      - {label: Titel, name: title, widget: string}
+      - {label: Farbe, name: titlecolor, widget: color}
+      - {label: Gewichtung, name: weight, widget: number}
+      - {label: Kosten, name: costs, widget: markdown, required: false}
+      - {label: Bereitschaftsdienst, name: "on_call_costs", widget: markdown, required: false}
+      - {label: Ort, name: location, widget: markdown, required: false}
+      - {label: Einsatzgebiet, name: location_area, widget: markdown, required: false}
+      - {label: Sprache, name: language, widget: markdown, required: false}
+      - {label: Dauer, name: duration, widget: markdown, required: false}
+      - {label: Zeitpunkt, name: timing, widget: markdown, required: false}
+      - {label: Content, name: body, widget: markdown}
+  - label: "Angebote - Kurse & Mehr"
+    label_singular: "Angebot - Kurse & Mehr"
+    name: "offers-3"
+    folder: "site/content/angebot/kurse-und-mehr"
+    filter: {field: template, value: angebot}
+    create: true
+    preview_path: "angebot/{{dirname}}"
+    fields:
+      - {label: Template, name: template, widget: hidden, default: angebot}
+      - {label: Titel, name: title, widget: string}
+      - {label: Farbe, name: titlecolor, widget: color}
+      - {label: Gewichtung, name: weight, widget: number}
+      - {label: Kosten, name: costs, widget: markdown, required: false}
+      - {label: Bereitschaftsdienst, name: "on_call_costs", widget: markdown, required: false}
+      - {label: Ort, name: location, widget: markdown, required: false}
+      - {label: Einsatzgebiet, name: location_area, widget: markdown, required: false}
+      - {label: Sprache, name: language, widget: markdown, required: false}
+      - {label: Dauer, name: duration, widget: markdown, required: false}
+      - {label: Zeitpunkt, name: timing, widget: markdown, required: false}
+      - {label: Content, name: body, widget: markdown}
+  - label: Blog
+    label_singular: Post
+    name: blog
+    folder: "site/content/blog"
+    create: true
+    fields:
+      - {label: Titel, name: title, widget: string}
+      - {label: Datum, name: date, widget: datetime}
+      - {label: Content, name: body, widget: markdown}
+  - label: "Feedback"
+    name: "feedback"
+    folder: "site/content/feedback"
+    create: true
+    fields:
+      - {label: Titel, name: title, widget: string}
+      - {label: Bild, name: image, widget: image}
+      - {label: Datum, name: date, widget: datetime}
+      - {label: "Content", name: "body", widget: "markdown"}
