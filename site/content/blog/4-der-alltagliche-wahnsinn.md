@@ -1,11 +1,10 @@
 ---
 categories: []
-date: 2021-05-05T21:00:00Z
+date: 2021-05-05T21:00:00.000Z
 summary: ""
 tags: []
 thumbnail: ""
 title: "#4 Der alltägliche Wahnsinn"
-
 ---
 Karibu!
 
@@ -23,12 +22,12 @@ Wir freuen uns, euch mehr zu erzählen, falls das Internet dann auch mitspielt.
 
 Liebste Grüsse aus der Sonne!
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210506-wa0004.jpg)
+![](/upload/img-20210506-wa0004.jpg)
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210506-wa0006.jpg)
+![](/upload/img-20210506-wa0006.jpg)
 
-![](https://yoma-hebammen.ch/upload/2021/05/20210504_184306.jpg)
+![](/upload/20210504_184306.jpg)
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210506-wa0003.jpg)
+![](/upload/img-20210506-wa0003.jpg)
 
-![](https://yoma-hebammen.ch/upload/2021/05/20210504_093650.jpg)
+![](/upload/20210504_093650.jpg)
