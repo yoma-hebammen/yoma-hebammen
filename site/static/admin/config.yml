@@ -11,11 +11,18 @@ collections:
   - label: "Single Pages"
     name: "pages"
     files:
+      - label: "Home"
+        name: "home"
+        file: "site/content/_index.md"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Bild, name: image, widget: image}
+          - {label: "Bild-Mobile", name: "image_mobile", widget: image}
+          - {label: Content, name: body, widget: markdown}
       - label: "Team"
         name: "team"
         file: "site/content/team/_index.md"
         fields:
-          - {label: Template, name: _template, widget: hidden}
           - {label: Titel, name: title, widget: string}
           - {label: Bild, name: image, widget: image}
           - {label: Content, name: body, widget: markdown}
