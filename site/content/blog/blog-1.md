@@ -1,6 +1,6 @@
 ---
 categories: []
-date: 2021-04-23T08:00:00Z
+date: 2021-04-23T08:00:00.000Z
 summary: ""
 tags: []
 thumbnail: ""
@@ -15,8 +15,8 @@ In ungefähr 12 Stunden werden wir dann auch schon in Entebbe, Uganda landen. Di
 
 Jetzt freuen wir uns weiter auf die kommende Zeit und wir melden uns dann aus Kampala wieder bei euch! Mached's guät und bis bald!🌞
 
-![](https://yoma-hebammen.ch/upload/2021/04/img-20210423-wa0003.jpg "Los gehts!")
+![](/upload/img-20210423-wa0003.jpg "Los gehts!")
 
-![](https://yoma-hebammen.ch/upload/2021/04/img-20210423-wa0002.jpg "Platz schaffen mit dem Staubsauger")
+![](/upload/img-20210423-wa0002.jpg "Platz schaffen mit dem Staubsauger")
 
-![](https://yoma-hebammen.ch/upload/2021/04/img-20210423-wa0004.jpg "Voll bepackt!")
+![](/upload/img-20210423-wa0004.jpg "Voll bepackt!")
