@@ -1,8 +1,7 @@
 ---
-date: 2022-06-01T00:00:00Z
-image: "https://yoma-hebammen.ch/upload/2022/05/impressum-image-1.jpg"
 title: "Sarah und Alex mit Eliana "
-
+image: /upload/impressum-image-1.jpg
+date: 2022-06-01T00:00:00.000Z
 ---
 **Hebammen mit Herz!**
 
