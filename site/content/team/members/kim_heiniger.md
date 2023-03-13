@@ -1,8 +1,8 @@
 ---
 name: Kim Heiniger
 degree: Dipl. Hebamme BSc
-color_image: https://yoma-hebammen.ch/upload/2021/11/team-color-kim.jpg
-portrait_image: https://yoma-hebammen.ch/upload/2021/11/team-kim.jpg
+color_image: /upload/team-color-kim.jpg
+portrait_image: /upload/team-kim.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
