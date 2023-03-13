@@ -1,8 +1,7 @@
 ---
 title: Impressum
-image: https://yoma-hebammen.ch/upload/2022/05/impressum-image-1.jpg
 quote: The moon danced with the stars on the night you were born.
-
+image: /upload/impressum-image-1.jpg
 ---
 **Inhaberinnen**  
 Kim Heiniger und Stefanie Jones
