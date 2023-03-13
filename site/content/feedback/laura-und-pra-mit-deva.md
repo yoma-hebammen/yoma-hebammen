@@ -1,8 +1,7 @@
 ---
-date: 2022-07-01T00:00:00Z
-image: "https://yoma-hebammen.ch/upload/2023/02/laura_deva.jpeg"
-title: "Laura und Pra mit Deva"
-
+title: Laura und Pra mit Deva
+image: /upload/laura_deva.jpeg
+date: 2022-07-01T00:00:00.000Z
 ---
 “Mir sind unglaublich Dankbar hend ihr eus duur diä intensiv und intim Ziit begleitet. Mir hend eus immer wohl und verstande gfühlt. Duur eues breite Fachwüsse und eui liebevolli Art, hend ihr genau gwüsst was mache und hend immer di richtige Wort gfunde.
 
