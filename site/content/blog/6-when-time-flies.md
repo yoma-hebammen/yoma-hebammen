@@ -1,11 +1,10 @@
 ---
 categories: []
-date: 2021-05-21T21:00:00Z
+date: 2021-05-21T21:00:00.000Z
 summary: ""
 tags: []
 thumbnail: ""
 title: "#6 When time flies..."
-
 ---
 Lange Zeit ist vergangen, seit wir uns das letzte Mal gemeldet haben und es ist auch soo viel passiert!!
 
@@ -21,14 +20,14 @@ Diese Woche ereignete sich eine Geburt, die so nicht oft vor kommt. Es kam eine 
 
 Langsam geht unsere Reise zu Ende und wir werden das Geburtshaus morgen verlassen. Wir freuen uns aber auf eine tolle Safari und berichten euch dann ganz gerne von unserem nächsten Abenteuer!
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0004.jpg "Stoffe kaufen auf dem Markt in Gulu")
+![](/upload/img-20210522-wa0004.jpg "Stoffe kaufen auf dem Markt in Gulu")
 
-![Eines späten Abends wurde plötzlich unsere ganze Hütte von Ameisen überfallen. Wir mussten sie fast leer räumen und die Ameisen wufden verbrannt und wieder rausgewischt...](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0006.jpg "Ameiseninvasion!")
+![Eines späten Abends wurde plötzlich unsere ganze Hütte von Ameisen überfallen. Wir mussten sie fast leer räumen und die Ameisen wufden verbrannt und wieder rausgewischt...](/upload/img-20210522-wa0006.jpg "Ameiseninvasion!")
 
-![Natürlich wusste vor Geburt keiner, dass in diesem Bauch gleich zwei kleine Zwerge hausten... ](https://yoma-hebammen.ch/upload/2021/05/20210514_141956.jpg "Zwillingsmama")
+![Natürlich wusste vor Geburt keiner, dass in diesem Bauch gleich zwei kleine Zwerge hausten... ](/upload/20210514_141956.jpg "Zwillingsmama")
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0005.jpg "Die Kinder beim Spielen mit dem neuen Ball")
+![](/upload/img-20210522-wa0005.jpg "Die Kinder beim Spielen mit dem neuen Ball")
 
-![](https://yoma-hebammen.ch/upload/2021/05/20210515_174016.jpg "Zu Besuch im Kinderheim gleich nebenan")
+![](/upload/20210515_174016.jpg "Zu Besuch im Kinderheim gleich nebenan")
 
-![](https://yoma-hebammen.ch/upload/2021/05/img-20210522-wa0007-1.jpg "Mit Zilla unserer super Köchin und den Kindern")
+![](/upload/img-20210522-wa0007-1.jpg "Mit Zilla unserer super Köchin und den Kindern")
