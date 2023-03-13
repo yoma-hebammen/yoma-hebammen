@@ -1,8 +1,7 @@
 ---
-date: 2022-05-01T00:00:00Z
-image: "https://yoma-hebammen.ch/upload/2022/11/bild_fam_bonsera.jpg"
-title: "Amleto und Mara mit Enea"
-
+title: Amleto und Mara mit Enea
+image: /upload/bild_fam_bonsera.jpg
+date: 2022-05-01T00:00:00.000Z
 ---
 Wir haben uns bei euch, Kim und Steffi, in sehr guten Händen und super betreut gefühlt, dafür herzlichen Dank!
 
