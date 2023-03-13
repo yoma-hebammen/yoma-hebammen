@@ -1,11 +1,10 @@
 ---
 categories: []
-date: 2022-02-26T23:00:00Z
+date: 2022-02-26T23:00:00.000Z
 summary: ""
 tags: []
 thumbnail: ""
 title: "#8 Herzensprojekt YOMA HEBAMMEN"
-
 ---
 Es ist endlich soweit! Wir Yoma Hebammen sind online!
 
@@ -21,4 +20,4 @@ Viel Spass beim Durchstöbern der Website. Wir freuen uns auf eure Rückmeldunge
 
 Herzlichst, Steffi und Kim
 
-![](https://yoma-hebammen.ch/upload/2022/02/lhp-ks-14.jpg)
+![](/upload/lhp-ks-14.jpg)
