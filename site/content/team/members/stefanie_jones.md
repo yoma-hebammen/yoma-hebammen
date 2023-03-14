@@ -13,7 +13,7 @@ _template: teammitglied
 
 **Weiterbildungen**
 
-* seit 2022 Beginn: Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
+* 2022 - aktuell Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
 * 2022 Start4Neo am Spital Zollikerberg
@@ -24,4 +24,4 @@ _template: teammitglied
 
 **Mitglied bei**
 
-* [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https://www.hebamme.ch")
+* [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https\://www.hebamme.ch")
