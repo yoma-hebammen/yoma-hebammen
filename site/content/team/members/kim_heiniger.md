@@ -6,7 +6,7 @@ portrait_image: /upload/team-kim.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
-* Seit 2022 Yoga-Lehrerin für Schwangerschaftsyoga bei yogamoves Winterthur
+* Seit 2022 Yoga-Lehrerin für Schwangerschaftsyoga bei [yogamoves](https://www.yoga-moves.ch) Winterthur
 * Seit 2020 Freiberufliche Hebamme
 * Seit 2018 Hebamme in der Gebärabteilung Spital Zollikerberg
 * 2014-2018 Ausbildung zur Hebamme BSc
@@ -21,10 +21,11 @@ portrait_image: /upload/team-kim.jpg
 * 2022 Grundlagen der Babymassage
 * 2021 Yoga Teacher (RYT200h)
 * 2020 Akupunktur für Hebammen am Zhong Institut
-* 2019 Basiskurs: Professionelle Familienbegleitung  
+* 2019 Basiskurs: Professionelle Familienbegleitung\
   beim frühen Tod ihres Kindes
 * 2018 HebiTaping- Taping für Schwangerschaft und Wochenbett
 
 **Mitglied bei**
 
-* [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https://www.hebamme.ch")
+* [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https\://www.hebamme.ch")
+* [kindsverlust.ch](https://www.kindsverlust.ch)
