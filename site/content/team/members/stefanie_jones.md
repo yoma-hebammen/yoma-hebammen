@@ -13,7 +13,8 @@ _template: teammitglied
 
 **Weiterbildungen**
 
-* 2022 - aktuell Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
+* 2﻿023 Praktische Hebammenarbeit im Wochenbett // Pathologie im Wochenbett
+* 2022 Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
 * 2022 Start4Neo am Spital Zollikerberg
