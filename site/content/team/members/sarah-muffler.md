@@ -25,4 +25,4 @@ portrait_image: /upload/img_3611.jpg
 
 **Mitglied bei**
 
-* ﻿Schweizerischer Hebammenverband (SHV)
+* [Schweizerischer Hebammenverband (SHV)](https://www.hebamme.ch "https\://www.hebamme.ch")
