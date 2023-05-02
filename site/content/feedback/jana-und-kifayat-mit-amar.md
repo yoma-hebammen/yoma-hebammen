@@ -1,6 +1,6 @@
 ---
 title: Jana und Kifayat mit Amar
-image: /upload/img_7831.jpg
+image: /upload/jana_fam.jpg
 date: 2023-01-04T19:58:27.608Z
 ---
 Wir sind rundum mehr wie zufrieden mit eurer liebevollen Betreuung im Wochenbett.\
