@@ -1,5 +1,5 @@
 ---
-title: Stefanie und Kim
+title: Stefanie, Kim und Sarah
 image: /upload/home.jpg
 image_mobile: /upload/home-mobile.jpg
 ---
