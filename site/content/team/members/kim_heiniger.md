@@ -2,7 +2,7 @@
 name: Kim Heiniger
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
-portrait_image: /upload/img_3634.jpg
+portrait_image: /upload/img_3648.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
