@@ -2,7 +2,7 @@
 name: Sarah Muffler
 degree: Dipl. Hebamme BSc
 color_image: /upload/scans_aquarell_sarah-3-2.png
-portrait_image: /upload/img_3611.jpg
+portrait_image: /upload/img_3611a.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
