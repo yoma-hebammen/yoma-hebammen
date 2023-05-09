@@ -53,6 +53,7 @@ collections:
     create: true
     identifier_field: name
     fields:
+      - {label: Position, name: weight, widget: number}
       - {label: Name, name: name, widget: string}
       - {label: Degree, name: degree, widget: string}
       - {label: Mondbild, name: color_image, widget: image}
@@ -67,8 +68,8 @@ collections:
       depth: 3
     fields:
       - {label: Template, name: template, widget: hidden, default: angebotskategorie}
+      - {label: Position, name: weight, widget: number}
       - {label: Titel, name: title, widget: string}
-      - {label: Gewichtung, name: weight, widget: number}
       - {label: "Bild (Menu)", name: "image_menu", widget: image}
       - {label: Bild, name: "image_category", widget: image}
       - {label: "Bild (Mobile)", name: "image_category_mobile", widget: image}
