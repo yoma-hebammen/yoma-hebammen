@@ -1,4 +1,5 @@
 ---
+weight: 3
 name: Sarah Muffler
 degree: Dipl. Hebamme BSc
 color_image: /upload/scans_aquarell_sarah-3-2.png
