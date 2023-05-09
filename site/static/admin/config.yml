@@ -83,9 +83,9 @@ collections:
     preview_path: "angebot/{{dirname}}"
     fields:
       - {label: Template, name: template, widget: hidden, default: angebot}
+      - {label: Position, name: weight, widget: number}
       - {label: Titel, name: title, widget: string}
       - {label: Farbe, name: titlecolor, widget: color}
-      - {label: Gewichtung, name: weight, widget: number}
       - {label: Kosten, name: costs, widget: markdown, required: false}
       - {label: Bereitschaftsdienst, name: "on_call_costs", widget: markdown, required: false}
       - {label: Ort, name: location, widget: markdown, required: false}
@@ -103,9 +103,9 @@ collections:
     preview_path: "angebot/{{dirname}}"
     fields:
       - {label: Template, name: template, widget: hidden, default: angebot}
+      - {label: Position, name: weight, widget: number}
       - {label: Titel, name: title, widget: string}
       - {label: Farbe, name: titlecolor, widget: color}
-      - {label: Gewichtung, name: weight, widget: number}
       - {label: Kosten, name: costs, widget: markdown, required: false}
       - {label: Bereitschaftsdienst, name: "on_call_costs", widget: markdown, required: false}
       - {label: Ort, name: location, widget: markdown, required: false}
@@ -123,9 +123,9 @@ collections:
     preview_path: "angebot/{{dirname}}"
     fields:
       - {label: Template, name: template, widget: hidden, default: angebot}
+      - {label: Position, name: weight, widget: number}
       - {label: Titel, name: title, widget: string}
       - {label: Farbe, name: titlecolor, widget: color}
-      - {label: Gewichtung, name: weight, widget: number}
       - {label: Kosten, name: costs, widget: markdown, required: false}
       - {label: Bereitschaftsdienst, name: "on_call_costs", widget: markdown, required: false}
       - {label: Ort, name: location, widget: markdown, required: false}
