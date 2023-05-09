@@ -31,17 +31,6 @@
                 required><span>Fragen,
                 Anliegen und Rückmeldungen</span></label>
           </div>
-          <h2 class="form-subtitle">Bei...</h2>
-          <div class="form-group radio-group">
-            <label><input type="radio" name="Empfänger" value="Yoma Hebammen" checked required><span>Yoma
-                Hebammen</span></label>
-            <label><input id="radio-button-Stefanie Jones" type="radio" name="Empfänger" value="Stefanie Jones"
-                required><span>Stefanie Jones</span></label>
-            <label><input id="radio-button-Kim Heiniger" type="radio" name="Empfänger" value="Kim Heiniger"
-                required><span>Kim Heiniger</span></label>
-            <label><input id="radio-button-Sarah Muffler" type="radio" name="Empfänger" value="Sarah Muffler"
-                required><span>Sarah Muffler</span></label>
-          </div>
         </div>
         <div class="column-container">
           <h2 class="form-subtitle">Unser Einsatzgebiet</h2>
@@ -121,7 +110,6 @@
   };
 
   preFillRadioButtonGroup("angebot");
-  preFillRadioButtonGroup("bei");
 
   /* Setup Leaflet */
   const map = L.map('map', { dragging: !L.Browser.mobile });
