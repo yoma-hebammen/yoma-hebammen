@@ -1,4 +1,5 @@
 ---
+weight: 2
 name: Kim Heiniger
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
