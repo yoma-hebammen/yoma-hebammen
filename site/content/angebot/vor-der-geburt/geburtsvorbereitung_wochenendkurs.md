@@ -1,9 +1,8 @@
 ---
 template: angebot
-category: Vor der Geburt
+weight: 3
 title: Geburtsvorbereitung Wochenendkurs
 titlecolor: "#AEBBC1"
-weight: 3
 costs: |-
   CHF 390.  
   Die Krankenkasse übernimmt einen Teil der Kosten.
@@ -14,11 +13,10 @@ location: |-
 location_area: ""
 language: Deutsch
 duration: |-
-  1 Einheit à 3 Stunden, 1 Einheit à 4 Stunden  
-  (Freitag + Samstag)
-timing: |-
-  Termine auf Anfrage.  
-  Der Kurs findet 1x im Monat statt.
+  1 Einheit à 3 Stunden, 1 Einheit à 4 Stunden\
+  (Freitagabend + Samstagvormittag)
+timing: Nächster Kurs 16./17.Juni 2023. Wir haben noch 2 freie Plätze.
+category: Vor der Geburt
 ---
 
 An unserem Wochenendkurs bringen wir dir und deiner Begleitperson unten stehende Themen näher, sodass du entspannt in deine Geburt gehen kannst. Der optimale Zeitpunkt für diesen Kurs ist ca. 28.-34. Schwangerschaftswoche und wir sind eine kleine Gruppe von max. 4 Paaren. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
