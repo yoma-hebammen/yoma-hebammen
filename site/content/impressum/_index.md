@@ -19,7 +19,7 @@ Programmierung: \
 [Jonathan Stahl ](https://jonathanstahl.ch "https\://jonathanstahl.ch")\
 Fotografie: \
 [Letizia Haessig Photography](https://lety.ch "https\://lety.ch")\
-[Valeria Neurater](https://www.instagram.com/valeria.neurauter/?hl=de)
+[Valeria Neurauter](https://www.instagram.com/valeria.neurauter/?hl=de)
 
 **Copyright**\
 2023 by Yoma Hebammen, Schweiz\
