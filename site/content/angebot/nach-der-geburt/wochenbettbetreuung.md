@@ -1,9 +1,8 @@
 ---
 template: angebot
-category: Nach der Geburt
+weight: 1
 title: Wochenbettbetreuung
 titlecolor: "#659CCA"
-weight: 1
 costs: Die Wochenbettbesuche durch die Hebamme werden von der Krankenkasse
   übernommen. Die Hebamme kann 10 Besuche in den ersten 56 Tagen nach der Geburt
   machen. Bei Erstgebärenden, nach Kaiserschnitt, Zwillingen, krankem Kind oder
@@ -19,6 +18,7 @@ location_area: Winterthur und nahe Umgebung
 language: Deutsch oder Englisch
 duration: ""
 timing: ""
+category: Nach der Geburt
 ---
 Das Wochenbett beginnt nach der Geburt und dauert 8 Wochen. Dies ist die Zeit, in der ihr euch als Familie kennenlernen dürft und du dich von der Geburt erholen kannst. Wir freuen uns, euch in dieser aufregenden, wunderbaren und manchmal auch ganz schön herausfordernden Anfangsphase zu begleiten.
 
@@ -34,8 +34,8 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 * Ernährung des Babys und Stillberatung
 * Tragetuch-Instruktion
 * Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische Unterstützung, Kinderarzt, Rückbildungskurse)
-* Behandlungen mit Taping, Akupunktur, Guasha, Rebozo
+* Behandlungen bei Bedarf mit Taping, Akupunktur, Guasha, Rebozo
 
-**_Wir sind bis Ende März 2023 ausgebucht. Wir nehmen gerne wieder Wochenbettbetreuungen an mit errechnetem Geburtstermin ab April 2023._**
+***Wir sind bis September 2023 ausgebucht. Wir nehmen gerne wieder Wochenbettbetreuungen an mit errechnetem Geburtstermin ab Oktober 2023.***
 
 Für kurzfristige Anfragen für eine Betreuung von Familien mit Kindsverlust sind wir verfügbar.
