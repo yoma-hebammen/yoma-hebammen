@@ -3,19 +3,16 @@ template: angebot
 weight: 3
 title: Geburtsvorbereitung Wochenendkurs
 titlecolor: "#AEBBC1"
-costs: |-
-  CHF 390.  
-  Die Krankenkasse übernimmt einen Teil der Kosten.
+costs: ""
 on_call_costs: ""
-location: |-
-  Bewegungsatelier in 8400 Winterthur  
-  (Anfrage für genauere Infos)
+location: ""
 location_area: ""
-language: Deutsch
-duration: |-
-  1 Einheit à 3 Stunden, 1 Einheit à 4 Stunden\
-  (Freitagabend + Samstagvormittag)
-timing: Nächster Kurs 16./17.Juni 2023. Wir haben noch 2 freie Plätze.
+language: ""
+duration: ""
+timing: Aktuell führen wir unter dem Namen YOMA HEBAMMEN keine
+  Geburtsvorbereitungskurse durch. Gerne empfehlen wir dir aber die Kurse vom
+  [Geburtshaus Winterthur](https://www.geburtshauswinterthur.ch/kurse), wo wir
+  in Kooperation mitarbeiten.
 category: Vor der Geburt
 ---
 
