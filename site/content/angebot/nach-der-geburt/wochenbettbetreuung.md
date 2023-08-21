@@ -36,6 +36,6 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 * Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische Unterstützung, Kinderarzt, Rückbildungskurse)
 * Behandlungen bei Bedarf mit Taping, Akupunktur, Guasha, Rebozo
 
-***Wir haben noch Kapazität für Oktober 2023, ansonsten sind wir bis Ende Jahr ausgebucht.***
+***Wir haben noch Kapazität im Oktober 2023, ansonsten sind wir bis Ende Jahr ausgebucht.***
 
 Für kurzfristige Anfragen für eine Betreuung von Familien mit Kindsverlust sind wir verfügbar.
