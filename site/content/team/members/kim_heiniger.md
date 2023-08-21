@@ -15,7 +15,7 @@ portrait_image: /upload/img_3649-kopie.jpg
 
 **Weiterbildungen**
 
-* 2022 - aktuell Birthlight Perinatal Yoga 
+* 2023 Birthlight Perinatal Yoga 
 * 2023 Start4Neo am Spital Zollikerberg
 * 2022 Pre- and Postnatal Yoga, Yogaplace
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
