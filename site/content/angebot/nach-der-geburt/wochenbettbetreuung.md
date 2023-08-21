@@ -22,7 +22,7 @@ category: Nach der Geburt
 ---
 Das Wochenbett beginnt nach der Geburt und dauert 8 Wochen. Dies ist die Zeit, in der ihr euch als Familie kennenlernen dürft und du dich von der Geburt erholen kannst. Wir freuen uns, euch in dieser aufregenden, wunderbaren und manchmal auch ganz schön herausfordernden Anfangsphase zu begleiten.
 
-Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen verfügbar sein möchten, arbeiten wir zu zweit im Team. Um unseren Hebammenalltag etwas planen zu  können, sind wird also froh, wenn ihr uns möglichst bald kontaktiert, sobald euer Baby da ist. Weitere Hausbesuche planen wir dann flexibel vor Ort mit euch.
+Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen im Jahr verfügbar sein möchten, arbeiten wir zu dritt im Team. Das heisst, du wirst von uns dreien im Wechsel begleitet. Um unseren Hebammenalltag etwas planen zu  können, sind wird also froh, wenn ihr uns möglichst bald kontaktiert, sobald euer Baby da ist. Weitere Hausbesuche planen wir dann flexibel vor Ort mit euch.
 
 **Im Zentrum der Wochenbettbetreuung stehen:**
 
