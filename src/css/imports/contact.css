@@ -16,6 +16,13 @@
     object-fit: contain;
 }
 
+#contact-message {
+    margin: 15px 20px;
+    font-weight: 700;
+    color: #1f658e;
+    text-align: center;
+}
+
 #contact .form-group {
     margin-bottom: 60px;
 }
