@@ -32,6 +32,7 @@ collections:
         fields:
           - {label: Titel, name: title, widget: string}
           - {label: Bild, name: image, widget: image}
+          - {label: Mitteilung, name: message, widget: markdown, required: false}
       - label: "Impressum"
         name: "impressum"
         file: "site/content/impressum/_index.md"
