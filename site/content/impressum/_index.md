@@ -14,7 +14,8 @@ Frei praktizierende Hebammen fpH
 
 **Website**\
 Gestaltung: \
-[Linda Walter](https://linda-walter.com)\
+[Linda Walter](https://linda-walter.com)
+
 Programmierung: \
 [Jonathan Stahl](https://jonathanstahl.ch) 
 
