@@ -7,10 +7,10 @@ portrait_image: /upload/img_3649-kopie.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
-* Ab September 2023 Hebamme im Geburtshaus Winterthur
+* Seit 2023 Hebamme im Geburtshaus Winterthur
 * Seit 2022 Yoga-Lehrerin für Schwangerschaftsyoga bei [yogamoves](https://www.yoga-moves.ch) Winterthur
 * Seit 2020 Freiberufliche Hebamme
-* Seit 2018 Hebamme in der Gebärabteilung Spital Zollikerberg
+* 2018-2023 Hebamme in der Gebärabteilung Spital Zollikerberg
 * 2014-2018 Ausbildung zur Hebamme BSc
 
 **Weiterbildungen**
