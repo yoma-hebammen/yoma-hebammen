@@ -8,9 +8,9 @@ weight: 1
 ---
 **Ausbildung und Berufserfahrung**
 
-* Ab September 2023 Hebamme im Geburtshaus Winterthur
+* Seit 2023 Hebamme im Geburtshaus Winterthur
 * Seit 2021 Freiberufliche Hebamme
-* Seit 2019 Hebamme in der Gebärabteilung Spital Zollikerberg
+* 2019-2023 Hebamme in der Gebärabteilung Spital Zollikerberg
 * 2015-2019 Ausbildung zur Hebamme BSc
 
 **Weiterbildungen**
