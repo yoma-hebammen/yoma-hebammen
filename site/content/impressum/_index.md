@@ -14,9 +14,10 @@ Frei praktizierende Hebammen fpH
 
 **Website**\
 Gestaltung: \
-[Linda Walter](www.linda-walter.com) \
+[Linda Walter](https://linda-walter.com)\
 Programmierung: \
-[Jonathan Stahl ](https://jonathanstahl.ch "https\://jonathanstahl.ch")\
+[Jonathan Stahl](https://jonathanstahl.ch) 
+
 Fotografie: \
 [Letizia Haessig Photography](https://lety.ch "https\://lety.ch")\
 [Valeria Neurauter](https://www.instagram.com/valeria.neurauter/?hl=de)
