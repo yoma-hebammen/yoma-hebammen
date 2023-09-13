@@ -3,10 +3,10 @@ template: angebot
 weight: 1
 title: Yoga in der Schwangerschaft
 titlecolor: "#5C8288"
-costs: ""
+costs: "![]()"
 on_call_costs: ""
 location: ""
-location_area: ""
+location_area: "![](/upload/img_3406.jpg)"
 language: ""
 duration: ""
 timing: ""
