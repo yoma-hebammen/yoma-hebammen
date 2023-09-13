@@ -20,8 +20,6 @@ Kim bietet Schwangerschaftsyoga an folgenden Standorten an:
 Jeden **Dienstag** 18.30 - 19.45 Uhr im yogamoves an der Schulgasse 3, 8400 Winterthur
 
 **[Geburtshaus Winterthur](https://www.geburtshauswinterthur.ch/kurs-schwangerschaftsyoga)**\
-Jeden **Mittwoch** 18.30 - 19.30 Uhr im Geburtshaus Winterthur an der Lindstrasse 16, 8400 [](https://www.geburtshauswinterthur.ch/kurs-schwangerschaftsyoga)
+Jeden **Mittwoch** 18.30 - 19.30 Uhr im Geburtshaus Winterthur an der Lindstrasse 16, 8400 Winterthur
 
-
-
-Jeweilige Anmeldung gerne direkt über's yogamoves oder Geburtshaus Winterthur.**[](https://www.yoga-moves.ch/news-uebersicht/yoga-in-der-schwangerschaft "yogamoves")**
+Jeweilige Anmeldung gerne direkt über's yogamoves oder Geburtshaus Winterthur.[](https://www.yoga-moves.ch/news-uebersicht/yoga-in-der-schwangerschaft "yogamoves")
