@@ -121,10 +121,10 @@
 
   /* Setup Leaflet */
   const map = L.map('map', { dragging: !L.Browser.mobile });
-  L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
-    minZoom: 0,
-    maxZoom: 20,
-    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+
+  const  wmsLayer = L.tileLayer.wms('https://wms.geo.admin.ch/?', {
+    layers: 'ch.swisstopo.pixelkarte-grau',
+    attribution: '© <a href="https://www.swisstopo.admin.ch/">swisstopo</a>'
   }).addTo(map);
 
   /* Add geolocate button */
@@ -145,7 +145,7 @@
           }
         }
       ).addTo(map);
-      map.fitBounds(serviceAreaLayer.getBounds());
+      map.fitBounds(serviceAreaLayer.getBounds(), { maxZoom: 9 });
     });
 </script>
 
