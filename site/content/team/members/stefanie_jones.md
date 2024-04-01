@@ -15,11 +15,12 @@ weight: 1
 
 **Weiterbildungen**
 
+* 2﻿024 Start4Neo, Neugeborenenversorgung im ausserklinischen Setting
+* 2﻿024 Postpartale Depression
 * 2﻿023 Praktische Hebammenarbeit im Wochenbett // Pathologie im Wochenbett
 * 2022 Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
-* 2022 Start4Neo am Spital Zollikerberg
 * 2022 Grundlagen der Babymassage
 * 2021 Akupunktur für Hebammen am Zhong Institut
 * 2020 Basiskurs: Professionelle Familienbegleitung beim frühen Tod ihres Kindes
