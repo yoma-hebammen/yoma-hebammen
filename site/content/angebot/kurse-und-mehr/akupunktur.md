@@ -4,15 +4,16 @@ weight: 2
 title: Geburtsvorbereitende Akupunktur
 titlecolor: "#97BABF"
 costs: >-
-  Pro Behandlung CHF 60.-  
+  Pro Behandlung CHF 70.-\
 
   Die Kosten der Akupunktur durch die Hebamme werden meist nicht von der Krankenkasse übernommen.
 on_call_costs: ""
-location: Bei dir zu Hause
+location: "Praxis: Neukirchhofweg 10, 8180 Bülach"
 location_area: ""
 language: ""
-duration: 30 - 40 min / Behandlung
-timing: Ab der 36. Schwangerschaftswoche 1x wöchentlich.
+duration: 30 - 45 min / Behandlung
+timing: Ab der 36. Schwangerschaftswoche 1x wöchentlich. Ab dem errechneten
+  Termin auch häufiger möglich.
 category: Kurse & mehr
 ---
 
