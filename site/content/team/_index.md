@@ -8,4 +8,4 @@ Wir sind drei aufgestellte Frauen aus Winterthur, welche alle ein grosses Herz f
 
 Wir begleiten als freiberufliche Hebammen Familien zu Hause im Wochenbett in Winterthur. Diese sensible Arbeit ermöglicht uns Familien in ihrem Zusammenwachsen zu unterstützen. Wir freuen uns, dass wir als Hebammenteam zu eurem Glück beitragen dürfen. 
 
-Neben unserer freiberuflichen Tätigkeit haben wir alle mehrere Jahre Erfahrungen in der Gebärabteilung im Spital gesammelt. Dazu zählt die Begleitung in der Schwangerschaft, während der Geburt und in den ersten paar Stunden des Wochenbetts. Das Wunder der Geburt ist jedes Mal aufs Neue eine Bereicherung für uns.
+Neben unserer freiberuflichen Tätigkeit haben wir alle mehrere Jahre Erfahrungen in der Gebärabteilung im Spital und Geburtshaus gesammelt. Dazu zählt die Begleitung in der Schwangerschaft, während der Geburt und in den ersten paar Stunden des Wochenbetts. Das Wunder der Geburt ist jedes Mal aufs Neue eine Bereicherung für uns.
