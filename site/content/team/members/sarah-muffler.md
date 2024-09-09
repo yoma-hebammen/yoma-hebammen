@@ -7,6 +7,7 @@ portrait_image: /upload/img_3611a.jpg
 ---
 **Ausbildung und Berufserfahrung**
 
+* S﻿eit 2023 Hebamme in der Gebärabteilung Spital Zollikerberg
 * Seit 2020 Freiberufliche Hebamme
 * 2﻿021 Dreimonatiger Einsatz als Hebamme in Afrika
 * 2018-2020 Hebamme in der Gebärabteilung Spital Zollikerberg
