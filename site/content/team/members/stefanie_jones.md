@@ -8,7 +8,7 @@ weight: 1
 ---
 **Ausbildung und Berufserfahrung**
 
-* Seit 2023 Hebamme im Geburtshaus Winterthur
+* 2023-2024 Hebamme im Geburtshaus Winterthur
 * Seit 2021 Freiberufliche Hebamme
 * 2019-2023 Hebamme in der Gebärabteilung Spital Zollikerberg
 * 2015-2019 Ausbildung zur Hebamme BSc
@@ -18,6 +18,8 @@ weight: 1
 * 2﻿024 Start4Neo, Neugeborenenversorgung im ausserklinischen Setting
 * 2﻿024 Postpartale Depression
 * 2﻿023 Praktische Hebammenarbeit im Wochenbett // Pathologie im Wochenbett
+* 2﻿023 Manuelle Medizin rund um die Geburt
+* 2﻿023 Entwicklung des Kindes in den ersten Lebensjahren
 * 2022 Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
 * 2022 BLS AED
