@@ -14,7 +14,7 @@ on_call_costs: "Die Geburt wird zwischen der 37. und 42. Schwangerschaftswoche
   Viele Wohngemeinden übernehmen diese Gebühr. Gerne schauen wir für euch nach,
   ob dies bei Euch der Fall ist. "
 location: ""
-location_area: Winterthur und nahe Umgebung
+location_area: Winterthur und Umgebung
 language: Deutsch oder Englisch
 duration: ""
 timing: ""
@@ -35,7 +35,5 @@ Da der Zeitpunkt der Geburt unvorhersehbar ist und wir möglichst an allen Tagen
 * Tragetuch-Instruktion
 * Ausblick über weitere Begleitung nach dem Wochenbett (Mütter- und Väterberatung, psychologische Unterstützung, Kinderarzt, Rückbildungskurse)
 * Behandlungen bei Bedarf mit Taping, Akupunktur, Guasha, Rebozo
-
-***Da Kim ab März 2024 eine Pause einlegt, nehmen Sarah und Steffi nur eine geringe Anzahl an Familien für Wochenbettbegleitung an. Melde dich also bei Interesse gerne früh bei uns.***
 
 Für kurzfristige Anfragen für eine Betreuung von Familien mit Kindsverlust sind wir jederzeit verfügbar.
