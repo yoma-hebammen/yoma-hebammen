@@ -1,6 +1,6 @@
 ---
 weight: 2
-name: Kim Heiniger
+name: Kim Graf
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
 portrait_image: /upload/img_3649-kopie.jpg
