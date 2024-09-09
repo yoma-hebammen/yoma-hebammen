@@ -5,10 +5,10 @@ title: Babymassage
 titlecolor: "#2A8A9D"
 costs: ""
 on_call_costs: ""
-location: ""
+location: G﻿eburtshaus Winterthur
 location_area: ""
-language: ""
-duration: ""
+language: d﻿eutsch
+duration: 6﻿0min
 timing: ""
 category: Kurse & mehr
 ---
