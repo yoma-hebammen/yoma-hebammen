@@ -2,7 +2,7 @@
 name: Stefanie Jones
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-stefanie.jpg
-portrait_image: /upload/img_3663-kopie.jpg
+portrait_image: /upload/img_3641.jpg
 _template: teammitglied
 weight: 1
 ---
