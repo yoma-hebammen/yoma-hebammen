@@ -4,7 +4,7 @@ weight: 2
 title: Geburtsvorbereitende Akupunktur
 titlecolor: "#97BABF"
 costs: >-
-  Pro Behandlung CHF 70.-\
+  Pro Behandlung CHF 75.-\
 
   Die Kosten der Akupunktur durch die Hebamme werden meist nicht von der Krankenkasse übernommen.
 on_call_costs: ""
