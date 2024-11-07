@@ -1,6 +1,6 @@
 ---
 weight: 3
-name: Sarah Muffler
+name: Sarah Koch
 degree: Dipl. Hebamme BSc
 color_image: /upload/scans_aquarell_sarah-3-2.png
 portrait_image: /upload/img_3611a.jpg
