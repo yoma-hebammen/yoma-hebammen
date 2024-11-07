@@ -3,14 +3,13 @@ template: angebot
 weight: 3
 title: Geburtsvorbereitung Wochenendkurs
 titlecolor: "#AEBBC1"
-costs: ""
+costs: 3﻿90.- pro Paar
 on_call_costs: ""
 location: "P﻿raxis: Neukirchhofweg 10, 8180 Bülach"
 location_area: ""
 language: ""
 duration: F﻿reitagabend + Samstag
-timing: "a﻿b Oktober wieder regelmässig stattfindend: D﻿aten werden noch bekannt
-  gegeben"
+timing: "nächster Kurs: Freitag 3.1. + Samstag 4.1.25"
 category: Vor der Geburt
 ---
 An unserem Wochenendkurs bringen wir dir und deiner Begleitperson unten stehende Themen näher, sodass du entspannt in deine Geburt gehen kannst. Der optimale Zeitpunkt für diesen Kurs ist ca. 28.-34. Schwangerschaftswoche und wir sind eine kleine Gruppe von max. 5 Paaren. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
