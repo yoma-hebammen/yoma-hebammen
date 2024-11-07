@@ -1,6 +1,6 @@
 ---
 template: angebot
-weight: 3
+weight: 2
 title: Geburtsvorbereitung Wochenendkurs
 titlecolor: "#AEBBC1"
 costs: 3﻿90.- pro Paar
