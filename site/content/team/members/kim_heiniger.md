@@ -5,7 +5,7 @@ degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
 portrait_image: /upload/img_3649-kopie.jpg
 ---
-***Kim ist aktuell als Hebamme im Geburtshaus Winterthur tätig und nimmt privat keine Wochenbettfamilien an.*** 
+***Kim ist aktuell als Hebamme im Geburtshaus Winterthur tätig und nimmt privat keine Wochenbettfamilien an, macht jedoch unter dem Namen YOMA Hebammen Vertretungen in der Wochenbettbetreuung.*** 
 
 **Ausbildung und Berufserfahrung**
 
