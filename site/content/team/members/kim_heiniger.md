@@ -5,6 +5,8 @@ degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
 portrait_image: /upload/img_3649-kopie.jpg
 ---
+***Kim ist aktuell als Hebamme im Geburtshaus Winterthur tätig und nimmt privat keine Wochenbettfamilien an.*** 
+
 **Ausbildung und Berufserfahrung**
 
 * Seit 2023 Hebamme im Geburtshaus Winterthur
