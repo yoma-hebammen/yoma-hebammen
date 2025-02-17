@@ -1,5 +1,5 @@
 ---
-title: Stefanie, Kim und Sarah
+title: Stefanie und Kim
 image: /upload/teamfoto.jpg
 ---
 Wir sind zwei aufgestellte Frauen aus Winterthur, welche alle ein grosses Herz für werdende junge Familien haben - die **YOMA HEBAMMEN**. 
