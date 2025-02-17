@@ -9,7 +9,13 @@ location: "P﻿raxis: Neukirchhofweg 10, 8180 Bülach"
 location_area: ""
 language: ""
 duration: F﻿reitagabend + Samstag
-timing: "nächster Kurs durch Stefanie: Freitag 3.1. + Samstag 4.1.25"
+timing: |-
+  unsere nächsten Kurse: 
+
+  * 2﻿8.2. und 1.3.
+  * 2﻿. und 3.5.
+
+  E﻿s hat noch freie Plätze
 category: Vor der Geburt
 ---
 An unserem Wochenendkurs bringen wir dir und deiner Begleitperson unten stehende Themen näher, sodass du entspannt in deine Geburt gehen kannst. Der optimale Zeitpunkt für diesen Kurs ist ca. 28.-34. Schwangerschaftswoche und wir sind eine kleine Gruppe von max. 5 Paaren. Der Hauptfokus des Kurses liegt bei der Spontangeburt:
