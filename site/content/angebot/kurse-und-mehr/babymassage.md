@@ -9,7 +9,12 @@ location: G﻿eburtshaus Winterthur
 location_area: ""
 language: d﻿eutsch
 duration: 6﻿0min
-timing: ""
+timing: >-
+  N﻿eue Kurstermine und die Anmeldung findet ihr direkt auf der Website des
+  Geburtshauses Winterthur. 
+
+
+  w﻿ww.geburtshauswinterthur.ch
 category: Kurse & mehr
 ---
 In diesem Kurs lernst du die Babymassage nach traditionell indischem Muster. Die Babymassage ist nicht nur für dich und dein Baby eine Zeit der Verwöhnung, sondern unterstützt dein Kind in Wachstum und Entwicklung.
