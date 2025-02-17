@@ -1,8 +1,8 @@
 ---
 title: Stefanie, Kim und Sarah
-image: /upload/img_3240-kopie.jpg
+image: /upload/teamfoto.jpg
 ---
-Wir sind drei aufgestellte Frauen aus Winterthur, welche alle ein grosses Herz für werdende junge Familien haben - die **YOMA HEBAMMEN**. 
+Wir sind zwei aufgestellte Frauen aus Winterthur, welche alle ein grosses Herz für werdende junge Familien haben - die **YOMA HEBAMMEN**. 
 
 «Yoma» bedeutet **«die Glücksbringende»**. Der Mond ist ein Symbol für das Weibliche, die Rundungen und die Fruchtbarkeit. Seine Phasen stehen für den Neuanfang, die Veränderung, die Reife und die Vergänglichkeit.
 
