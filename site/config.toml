@@ -25,20 +25,13 @@ pluralizeListTitles = false
         weight = 200
 
     [[menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "blog"
-        weight = 300
-
-    [[menu.main]]
         identifier = "feedback"
         name = "Feedback"
         url = "feedback"
-        weight = 400
+        weight = 300
 
     [[menu.main]]
         identifier = "kontakt"
         name = "Kontakt"
         url = "kontakt"
-        weight = 500
-
+        weight = 400
