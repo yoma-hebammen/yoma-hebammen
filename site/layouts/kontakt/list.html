@@ -2,11 +2,11 @@
 
 <section id="contact">
   <picture class="contact-image">
-    <source media="(max-width: 960px)" srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=350,
-              {{ .Params.image | safeURL }}?nf_resize=fit&w=700 2x" />
-    <source srcset="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300,
-              {{ .Params.image | safeURL }}?nf_resize=fit&w=2600 2x" />
-    <img src="{{ .Params.image | safeURL }}?nf_resize=fit&w=1300" alt="Kim und Stefanie - Teamfoto" loading="lazy" />
+    <source media="(max-width: 960px)" srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=350,
+              {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=700 2x" />
+    <source srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=1300,
+              {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=2600 2x" />
+    <img src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=1300" alt="Kim und Stefanie - Teamfoto" loading="lazy" />
   </picture>
   <div class="content">
     {{ if ne .Params.message "" }}

@@ -7,8 +7,8 @@
     <div class="menu-card">
       <a href="{{ .URL }}">
         <figure class="offer-image">
-          <img src="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=350"
-            srcset="{{ .Params.image_menu | safeURL }}?nf_resize=fit&w=700 2x" alt="{{ .Params.title }}"
+          <img src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_menu | safeURL }}&w=350"
+            srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_menu | safeURL }}&w=700 2x" alt="{{ .Params.title }}"
             loading="lazy" />
         </figure>
         <div class="menu-card-front">
@@ -34,11 +34,11 @@
     <div id="offer-category-{{ $categoryTitle }}" class="offer-category">
       <div class="offer-category-image-container">
         <picture class="offer-category-image">
-          <source media="(max-width: 960px)" srcset="{{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=350,
-                  {{ .Params.image_category_mobile | safeURL }}?nf_resize=fit&w=700 2x" />
-          <source srcset="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=1000 1000w, 
-                  {{ .Params.image_category | safeURL }}?nf_resize=fit&w=1400 1400w" />
-          <img src="{{ .Params.image_category | safeURL }}?nf_resize=fit&w=800" alt="{{ $categoryTitle }}"
+          <source media="(max-width: 960px)" srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_category_mobile | safeURL }}&w=350,
+                  {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_category_mobile | safeURL }}&w=700 2x" />
+          <source srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_category | safeURL }}&w=1000 1000w,
+                  {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_category | safeURL }}&w=1400 1400w" />
+          <img src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_category | safeURL }}&w=800" alt="{{ $categoryTitle }}"
             loading="lazy" />
         </picture>
         <div class="offer-category-title">{{ $categoryTitle }}</div>
@@ -48,7 +48,7 @@
         <div class="offer-title" style="background-color: {{ .Params.titlecolor }}">
           <span>{{ .Params.title }}</span>
           <div class="contact-image"
-            style="background-image: url( '{{ $categoryContactImage | safeURL }}?nf_resize=fit&w=220' );">
+            style="background-image: url( '{{ $.Site.imageCdnBase | safeURL }}{{ $categoryContactImage | safeURL }}&w=220' );">
             {{ $offerPath := "/kontakt?angebot=" }}
             {{ $offerPath = printf "%s%s" $offerPath .Params.title }}
             <a href='{{ $offerPath | relURL }}'>Anfrage</a>
