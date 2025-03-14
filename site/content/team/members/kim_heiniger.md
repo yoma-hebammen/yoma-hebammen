@@ -1,6 +1,6 @@
 ---
 weight: 2
-name: Kim Graf
+name: Kim Test
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
 portrait_image: /upload/img_3649-kopie.jpg
