@@ -24,5 +24,5 @@ Fotografie: \
 [Valeria Neurauter](https://www.instagram.com/valeria.neurauter/?hl=de)
 
 **Copyright**\
-2023 by Yoma Hebammen, Schweiz\
+2025 by Yoma Hebammen, Schweiz\
 Alle Rechte vorbehalten
