@@ -1,9 +1,6 @@
 baseurl = "https://yoma-hebammen.ch"
-languageCode = "de-ch"
-languageLang = "de"
+defaultContentLanguage = "de"
 title = "Yoma Hebammen"
-
-imageCdnBase = "/.netlify/images?url="
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
@@ -11,6 +8,9 @@ imageCdnBase = "/.netlify/images?url="
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 pluralizeListTitles = false
+
+[params]
+    imageCdnBaseUrl = "/.netlify/images?url="
 
 [menu]
 

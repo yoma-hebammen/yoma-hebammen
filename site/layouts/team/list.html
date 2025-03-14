@@ -4,15 +4,15 @@
   <picture class="team-image">
     <source
       media="(max-width: 960px)"
-      srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=350,
-              {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=700 2x"
+      srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=350,
+              {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=700 2x"
     />
     <source
-      srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=1300,
-              {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=2600 2x"
+      srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=1300,
+              {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=2600 2x"
     />
     <img
-      src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_category | safeURL }}&w=1300"
+      src="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image_category | safeURL }}&w=1300"
       alt="Kim und Stefanie - Teamfoto"
       loading="lazy"
     />
@@ -34,8 +34,8 @@
                 <div class="flip-card-front">
                   <figure class="member-image">
                     <img
-                      src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.color_image | safeURL }}&w=300"
-                      srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.color_image | safeURL }}&w=600 2x"
+                      src="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.color_image | safeURL }}&w=300"
+                      srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.color_image | safeURL }}&w=600 2x"
                       alt="{{ .Params.name }} - Teamfoto"
                       loading="lazy"
                     />
@@ -44,8 +44,8 @@
                 <div class="flip-card-back">
                   <figure class="member-image">
                     <img
-                      src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.portrait_image | safeURL }}&w=300"
-                      srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.portrait_image | safeURL }}&w=600 2x"
+                      src="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.portrait_image | safeURL }}&w=300"
+                      srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.portrait_image | safeURL }}&w=600 2x"
                       alt="{{ .Params.name }} - Teamfoto"
                       loading="lazy"
                     />
@@ -55,7 +55,7 @@
             </div>
             <div
               class="contact-image"
-              style="background-image: url( '{{ $.Site.imageCdnBase | safeURL }}{{ .Params.color_image | safeURL }}&w=160' );"
+              style="background-image: url( '{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.color_image | safeURL }}&w=160' );"
             >
               {{ $contactPath := "/kontakt" }}
               <a href='{{ $contactPath | relURL }}'>Kontakt</a>

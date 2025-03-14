@@ -5,20 +5,20 @@
     <picture id="home-image">
       <source
         media="(max-width: 480px)"
-        srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_mobile | safeURL }}&w=300,
-                {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_mobile | safeURL }}&w=600 2x"
+        srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image_mobile | safeURL }}&w=300,
+                {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image_mobile | safeURL }}&w=600 2x"
       />
       <source
         media="(max-width: 960px)"
-        srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_mobile | safeURL }}&w=450,
-                {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image_mobile | safeURL }}&w=900 2x"
+        srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image_mobile | safeURL }}&w=450,
+                {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image_mobile | safeURL }}&w=900 2x"
       />
       <source
-        srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=900,
-                {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=1800 2x"
+        srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=900,
+                {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=1800 2x"
       />
       <img
-        src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=900"
+        src="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=900"
         alt="Yoma
       Hebammen"
         loading="lazy"

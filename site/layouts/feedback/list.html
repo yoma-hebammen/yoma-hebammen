@@ -9,13 +9,13 @@
         <picture>
           <source 
             media="(max-width: 960px)" 
-            srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=350,
-                    {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=700 2x" />
+            srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=350,
+                    {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=700 2x" />
           <source 
-            srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=400,
-                    {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=800 2x" />
+            srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=400,
+                    {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=800 2x" />
           <img 
-            src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=300"
+            src="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=300"
             alt="Feedback - {{ .Params.title }}"
             loading="lazy" />
         </picture>

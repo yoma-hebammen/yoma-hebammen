@@ -6,20 +6,20 @@
     <picture class="moon">
       <source
         media="(max-width: 960px)"
-        srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=300,
-                {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=600 2x"
+        srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=300,
+                {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=600 2x"
       />
       <source
         media="(max-width: 1200px)"
-        srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=350,
-                {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=700 2x"
+        srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=350,
+                {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=700 2x"
       />
       <source
-        srcset="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=450,
-                {{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=900 2x"
+        srcset="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=450,
+                {{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=900 2x"
       />
       <img
-        src="{{ $.Site.imageCdnBase | safeURL }}{{ .Params.image | safeURL }}&w=450"
+        src="{{ $.Site.Params.imageCdnBaseUrl | safeURL }}{{ .Params.image | safeURL }}&w=450"
         alt="Yoma
       Hebammen - Impressum"
         loading="lazy"
