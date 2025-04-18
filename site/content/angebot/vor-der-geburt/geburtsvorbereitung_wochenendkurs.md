@@ -12,8 +12,8 @@ duration: F﻿reitagabend + Samstag
 timing: |-
   unsere nächsten Kurse: 
 
-  * 2﻿8.2. und 1.3.
-  * 2﻿. und 3.5.
+  * 2.5. / 3.5.25
+  * 20.6./21.6.25
 
   E﻿s hat noch freie Plätze
 category: Vor der Geburt
