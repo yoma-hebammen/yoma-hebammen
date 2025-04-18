@@ -1,7 +1,7 @@
 ---
 template: angebotskategorie
-title: Kurse & mehr
 weight: 3
+title: Weitere Angebote
 image_menu: /upload/offer_yoga.jpg
 image_category: /upload/yoga_halbmond.jpg
 image_category_mobile: /upload/yoga_halbmond_mobile.jpg
