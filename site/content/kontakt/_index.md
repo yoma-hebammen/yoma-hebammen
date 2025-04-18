@@ -1,5 +1,5 @@
 ---
 title: Kontakt
-image: /upload/contact.jpg
+image: /upload/yoga_halbmond.jpg
 message: ""
 ---
