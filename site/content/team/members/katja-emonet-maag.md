@@ -1,7 +1,7 @@
 ---
 weight: 2
-name: KATJA EMONET-MAAG
-degree: DIPL. HEBAMME BSC
+name: Katja Emonet-Maag
+degree: Dipl. Hebamme BSc
 color_image: /upload/scans_aquarell_sarah-3-2.png
 portrait_image: /upload/scans_aquarell_sarah-3-2.png
 ---
