@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 name: Kim Graf
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-kim.jpg
