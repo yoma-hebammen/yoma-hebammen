@@ -1,6 +1,6 @@
 ---
 template: angebot
-weight: 2
+weight: 1
 title: Geburtsvorbereitende Akupunktur
 titlecolor: "#97BABF"
 costs: >-
