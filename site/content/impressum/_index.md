@@ -3,8 +3,13 @@ title: Impressum
 quote: The moon danced with the stars on the night you were born.
 image: /upload/impressum-image-1.jpg
 ---
-**Inhaberinnen**\
-Kim Heiniger und Stefanie Jones
+**Inhaberin**\
+Stefanie Jones
+
+
+**Gründerinnen**
+Stefanie Jones und Kim Heiniger
+
 
 **Kontakt**\
 yoma@hebamme-hin.ch
