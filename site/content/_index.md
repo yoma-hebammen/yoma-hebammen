@@ -1,5 +1,5 @@
 ---
-title: STEFFI UND KIM
+title: STEFFI UND KATJA
 image: /upload/home.jpg
 image_mobile: /upload/home-mobile.jpg
 ---
