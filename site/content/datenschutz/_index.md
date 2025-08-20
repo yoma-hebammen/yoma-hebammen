@@ -4,7 +4,7 @@ title: Datenschutz
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
 Yoma Hebammen\
-Stefanie Jones, Kim Heiniger, Sarah Muffler
+Stefanie Jones
 
 E-Mail: yoma@hebamme-hin.ch\
 WebSite: https://yoma-hebammen.ch/
