@@ -2,7 +2,7 @@
 template: angebot
 weight: 2
 title: Schwangerschaftsmassage
-titlecolor: "#5e9f93"
+titlecolor: "#7cafaf"
 costs: >-
   Pro Behandlung 120.-
 
