@@ -1,6 +1,6 @@
 ---
 template: angebot
-weight: 2
+weight: 3
 title: Babymassage
 titlecolor: "#2A8A9D"
 costs: ""
