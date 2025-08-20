@@ -9,7 +9,7 @@ costs: >-
   Die Kosten der Akupunktur durch die Hebamme werden meist nicht von der Krankenkasse übernommen.
 on_call_costs: ""
 location: |-
-  In der Praxis: Neukirchhofweg 10, 8180 Bülach
+  Praxis: Neukirchhofweg 10, 8180 Bülach
 
   o﻿der nach Vereinbarung zuhause
 location_area: ""
