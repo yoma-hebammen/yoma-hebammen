@@ -2,7 +2,7 @@
 template: angebot
 weight: 3
 title: Babymassage
-titlecolor: "#2A8A9D"
+titlecolor: "#2c6767"
 costs: ""
 on_call_costs: ""
 location: G﻿eburtshaus Winterthur
