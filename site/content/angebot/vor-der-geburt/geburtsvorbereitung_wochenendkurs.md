@@ -3,7 +3,10 @@ template: angebot
 weight: 2
 title: Geburtsvorbereitung Wochenendkurs
 titlecolor: "#AEBBC1"
-costs: 3﻿90.- pro Paar
+costs: |-
+  3﻿90.- pro Paar
+
+  Die Krankenkasse übernimmt davon mind. 150.-
 on_call_costs: ""
 location: "P﻿raxis: Neukirchhofweg 10, 8180 Bülach"
 location_area: ""
@@ -12,8 +15,8 @@ duration: F﻿reitagabend + Samstag
 timing: |-
   unsere nächsten Kurse: 
 
-  * 2.5. / 3.5.25
-  * 20.6./21.6.25
+  * 29./30.8.
+  * 24./25.10.
 
   E﻿s hat noch freie Plätze
 category: Vor der Geburt
