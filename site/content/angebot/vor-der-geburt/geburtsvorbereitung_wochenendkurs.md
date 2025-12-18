@@ -17,7 +17,7 @@ timing: |-
 
   * 09./10. Januar
   * 13./14. Februar
-  * 13./14. März
+  * 20./21. März
 
   E﻿s hat noch freie Plätze
 category: Vor der Geburt
