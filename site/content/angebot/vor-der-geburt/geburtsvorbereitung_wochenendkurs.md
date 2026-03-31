@@ -15,9 +15,9 @@ duration: F﻿reitagabend + Samstag
 timing: |-
   unsere nächsten Kurse: 
 
-  * 09./10. Januar
-  * 13./14. Februar
-  * 20./21. März
+  * 17./18. April
+  * 08./09. Mai
+  * 05./06. Juni
 
   E﻿s hat noch freie Plätze
 category: Vor der Geburt
