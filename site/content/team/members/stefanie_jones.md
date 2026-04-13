@@ -1,10 +1,10 @@
 ---
+weight: 1
 name: Stefanie Jones
 degree: Dipl. Hebamme BSc
 color_image: /upload/team-color-stefanie.jpg
 portrait_image: /upload/img_3641-bearbeitet.jpg
 _template: teammitglied
-weight: 1
 ---
 **Ausbildung und Berufserfahrung**
 
@@ -15,15 +15,16 @@ weight: 1
 
 **Weiterbildungen**
 
+* 2025 Reanimation der Mutter und des Säuglings im ausserklinischen Setting (BLS AED)
+* 2024 Start4Neo Basic Skills Course
 * 2﻿024 Tragen im Wochenbett (Trageschule Schweiz)
-* 2﻿024 Start4Neo, Neugeborenenversorgung im ausserklinischen Setting
 * 2﻿024 Postpartale Depression (ZHAW)
+* 2024 chinesische Baby- und Kinder Massage - Xiaoer Tuina
 * 2﻿023 Praktische Hebammenarbeit im Wochenbett // Pathologie im Wochenbett (ZHAW)
 * 2﻿023 Manuelle Medizin rund um die Geburt
 * 2﻿023 Entwicklung des Kindes in den ersten Lebensjahren
 * 2022 Grundkurs Traditionelle Lehre der Hebammen- und Entbindungskunst (TLHE)
 * 2022 Kurzweiterbildung "Windelfrei & Stoffwindeln"
-* 2022 BLS AED
 * 2022 Grundlagen der Babymassage
 * 2021 Akupunktur für Hebammen (Zhong Institut)
 * 2020 Basiskurs: Professionelle Familienbegleitung beim frühen Tod ihres Kindes (Kindsverlust)
