@@ -15,6 +15,7 @@ _template: teammitglied
 
 **Weiterbildungen**
 
+* 2026 Wochenbettbegleitung nach Kindsverlust
 * 2025 Reanimation der Mutter und des Säuglings im ausserklinischen Setting (BLS AED)
 * 2024 Start4Neo Basic Skills Course
 * 2﻿024 Tragen im Wochenbett (Trageschule Schweiz)
